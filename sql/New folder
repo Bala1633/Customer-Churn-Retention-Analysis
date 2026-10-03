@@ -1,0 +1,20 @@
+CREATE DATABASE IF NOT EXISTS customer_churn_analytics;
+
+USE customer_churn_analytics;
+
+CREATE TABLE customer_churn (
+    customer_id VARCHAR(20) PRIMARY KEY,
+    gender VARCHAR(10),
+    age INT,
+    tenure_months INT,
+    contract_type VARCHAR(30),
+    internet_service VARCHAR(30),
+    payment_method VARCHAR(30),
+    monthly_charges DECIMAL(10,2),
+    total_charges DECIMAL(12,2),
+    support_calls INT,
+    late_payments INT,
+    churn VARCHAR(5),
+    churn_flag INT,
+    tenure_group VARCHAR(30)
+);

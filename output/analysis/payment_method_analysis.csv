@@ -1,0 +1,5 @@
+payment_method,total_customers,churned_customers,churn_rate
+Bank Transfer,490,167,34.08
+Credit Card,508,196,38.58
+Debit Card,471,165,35.03
+UPI,531,197,37.1

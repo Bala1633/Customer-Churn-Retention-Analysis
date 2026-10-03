@@ -1,0 +1,4 @@
+contract_type,total_customers,churned_customers,churn_rate
+Month-to-Month,1134,500,44.09
+One Year,469,114,24.31
+Two Year,397,111,27.96

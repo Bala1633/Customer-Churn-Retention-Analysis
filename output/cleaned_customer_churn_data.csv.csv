@@ -1,0 +1,2001 @@
+customer_id,gender,age,tenure_months,contract_type,internet_service,payment_method,monthly_charges,total_charges,support_calls,late_payments,churn,churn_flag,tenure_group
+CUST0001,Male,64,53,Two Year,Fiber Optic,Credit Card,2162.19,114596.07,2,0,Yes,1,49-72 Months
+CUST0002,Female,29,59,Month-to-Month,DSL,Debit Card,2600.8,153447.2,6,1,Yes,1,49-72 Months
+CUST0003,Male,33,41,One Year,Fiber Optic,UPI,1809.8,74201.8,6,2,No,0,25-48 Months
+CUST0004,Male,41,68,Month-to-Month,DSL,Credit Card,1736.76,118099.68,6,0,No,0,49-72 Months
+CUST0005,Male,36,68,Month-to-Month,DSL,Bank Transfer,1386.24,94264.32,2,0,No,0,49-72 Months
+CUST0006,Female,25,8,Month-to-Month,DSL,UPI,736.31,5890.48,6,1,No,0,0-12 Months
+CUST0007,Male,48,2,Month-to-Month,Fiber Optic,UPI,619.56,1239.12,1,1,Yes,1,0-12 Months
+CUST0008,Male,38,41,Two Year,Fiber Optic,UPI,2353.84,96507.44,2,3,No,0,25-48 Months
+CUST0009,Male,34,55,One Year,Fiber Optic,UPI,2804.26,154234.3,6,4,No,0,49-72 Months
+CUST0010,Female,40,16,Month-to-Month,DSL,Credit Card,1537.36,24597.76,2,2,No,0,13-24 Months
+CUST0011,Male,54,62,Two Year,No Internet,Debit Card,2080.5,128991.0,5,4,Yes,1,49-72 Months
+CUST0012,Male,33,48,Month-to-Month,Fiber Optic,UPI,2769.04,132913.92,2,2,No,0,25-48 Months
+CUST0013,Male,23,30,Two Year,DSL,Bank Transfer,543.31,16299.3,1,0,No,0,25-48 Months
+CUST0014,Male,25,12,Month-to-Month,No Internet,Bank Transfer,2380.3,28563.6,0,5,Yes,1,0-12 Months
+CUST0015,Female,42,35,Month-to-Month,DSL,Debit Card,1965.41,68789.35,2,5,No,0,25-48 Months
+CUST0016,Male,35,11,Month-to-Month,DSL,Credit Card,1916.32,21079.52,3,1,Yes,1,0-12 Months
+CUST0017,Female,42,64,Month-to-Month,DSL,Debit Card,1089.86,69751.04,1,1,No,0,49-72 Months
+CUST0018,Female,29,50,Month-to-Month,Fiber Optic,UPI,2146.51,107325.5,4,0,No,0,49-72 Months
+CUST0019,Female,32,21,One Year,Fiber Optic,Credit Card,2445.95,51364.95,5,0,Yes,1,13-24 Months
+CUST0020,Male,43,69,Two Year,Fiber Optic,Credit Card,604.72,41725.68,1,2,No,0,49-72 Months
+CUST0021,Female,58,48,One Year,No Internet,UPI,1740.51,83544.48,0,0,No,0,25-48 Months
+CUST0022,Male,62,20,Month-to-Month,No Internet,Bank Transfer,573.42,11468.4,6,2,Yes,1,13-24 Months
+CUST0023,Female,43,67,Month-to-Month,DSL,UPI,2655.95,177948.65,6,4,Yes,1,49-72 Months
+CUST0024,Female,64,44,Month-to-Month,Fiber Optic,Debit Card,1670.62,73507.28,1,1,No,0,25-48 Months
+CUST0025,Female,49,33,Month-to-Month,Fiber Optic,UPI,2481.51,81889.83,4,1,No,0,25-48 Months
+CUST0026,Female,27,61,One Year,Fiber Optic,Bank Transfer,1293.83,78923.63,6,5,Yes,1,49-72 Months
+CUST0027,Female,33,9,Month-to-Month,Fiber Optic,UPI,637.71,5739.39,5,5,No,0,0-12 Months
+CUST0028,Female,24,68,Month-to-Month,DSL,Debit Card,412.05,28019.4,3,1,No,0,49-72 Months
+CUST0029,Female,34,35,Month-to-Month,No Internet,Debit Card,1060.08,37102.8,4,4,Yes,1,25-48 Months
+CUST0030,Female,40,65,Two Year,No Internet,Bank Transfer,959.43,62362.95,7,4,No,0,49-72 Months
+CUST0031,Male,43,8,Month-to-Month,DSL,Debit Card,1812.95,14503.6,7,3,Yes,1,0-12 Months
+CUST0032,Male,38,45,Month-to-Month,Fiber Optic,Debit Card,358.69,16141.05,1,2,Yes,1,25-48 Months
+CUST0033,Female,39,47,Month-to-Month,Fiber Optic,UPI,1705.54,80160.38,4,5,No,0,25-48 Months
+CUST0034,Female,24,40,Month-to-Month,Fiber Optic,Credit Card,1357.78,54311.2,6,2,No,0,25-48 Months
+CUST0035,Female,31,54,Month-to-Month,DSL,Debit Card,1858.23,100344.42,6,5,No,0,49-72 Months
+CUST0036,Male,32,46,Month-to-Month,DSL,Debit Card,2196.53,101040.38,1,3,No,0,25-48 Months
+CUST0037,Female,24,47,One Year,Fiber Optic,Bank Transfer,2012.05,94566.35,6,1,No,0,25-48 Months
+CUST0038,Male,26,15,Month-to-Month,Fiber Optic,Bank Transfer,2958.54,44378.1,6,2,No,0,13-24 Months
+CUST0039,Male,68,19,One Year,Fiber Optic,UPI,673.32,12793.08,3,5,No,0,13-24 Months
+CUST0040,Male,65,26,Two Year,Fiber Optic,UPI,1460.29,37967.54,3,2,Yes,1,25-48 Months
+CUST0041,Male,25,52,One Year,Fiber Optic,Debit Card,1447.04,75246.08,0,1,No,0,49-72 Months
+CUST0042,Male,67,22,Month-to-Month,Fiber Optic,Credit Card,1426.04,31372.88,3,0,No,0,13-24 Months
+CUST0043,Female,40,21,Month-to-Month,Fiber Optic,Credit Card,2092.26,43937.46,2,5,No,0,13-24 Months
+CUST0044,Female,46,51,One Year,No Internet,UPI,1622.54,82749.54,4,0,No,0,49-72 Months
+CUST0045,Female,35,38,One Year,DSL,Bank Transfer,1697.07,64488.66,4,3,Yes,1,25-48 Months
+CUST0046,Female,48,20,Month-to-Month,Fiber Optic,Debit Card,1467.36,29347.2,1,4,No,0,13-24 Months
+CUST0047,Female,47,29,One Year,Fiber Optic,Debit Card,2977.59,86350.11,3,2,No,0,25-48 Months
+CUST0048,Male,69,51,Month-to-Month,Fiber Optic,Credit Card,2804.42,143025.42,0,5,No,0,49-72 Months
+CUST0049,Female,56,4,Month-to-Month,Fiber Optic,UPI,1130.86,4523.44,6,2,Yes,1,0-12 Months
+CUST0050,Female,52,55,Month-to-Month,Fiber Optic,Credit Card,601.3,33071.5,0,3,Yes,1,49-72 Months
+CUST0051,Male,35,71,Month-to-Month,DSL,Credit Card,2567.36,182282.56,0,3,Yes,1,49-72 Months
+CUST0052,Female,59,28,Month-to-Month,DSL,UPI,2992.36,83786.08,5,2,Yes,1,25-48 Months
+CUST0053,Male,56,4,One Year,DSL,Bank Transfer,1090.04,4360.16,6,5,No,0,0-12 Months
+CUST0054,Female,34,22,Month-to-Month,Fiber Optic,Debit Card,1266.02,27852.44,2,1,Yes,1,13-24 Months
+CUST0055,Male,31,45,Month-to-Month,DSL,Bank Transfer,2842.41,127908.45,3,1,Yes,1,25-48 Months
+CUST0056,Female,48,67,Month-to-Month,Fiber Optic,UPI,2220.05,148743.35,6,4,Yes,1,49-72 Months
+CUST0057,Female,41,66,Month-to-Month,Fiber Optic,UPI,1098.22,72482.52,0,2,No,0,49-72 Months
+CUST0058,Male,52,34,Month-to-Month,DSL,Debit Card,1868.83,63540.22,6,2,Yes,1,25-48 Months
+CUST0059,Male,61,55,One Year,DSL,Bank Transfer,2849.42,156718.1,2,5,Yes,1,49-72 Months
+CUST0060,Male,62,1,One Year,No Internet,Debit Card,2491.9,2491.9,4,2,No,0,0-12 Months
+CUST0061,Male,51,72,One Year,DSL,Credit Card,2302.95,165812.4,1,5,No,0,49-72 Months
+CUST0062,Male,20,38,One Year,No Internet,Credit Card,2289.89,87015.82,3,2,No,0,25-48 Months
+CUST0063,Male,54,6,Month-to-Month,No Internet,Credit Card,780.65,4683.9,3,3,Yes,1,0-12 Months
+CUST0064,Male,60,25,Month-to-Month,DSL,Bank Transfer,2526.64,63166.0,5,0,Yes,1,25-48 Months
+CUST0065,Male,57,17,Month-to-Month,DSL,Credit Card,1045.52,17773.84,4,2,Yes,1,13-24 Months
+CUST0066,Female,43,61,Month-to-Month,DSL,Debit Card,2811.99,171531.39,3,0,No,0,49-72 Months
+CUST0067,Female,40,12,Two Year,No Internet,Bank Transfer,1284.53,15414.36,5,1,No,0,0-12 Months
+CUST0068,Male,61,6,Month-to-Month,DSL,Debit Card,2615.68,15694.08,5,4,Yes,1,0-12 Months
+CUST0069,Female,56,27,Month-to-Month,Fiber Optic,UPI,1018.83,27508.41,5,1,No,0,25-48 Months
+CUST0070,Female,32,8,Two Year,DSL,Bank Transfer,1689.22,13513.76,7,2,Yes,1,0-12 Months
+CUST0071,Female,66,65,Two Year,Fiber Optic,Debit Card,588.59,38258.35,3,5,No,0,49-72 Months
+CUST0072,Female,21,57,One Year,Fiber Optic,Debit Card,2082.32,118692.24,3,1,Yes,1,49-72 Months
+CUST0073,Male,46,40,Month-to-Month,Fiber Optic,Bank Transfer,2557.41,102296.4,3,3,Yes,1,25-48 Months
+CUST0074,Female,39,14,Month-to-Month,DSL,UPI,2239.81,31357.34,2,0,No,0,13-24 Months
+CUST0075,Male,42,35,Month-to-Month,No Internet,Bank Transfer,1712.8,59948.0,5,5,Yes,1,25-48 Months
+CUST0076,Female,30,48,Month-to-Month,Fiber Optic,Credit Card,421.81,20246.88,2,5,Yes,1,25-48 Months
+CUST0077,Female,35,56,Month-to-Month,Fiber Optic,Credit Card,2820.29,157936.24,1,2,No,0,49-72 Months
+CUST0078,Female,50,49,Month-to-Month,Fiber Optic,UPI,2204.82,108036.18,3,3,No,0,49-72 Months
+CUST0079,Male,33,13,Two Year,DSL,Debit Card,2313.83,30079.79,7,0,No,0,13-24 Months
+CUST0080,Female,62,61,Month-to-Month,Fiber Optic,Debit Card,2445.64,149184.04,6,3,No,0,49-72 Months
+CUST0081,Male,59,49,One Year,Fiber Optic,Debit Card,2318.91,113626.59,4,1,Yes,1,49-72 Months
+CUST0082,Female,61,46,One Year,Fiber Optic,Bank Transfer,1491.01,68586.46,7,2,No,0,25-48 Months
+CUST0083,Male,19,62,Month-to-Month,Fiber Optic,Bank Transfer,2280.78,141408.36,0,5,No,0,49-72 Months
+CUST0084,Female,52,8,One Year,Fiber Optic,UPI,1987.57,15900.56,1,5,No,0,0-12 Months
+CUST0085,Male,59,43,Month-to-Month,DSL,Credit Card,2605.84,112051.12,6,1,No,0,25-48 Months
+CUST0086,Male,51,20,Month-to-Month,Fiber Optic,Debit Card,2466.64,49332.8,0,5,Yes,1,13-24 Months
+CUST0087,Female,47,39,One Year,DSL,Credit Card,411.71,16056.69,0,4,No,0,25-48 Months
+CUST0088,Male,30,49,Month-to-Month,Fiber Optic,Bank Transfer,1323.0,64827.0,3,2,Yes,1,49-72 Months
+CUST0089,Female,30,64,Two Year,Fiber Optic,Bank Transfer,393.73,25198.72,4,1,No,0,49-72 Months
+CUST0090,Female,35,62,Month-to-Month,Fiber Optic,Bank Transfer,575.6,35687.2,0,2,Yes,1,49-72 Months
+CUST0091,Female,49,54,One Year,DSL,Credit Card,1923.81,103885.74,5,0,No,0,49-72 Months
+CUST0092,Female,49,9,Month-to-Month,No Internet,UPI,2659.32,23933.88,6,2,Yes,1,0-12 Months
+CUST0093,Female,52,37,Month-to-Month,No Internet,UPI,623.53,23070.61,7,2,No,0,25-48 Months
+CUST0094,Female,56,49,Month-to-Month,DSL,Bank Transfer,1517.94,74379.06,7,0,Yes,1,49-72 Months
+CUST0095,Female,63,41,One Year,Fiber Optic,Debit Card,2759.37,113134.17,0,1,No,0,25-48 Months
+CUST0096,Female,69,17,Two Year,DSL,Credit Card,2498.61,42476.37,1,2,No,0,13-24 Months
+CUST0097,Female,46,21,Two Year,DSL,Bank Transfer,1703.1,35765.1,4,3,No,0,13-24 Months
+CUST0098,Female,66,51,Month-to-Month,Fiber Optic,Credit Card,2383.24,121545.24,4,2,No,0,49-72 Months
+CUST0099,Female,46,59,One Year,DSL,Credit Card,1711.27,100964.93,7,1,No,0,49-72 Months
+CUST0100,Male,61,39,One Year,Fiber Optic,UPI,726.85,28347.15,0,5,No,0,25-48 Months
+CUST0101,Male,33,55,One Year,Fiber Optic,Bank Transfer,636.79,35023.45,4,0,No,0,49-72 Months
+CUST0102,Female,61,41,Month-to-Month,Fiber Optic,UPI,808.59,33152.19,1,5,No,0,25-48 Months
+CUST0103,Female,64,39,One Year,Fiber Optic,Bank Transfer,1247.49,48652.11,7,1,No,0,25-48 Months
+CUST0104,Female,27,13,Two Year,DSL,Credit Card,2812.43,36561.59,6,4,Yes,1,13-24 Months
+CUST0105,Female,47,64,Month-to-Month,Fiber Optic,UPI,2459.13,157384.32,1,5,No,0,49-72 Months
+CUST0106,Female,42,11,Two Year,Fiber Optic,Credit Card,1468.56,16154.16,1,2,No,0,0-12 Months
+CUST0107,Female,56,19,One Year,Fiber Optic,Bank Transfer,1631.31,30994.89,5,2,No,0,13-24 Months
+CUST0108,Female,37,11,Month-to-Month,DSL,Debit Card,1017.15,11188.65,3,0,No,0,0-12 Months
+CUST0109,Female,22,46,Month-to-Month,DSL,UPI,2201.75,101280.5,0,2,Yes,1,25-48 Months
+CUST0110,Male,18,45,Month-to-Month,Fiber Optic,UPI,2467.47,111036.15,6,3,No,0,25-48 Months
+CUST0111,Female,47,1,Month-to-Month,Fiber Optic,Credit Card,945.04,945.04,7,3,Yes,1,0-12 Months
+CUST0112,Male,66,40,Two Year,Fiber Optic,Credit Card,412.92,16516.8,4,5,No,0,25-48 Months
+CUST0113,Female,20,19,Month-to-Month,No Internet,Debit Card,1984.5,37705.5,1,1,Yes,1,13-24 Months
+CUST0114,Female,62,72,Two Year,Fiber Optic,UPI,1818.78,130952.16,7,0,No,0,49-72 Months
+CUST0115,Male,31,72,Two Year,Fiber Optic,Bank Transfer,1385.75,99774.0,0,4,No,0,49-72 Months
+CUST0116,Female,47,61,Month-to-Month,Fiber Optic,Bank Transfer,2038.51,124349.11,6,5,Yes,1,49-72 Months
+CUST0117,Male,67,12,Two Year,DSL,UPI,1786.66,21439.92,6,1,Yes,1,0-12 Months
+CUST0118,Female,21,61,Two Year,DSL,UPI,976.57,59570.77,0,0,No,0,49-72 Months
+CUST0119,Female,35,33,One Year,Fiber Optic,UPI,1373.87,45337.71,3,0,No,0,25-48 Months
+CUST0120,Male,54,45,One Year,Fiber Optic,Debit Card,1455.91,65515.95,5,5,No,0,25-48 Months
+CUST0121,Female,42,69,Two Year,Fiber Optic,Bank Transfer,2676.67,184690.23,4,1,Yes,1,49-72 Months
+CUST0122,Male,65,8,One Year,DSL,Bank Transfer,2894.44,23155.52,5,1,Yes,1,0-12 Months
+CUST0123,Female,18,25,Month-to-Month,No Internet,Credit Card,2711.1,67777.5,6,2,No,0,25-48 Months
+CUST0124,Male,63,46,Two Year,DSL,Credit Card,2241.78,103121.88,4,4,No,0,25-48 Months
+CUST0125,Male,32,30,One Year,DSL,UPI,1879.48,56384.4,6,3,No,0,25-48 Months
+CUST0126,Female,26,47,One Year,Fiber Optic,Credit Card,2161.01,101567.47,1,2,No,0,25-48 Months
+CUST0127,Female,32,49,Month-to-Month,DSL,Debit Card,2835.59,138943.91,1,0,No,0,49-72 Months
+CUST0128,Male,66,47,One Year,DSL,Bank Transfer,975.0,45825.0,0,4,No,0,25-48 Months
+CUST0129,Female,41,18,Month-to-Month,Fiber Optic,Bank Transfer,1744.83,31406.94,4,4,Yes,1,13-24 Months
+CUST0130,Female,21,66,Two Year,No Internet,Credit Card,2161.94,142688.04,4,1,Yes,1,49-72 Months
+CUST0131,Female,29,68,Month-to-Month,Fiber Optic,UPI,2133.97,145109.96,6,4,No,0,49-72 Months
+CUST0132,Male,54,33,Month-to-Month,Fiber Optic,Credit Card,981.15,32377.95,5,5,Yes,1,25-48 Months
+CUST0133,Male,54,36,Month-to-Month,DSL,UPI,1884.18,67830.48,1,4,Yes,1,25-48 Months
+CUST0134,Male,60,19,Month-to-Month,DSL,Debit Card,2448.97,46530.43,2,0,No,0,13-24 Months
+CUST0135,Male,23,28,One Year,DSL,Bank Transfer,1582.71,44315.88,0,5,Yes,1,25-48 Months
+CUST0136,Male,56,40,Two Year,Fiber Optic,Debit Card,2441.9,97676.0,7,5,Yes,1,25-48 Months
+CUST0137,Male,63,15,Two Year,DSL,Bank Transfer,1271.68,19075.2,4,2,No,0,13-24 Months
+CUST0138,Male,41,41,Month-to-Month,DSL,Debit Card,2834.65,116220.65,3,4,Yes,1,25-48 Months
+CUST0139,Male,28,39,Month-to-Month,Fiber Optic,Credit Card,1741.61,67922.79,3,1,No,0,25-48 Months
+CUST0140,Male,30,2,Two Year,No Internet,Debit Card,1909.06,3818.12,2,2,No,0,0-12 Months
+CUST0141,Female,51,63,Two Year,DSL,Debit Card,384.68,24234.84,1,1,Yes,1,49-72 Months
+CUST0142,Male,42,29,Month-to-Month,Fiber Optic,Credit Card,759.73,22032.17,1,4,No,0,25-48 Months
+CUST0143,Female,24,66,Month-to-Month,DSL,Bank Transfer,2008.92,132588.72,1,2,Yes,1,49-72 Months
+CUST0144,Female,69,51,Month-to-Month,Fiber Optic,Bank Transfer,1433.65,73116.15,5,4,No,0,49-72 Months
+CUST0145,Female,21,10,Two Year,Fiber Optic,Credit Card,1672.04,16720.4,6,0,No,0,0-12 Months
+CUST0146,Male,25,14,One Year,Fiber Optic,Debit Card,470.02,6580.28,3,2,No,0,13-24 Months
+CUST0147,Male,37,51,Month-to-Month,No Internet,Debit Card,2552.17,130160.67,1,1,No,0,49-72 Months
+CUST0148,Male,46,39,Month-to-Month,Fiber Optic,Debit Card,2418.17,94308.63,3,0,Yes,1,25-48 Months
+CUST0149,Male,68,28,Two Year,DSL,UPI,800.46,22412.88,2,3,No,0,25-48 Months
+CUST0150,Female,62,3,Month-to-Month,Fiber Optic,Bank Transfer,2012.69,6038.07,0,1,No,0,0-12 Months
+CUST0151,Male,63,70,Month-to-Month,DSL,Debit Card,2509.45,175661.5,6,4,Yes,1,49-72 Months
+CUST0152,Male,27,27,One Year,DSL,Bank Transfer,2030.31,54818.37,5,1,No,0,25-48 Months
+CUST0153,Male,60,2,Month-to-Month,DSL,Debit Card,1138.07,2276.14,4,3,Yes,1,0-12 Months
+CUST0154,Male,51,38,Month-to-Month,Fiber Optic,Credit Card,2071.5,78717.0,2,1,No,0,25-48 Months
+CUST0155,Male,43,3,Two Year,DSL,Credit Card,868.25,2604.75,6,0,No,0,0-12 Months
+CUST0156,Female,58,16,Two Year,No Internet,Bank Transfer,1159.29,18548.64,3,5,No,0,13-24 Months
+CUST0157,Male,66,40,Two Year,DSL,Bank Transfer,948.19,37927.6,2,1,Yes,1,25-48 Months
+CUST0158,Female,20,2,Two Year,Fiber Optic,Credit Card,1803.7,3607.4,4,2,No,0,0-12 Months
+CUST0159,Male,23,41,One Year,No Internet,UPI,592.21,24280.61,6,3,No,0,25-48 Months
+CUST0160,Female,22,12,Two Year,Fiber Optic,Credit Card,2819.94,33839.28,5,1,Yes,1,0-12 Months
+CUST0161,Male,22,35,Month-to-Month,DSL,Debit Card,1200.48,42016.8,7,3,No,0,25-48 Months
+CUST0162,Male,64,65,One Year,No Internet,UPI,891.22,57929.3,0,5,Yes,1,49-72 Months
+CUST0163,Female,40,55,Two Year,Fiber Optic,Credit Card,1640.68,90237.4,4,0,Yes,1,49-72 Months
+CUST0164,Female,66,45,Month-to-Month,Fiber Optic,UPI,1047.89,47155.05,6,2,Yes,1,25-48 Months
+CUST0165,Female,26,62,Month-to-Month,Fiber Optic,UPI,1744.24,108142.88,5,4,No,0,49-72 Months
+CUST0166,Male,52,49,Month-to-Month,DSL,UPI,1240.97,60807.53,3,1,No,0,49-72 Months
+CUST0167,Female,37,25,Month-to-Month,DSL,Bank Transfer,656.58,16414.5,4,0,No,0,25-48 Months
+CUST0168,Male,66,23,Month-to-Month,Fiber Optic,Credit Card,1017.92,23412.16,7,3,Yes,1,13-24 Months
+CUST0169,Male,59,24,Two Year,Fiber Optic,Bank Transfer,1483.79,35610.96,2,5,No,0,13-24 Months
+CUST0170,Female,52,38,Two Year,Fiber Optic,Bank Transfer,381.79,14508.02,1,3,No,0,25-48 Months
+CUST0171,Female,67,28,Month-to-Month,Fiber Optic,Debit Card,2380.73,66660.44,2,5,No,0,25-48 Months
+CUST0172,Male,35,21,Month-to-Month,Fiber Optic,Debit Card,1978.93,41557.53,3,5,No,0,13-24 Months
+CUST0173,Male,34,54,Month-to-Month,No Internet,UPI,1923.67,103878.18,6,0,No,0,49-72 Months
+CUST0174,Female,41,18,Two Year,Fiber Optic,UPI,1774.33,31937.94,7,1,Yes,1,13-24 Months
+CUST0175,Female,20,36,Month-to-Month,No Internet,Debit Card,1893.85,68178.6,0,4,No,0,25-48 Months
+CUST0176,Female,49,45,Month-to-Month,DSL,Debit Card,2823.56,127060.2,4,1,Yes,1,25-48 Months
+CUST0177,Male,52,53,Month-to-Month,Fiber Optic,Credit Card,323.14,17126.42,6,2,No,0,49-72 Months
+CUST0178,Male,55,30,Month-to-Month,DSL,UPI,429.06,12871.8,0,1,Yes,1,25-48 Months
+CUST0179,Male,30,60,Month-to-Month,DSL,UPI,817.03,49021.8,3,5,Yes,1,49-72 Months
+CUST0180,Male,64,32,Two Year,Fiber Optic,Debit Card,751.71,24054.72,4,5,No,0,25-48 Months
+CUST0181,Male,42,67,One Year,Fiber Optic,Credit Card,789.23,52878.41,5,2,No,0,49-72 Months
+CUST0182,Male,26,67,One Year,Fiber Optic,Debit Card,2114.25,141654.75,5,3,Yes,1,49-72 Months
+CUST0183,Female,21,28,Month-to-Month,Fiber Optic,Debit Card,1540.6,43136.8,6,5,No,0,25-48 Months
+CUST0184,Male,31,44,One Year,Fiber Optic,Bank Transfer,2977.8,131023.2,2,2,No,0,25-48 Months
+CUST0185,Male,54,41,One Year,Fiber Optic,UPI,912.59,37416.19,6,5,No,0,25-48 Months
+CUST0186,Male,51,63,Month-to-Month,Fiber Optic,Credit Card,1139.24,71772.12,2,4,No,0,49-72 Months
+CUST0187,Female,28,23,One Year,Fiber Optic,Bank Transfer,2957.45,68021.35,7,5,Yes,1,13-24 Months
+CUST0188,Male,58,48,Month-to-Month,Fiber Optic,UPI,2545.75,122196.0,3,0,No,0,25-48 Months
+CUST0189,Male,20,32,Two Year,Fiber Optic,Debit Card,1568.46,50190.72,5,2,Yes,1,25-48 Months
+CUST0190,Female,45,57,Month-to-Month,Fiber Optic,Credit Card,1797.41,102452.37,7,1,No,0,49-72 Months
+CUST0191,Male,46,33,Two Year,No Internet,UPI,2576.58,85027.14,4,2,No,0,25-48 Months
+CUST0192,Male,26,24,Month-to-Month,Fiber Optic,Debit Card,1598.65,38367.6,5,3,Yes,1,13-24 Months
+CUST0193,Male,20,39,One Year,DSL,Bank Transfer,856.26,33394.14,2,5,No,0,25-48 Months
+CUST0194,Male,42,34,One Year,Fiber Optic,Credit Card,2536.8,86251.2,6,2,No,0,25-48 Months
+CUST0195,Male,51,56,One Year,No Internet,UPI,1751.99,98111.44,3,4,No,0,49-72 Months
+CUST0196,Female,29,28,Month-to-Month,Fiber Optic,Bank Transfer,713.22,19970.16,5,2,Yes,1,25-48 Months
+CUST0197,Female,59,37,Month-to-Month,No Internet,Debit Card,1665.08,61607.96,7,4,No,0,25-48 Months
+CUST0198,Female,26,7,One Year,DSL,Debit Card,1415.65,9909.55,3,5,No,0,0-12 Months
+CUST0199,Male,32,68,Month-to-Month,Fiber Optic,UPI,2667.47,181387.96,7,1,Yes,1,49-72 Months
+CUST0200,Male,57,37,Month-to-Month,No Internet,Debit Card,640.35,23692.95,5,5,Yes,1,25-48 Months
+CUST0201,Male,42,56,One Year,DSL,Credit Card,2663.07,149131.92,6,3,No,0,49-72 Months
+CUST0202,Female,22,65,Month-to-Month,Fiber Optic,UPI,1682.97,109393.05,0,0,Yes,1,49-72 Months
+CUST0203,Male,28,65,Month-to-Month,DSL,Bank Transfer,1391.78,90465.7,6,1,No,0,49-72 Months
+CUST0204,Male,51,47,Month-to-Month,No Internet,UPI,737.31,34653.57,5,1,Yes,1,25-48 Months
+CUST0205,Female,41,20,Month-to-Month,Fiber Optic,UPI,2192.21,43844.2,2,0,No,0,13-24 Months
+CUST0206,Male,32,19,One Year,Fiber Optic,Bank Transfer,2802.38,53245.22,6,2,No,0,13-24 Months
+CUST0207,Female,55,29,One Year,DSL,Debit Card,1313.52,38092.08,4,5,No,0,25-48 Months
+CUST0208,Female,25,60,Two Year,DSL,Bank Transfer,952.28,57136.8,2,2,No,0,49-72 Months
+CUST0209,Female,22,18,Two Year,No Internet,Credit Card,1798.14,32366.52,2,2,No,0,13-24 Months
+CUST0210,Male,65,35,Month-to-Month,DSL,Debit Card,2449.7,85739.5,2,5,Yes,1,25-48 Months
+CUST0211,Male,43,43,Month-to-Month,Fiber Optic,UPI,310.17,13337.31,3,3,No,0,25-48 Months
+CUST0212,Male,35,11,Month-to-Month,No Internet,Debit Card,2004.72,22051.92,1,1,No,0,0-12 Months
+CUST0213,Male,23,49,Month-to-Month,Fiber Optic,Debit Card,1910.59,93618.91,1,4,Yes,1,49-72 Months
+CUST0214,Male,54,38,Two Year,Fiber Optic,Credit Card,1159.01,44042.38,0,0,No,0,25-48 Months
+CUST0215,Male,65,64,Month-to-Month,DSL,Debit Card,1518.84,97205.76,7,1,Yes,1,49-72 Months
+CUST0216,Male,30,69,Month-to-Month,DSL,Debit Card,966.8,66709.2,7,2,Yes,1,49-72 Months
+CUST0217,Female,45,8,Month-to-Month,Fiber Optic,Debit Card,2432.69,19461.52,2,0,No,0,0-12 Months
+CUST0218,Male,22,34,One Year,DSL,UPI,2013.24,68450.16,1,4,Yes,1,25-48 Months
+CUST0219,Female,30,48,One Year,Fiber Optic,Debit Card,1738.32,83439.36,0,1,No,0,25-48 Months
+CUST0220,Male,34,56,Month-to-Month,Fiber Optic,Bank Transfer,1359.82,76149.92,3,1,Yes,1,49-72 Months
+CUST0221,Male,67,65,Two Year,DSL,Debit Card,1086.74,70638.1,2,3,No,0,49-72 Months
+CUST0222,Male,57,31,Month-to-Month,Fiber Optic,Credit Card,2521.39,78163.09,4,1,No,0,25-48 Months
+CUST0223,Female,62,4,Month-to-Month,Fiber Optic,Debit Card,1518.8,6075.2,3,1,No,0,0-12 Months
+CUST0224,Female,49,50,Two Year,Fiber Optic,Debit Card,1653.91,82695.5,0,4,No,0,49-72 Months
+CUST0225,Female,46,69,Month-to-Month,No Internet,UPI,1706.24,117730.56,3,4,No,0,49-72 Months
+CUST0226,Female,68,30,Two Year,Fiber Optic,Bank Transfer,1510.59,45317.7,4,0,No,0,25-48 Months
+CUST0227,Male,20,59,Two Year,Fiber Optic,Debit Card,991.44,58494.96,7,2,No,0,49-72 Months
+CUST0228,Female,57,67,One Year,DSL,Bank Transfer,624.92,41869.64,3,4,No,0,49-72 Months
+CUST0229,Male,51,45,One Year,Fiber Optic,Credit Card,566.05,25472.25,0,0,No,0,25-48 Months
+CUST0230,Male,57,4,Month-to-Month,Fiber Optic,UPI,2345.15,9380.6,7,1,Yes,1,0-12 Months
+CUST0231,Female,44,26,Two Year,DSL,Bank Transfer,903.53,23491.78,7,0,Yes,1,25-48 Months
+CUST0232,Female,30,27,Month-to-Month,Fiber Optic,UPI,450.32,12158.64,7,0,No,0,25-48 Months
+CUST0233,Female,62,46,One Year,No Internet,Debit Card,2453.3,112851.8,4,0,No,0,25-48 Months
+CUST0234,Female,50,64,Two Year,Fiber Optic,Credit Card,715.97,45822.08,4,5,No,0,49-72 Months
+CUST0235,Female,23,51,Two Year,Fiber Optic,UPI,1987.89,101382.39,7,0,No,0,49-72 Months
+CUST0236,Female,41,50,Two Year,Fiber Optic,Debit Card,1214.34,60717.0,3,4,No,0,49-72 Months
+CUST0237,Female,36,6,Month-to-Month,Fiber Optic,Bank Transfer,641.5,3849.0,4,5,Yes,1,0-12 Months
+CUST0238,Female,33,59,Two Year,DSL,Credit Card,1419.1,83726.9,6,2,No,0,49-72 Months
+CUST0239,Male,57,15,One Year,Fiber Optic,Credit Card,339.98,5099.7,3,0,No,0,13-24 Months
+CUST0240,Female,45,30,Two Year,Fiber Optic,Bank Transfer,2570.82,77124.6,2,3,Yes,1,25-48 Months
+CUST0241,Female,50,42,One Year,DSL,Bank Transfer,1686.44,70830.48,4,1,Yes,1,25-48 Months
+CUST0242,Male,65,37,Month-to-Month,DSL,Credit Card,675.73,25002.01,3,1,Yes,1,25-48 Months
+CUST0243,Female,58,42,Month-to-Month,Fiber Optic,UPI,939.85,39473.7,2,5,No,0,25-48 Months
+CUST0244,Male,30,35,One Year,Fiber Optic,Credit Card,1509.53,52833.55,4,1,No,0,25-48 Months
+CUST0245,Male,60,6,One Year,Fiber Optic,Bank Transfer,809.95,4859.7,2,1,Yes,1,0-12 Months
+CUST0246,Female,62,68,Month-to-Month,Fiber Optic,UPI,1025.22,69714.96,5,5,No,0,49-72 Months
+CUST0247,Male,42,18,One Year,Fiber Optic,Debit Card,1742.84,31371.12,4,1,Yes,1,13-24 Months
+CUST0248,Male,59,29,Month-to-Month,DSL,Credit Card,2548.04,73893.16,5,0,Yes,1,25-48 Months
+CUST0249,Male,53,59,Two Year,No Internet,Bank Transfer,1384.97,81713.23,0,2,No,0,49-72 Months
+CUST0250,Male,44,47,Month-to-Month,Fiber Optic,Debit Card,2235.83,105084.01,0,5,Yes,1,25-48 Months
+CUST0251,Female,55,17,Month-to-Month,Fiber Optic,Credit Card,2667.05,45339.85,3,3,Yes,1,13-24 Months
+CUST0252,Male,24,22,Month-to-Month,Fiber Optic,Credit Card,884.01,19448.22,1,5,No,0,13-24 Months
+CUST0253,Female,22,68,Month-to-Month,Fiber Optic,UPI,2479.42,168600.56,5,4,No,0,49-72 Months
+CUST0254,Male,60,69,Month-to-Month,Fiber Optic,Bank Transfer,2344.99,161804.31,5,3,Yes,1,49-72 Months
+CUST0255,Male,62,37,Month-to-Month,No Internet,Debit Card,1263.73,46758.01,0,4,No,0,25-48 Months
+CUST0256,Male,68,49,Month-to-Month,DSL,Credit Card,2971.7,145613.3,5,5,Yes,1,49-72 Months
+CUST0257,Male,48,13,Two Year,No Internet,UPI,1008.95,13116.35,1,4,No,0,13-24 Months
+CUST0258,Female,40,34,Two Year,No Internet,Debit Card,987.97,33590.98,7,3,Yes,1,25-48 Months
+CUST0259,Female,59,53,Month-to-Month,Fiber Optic,Debit Card,2385.1,126410.3,2,0,No,0,49-72 Months
+CUST0260,Male,27,51,Two Year,DSL,Credit Card,1473.57,75152.07,2,5,Yes,1,49-72 Months
+CUST0261,Male,49,3,Month-to-Month,Fiber Optic,Debit Card,1193.15,3579.45,1,5,Yes,1,0-12 Months
+CUST0262,Female,60,42,One Year,Fiber Optic,Credit Card,782.39,32860.38,5,1,No,0,25-48 Months
+CUST0263,Male,47,32,One Year,No Internet,UPI,2366.4,75724.8,5,5,No,0,25-48 Months
+CUST0264,Male,56,51,Month-to-Month,Fiber Optic,UPI,2423.07,123576.57,5,5,Yes,1,49-72 Months
+CUST0265,Male,48,46,Month-to-Month,No Internet,Debit Card,1829.72,84167.12,6,0,Yes,1,25-48 Months
+CUST0266,Female,35,21,Month-to-Month,Fiber Optic,Credit Card,2884.75,60579.75,3,1,No,0,13-24 Months
+CUST0267,Female,53,44,Month-to-Month,No Internet,Bank Transfer,1159.04,50997.76,4,2,No,0,25-48 Months
+CUST0268,Female,19,11,One Year,No Internet,UPI,892.97,9822.67,1,4,Yes,1,0-12 Months
+CUST0269,Male,31,68,Month-to-Month,DSL,Credit Card,2129.16,144782.88,1,3,No,0,49-72 Months
+CUST0270,Male,30,1,Month-to-Month,DSL,Credit Card,2347.7,2347.7,6,2,Yes,1,0-12 Months
+CUST0271,Female,46,63,Month-to-Month,Fiber Optic,Credit Card,907.25,57156.75,1,1,No,0,49-72 Months
+CUST0272,Female,29,24,Month-to-Month,DSL,Debit Card,506.85,12164.4,7,0,Yes,1,13-24 Months
+CUST0273,Female,56,13,Month-to-Month,No Internet,Bank Transfer,2488.39,32349.07,7,3,Yes,1,13-24 Months
+CUST0274,Female,19,11,Month-to-Month,DSL,Debit Card,2936.56,32302.16,1,4,Yes,1,0-12 Months
+CUST0275,Male,49,51,Two Year,DSL,UPI,2040.62,104071.62,6,5,No,0,49-72 Months
+CUST0276,Female,30,17,Month-to-Month,DSL,Debit Card,1050.24,17854.08,1,5,Yes,1,13-24 Months
+CUST0277,Male,63,24,Month-to-Month,DSL,Credit Card,2991.02,71784.48,5,2,Yes,1,13-24 Months
+CUST0278,Female,44,19,One Year,DSL,Debit Card,2711.82,51524.58,6,4,Yes,1,13-24 Months
+CUST0279,Male,66,37,Month-to-Month,DSL,Credit Card,1686.13,62386.81,3,1,Yes,1,25-48 Months
+CUST0280,Female,58,8,One Year,DSL,Bank Transfer,2528.37,20226.96,0,4,No,0,0-12 Months
+CUST0281,Female,34,28,One Year,Fiber Optic,Debit Card,2502.72,70076.16,5,0,Yes,1,25-48 Months
+CUST0282,Female,57,5,Month-to-Month,Fiber Optic,Debit Card,2823.96,14119.8,7,2,No,0,0-12 Months
+CUST0283,Female,48,17,Month-to-Month,Fiber Optic,Debit Card,2570.49,43698.33,5,2,No,0,13-24 Months
+CUST0284,Male,51,36,Month-to-Month,Fiber Optic,Credit Card,2037.93,73365.48,4,0,No,0,25-48 Months
+CUST0285,Female,41,19,Month-to-Month,Fiber Optic,Credit Card,1945.12,36957.28,6,4,Yes,1,13-24 Months
+CUST0286,Male,62,64,Month-to-Month,DSL,Debit Card,1561.86,99959.04,7,0,No,0,49-72 Months
+CUST0287,Male,52,11,Month-to-Month,Fiber Optic,Debit Card,1991.51,21906.61,0,3,Yes,1,0-12 Months
+CUST0288,Male,65,54,Month-to-Month,Fiber Optic,Bank Transfer,2447.08,132142.32,1,0,No,0,49-72 Months
+CUST0289,Male,23,45,Month-to-Month,DSL,Bank Transfer,2916.4,131238.0,0,4,No,0,25-48 Months
+CUST0290,Female,36,47,One Year,No Internet,UPI,1561.68,73398.96,3,0,No,0,25-48 Months
+CUST0291,Male,47,12,One Year,DSL,Bank Transfer,1848.86,22186.32,2,1,No,0,0-12 Months
+CUST0292,Male,24,21,Month-to-Month,No Internet,Bank Transfer,1500.97,31520.37,5,5,Yes,1,13-24 Months
+CUST0293,Male,27,11,Month-to-Month,DSL,Bank Transfer,2104.92,23154.12,6,0,No,0,0-12 Months
+CUST0294,Female,58,5,Two Year,Fiber Optic,Credit Card,2000.79,10003.95,6,5,No,0,0-12 Months
+CUST0295,Female,49,56,One Year,DSL,Bank Transfer,348.15,19496.4,0,0,No,0,49-72 Months
+CUST0296,Female,51,20,Two Year,DSL,Bank Transfer,1761.14,35222.8,4,4,No,0,13-24 Months
+CUST0297,Female,45,41,Month-to-Month,Fiber Optic,Debit Card,538.91,22095.31,7,3,Yes,1,25-48 Months
+CUST0298,Male,32,46,One Year,Fiber Optic,Credit Card,371.24,17077.04,3,3,No,0,25-48 Months
+CUST0299,Male,47,12,Month-to-Month,DSL,UPI,2436.23,29234.76,2,5,No,0,0-12 Months
+CUST0300,Female,54,70,Month-to-Month,Fiber Optic,UPI,998.35,69884.5,3,4,No,0,49-72 Months
+CUST0301,Male,46,17,Month-to-Month,DSL,Bank Transfer,1219.77,20736.09,6,4,Yes,1,13-24 Months
+CUST0302,Male,39,19,Month-to-Month,Fiber Optic,UPI,473.03,8987.57,1,4,No,0,13-24 Months
+CUST0303,Male,21,26,Month-to-Month,DSL,UPI,784.65,20400.9,2,1,No,0,25-48 Months
+CUST0304,Female,37,48,Month-to-Month,DSL,UPI,2367.13,113622.24,7,2,No,0,25-48 Months
+CUST0305,Female,49,52,One Year,Fiber Optic,Bank Transfer,1632.53,84891.56,7,0,No,0,49-72 Months
+CUST0306,Male,53,70,Two Year,Fiber Optic,UPI,2677.8,187446.0,6,4,No,0,49-72 Months
+CUST0307,Female,67,55,Month-to-Month,DSL,Bank Transfer,1372.55,75490.25,4,4,No,0,49-72 Months
+CUST0308,Female,21,33,Month-to-Month,DSL,Debit Card,1025.49,33841.17,2,4,No,0,25-48 Months
+CUST0309,Female,44,62,Month-to-Month,No Internet,Debit Card,1238.52,76788.24,6,3,No,0,49-72 Months
+CUST0310,Female,34,23,One Year,Fiber Optic,UPI,2224.48,51163.04,4,4,No,0,13-24 Months
+CUST0311,Female,29,15,Month-to-Month,DSL,Debit Card,1798.52,26977.8,1,0,Yes,1,13-24 Months
+CUST0312,Male,39,27,Two Year,Fiber Optic,Bank Transfer,2741.32,74015.64,4,4,Yes,1,25-48 Months
+CUST0313,Female,34,64,Month-to-Month,Fiber Optic,Debit Card,1925.86,123255.04,3,0,No,0,49-72 Months
+CUST0314,Male,27,51,Month-to-Month,Fiber Optic,UPI,1631.15,83188.65,0,1,No,0,49-72 Months
+CUST0315,Male,18,53,One Year,DSL,Bank Transfer,2421.53,128341.09,3,2,No,0,49-72 Months
+CUST0316,Female,39,51,Two Year,Fiber Optic,Credit Card,2858.34,145775.34,7,3,Yes,1,49-72 Months
+CUST0317,Male,43,47,Month-to-Month,Fiber Optic,Bank Transfer,1260.78,59256.66,6,0,Yes,1,25-48 Months
+CUST0318,Male,35,4,Month-to-Month,DSL,Debit Card,974.67,3898.68,6,5,Yes,1,0-12 Months
+CUST0319,Male,67,7,Two Year,DSL,Credit Card,1963.79,13746.53,5,1,Yes,1,0-12 Months
+CUST0320,Female,31,35,Month-to-Month,Fiber Optic,Bank Transfer,1646.96,57643.6,3,2,No,0,25-48 Months
+CUST0321,Female,64,48,Two Year,Fiber Optic,Credit Card,2970.8,142598.4,2,2,No,0,25-48 Months
+CUST0322,Male,46,72,Month-to-Month,Fiber Optic,Credit Card,1548.38,111483.36,7,2,No,0,49-72 Months
+CUST0323,Female,29,45,One Year,Fiber Optic,Credit Card,500.7,22531.5,1,0,No,0,25-48 Months
+CUST0324,Female,53,72,One Year,DSL,Bank Transfer,2938.9,211600.8,7,1,No,0,49-72 Months
+CUST0325,Female,52,19,Month-to-Month,Fiber Optic,Debit Card,2577.68,48975.92,5,4,No,0,13-24 Months
+CUST0326,Female,69,63,Two Year,DSL,Bank Transfer,781.28,49220.64,5,5,No,0,49-72 Months
+CUST0327,Male,29,38,Month-to-Month,No Internet,Debit Card,2742.43,104212.34,5,1,Yes,1,25-48 Months
+CUST0328,Male,24,67,Month-to-Month,Fiber Optic,Bank Transfer,1219.8,81726.6,6,1,No,0,49-72 Months
+CUST0329,Female,46,59,One Year,No Internet,Bank Transfer,1318.2,77773.8,0,1,No,0,49-72 Months
+CUST0330,Female,28,69,Month-to-Month,Fiber Optic,Bank Transfer,2747.26,189560.94,4,0,Yes,1,49-72 Months
+CUST0331,Male,50,13,One Year,Fiber Optic,Debit Card,1731.31,22507.03,2,5,Yes,1,13-24 Months
+CUST0332,Male,23,47,Month-to-Month,Fiber Optic,Bank Transfer,671.96,31582.12,7,0,Yes,1,25-48 Months
+CUST0333,Female,64,61,Month-to-Month,Fiber Optic,Credit Card,1296.45,79083.45,6,5,Yes,1,49-72 Months
+CUST0334,Male,32,31,Month-to-Month,Fiber Optic,Bank Transfer,2249.66,69739.46,7,5,No,0,25-48 Months
+CUST0335,Female,49,22,Month-to-Month,Fiber Optic,Credit Card,770.3,16946.6,1,0,No,0,13-24 Months
+CUST0336,Female,68,43,Month-to-Month,DSL,UPI,1893.62,81425.66,6,5,Yes,1,25-48 Months
+CUST0337,Male,28,67,One Year,No Internet,UPI,2177.24,145875.08,0,1,No,0,49-72 Months
+CUST0338,Male,40,54,Two Year,DSL,Debit Card,1228.4,66333.6,7,0,No,0,49-72 Months
+CUST0339,Female,43,10,Two Year,Fiber Optic,Debit Card,2173.48,21734.8,6,5,Yes,1,0-12 Months
+CUST0340,Female,51,42,Month-to-Month,DSL,UPI,2687.36,112869.12,6,2,No,0,25-48 Months
+CUST0341,Male,63,64,Month-to-Month,DSL,Bank Transfer,1574.72,100782.08,3,0,No,0,49-72 Months
+CUST0342,Female,51,21,Month-to-Month,DSL,Bank Transfer,1333.86,28011.06,1,3,No,0,13-24 Months
+CUST0343,Male,46,66,Month-to-Month,DSL,Bank Transfer,978.13,64556.58,5,0,No,0,49-72 Months
+CUST0344,Female,21,41,Month-to-Month,No Internet,UPI,1931.35,79185.35,1,0,No,0,25-48 Months
+CUST0345,Male,34,24,Month-to-Month,Fiber Optic,Credit Card,2675.6,64214.4,1,0,Yes,1,13-24 Months
+CUST0346,Male,52,35,Month-to-Month,DSL,Debit Card,1176.59,41180.65,3,5,No,0,25-48 Months
+CUST0347,Male,30,56,Two Year,Fiber Optic,Credit Card,1369.84,76711.04,4,0,No,0,49-72 Months
+CUST0348,Female,58,30,Month-to-Month,No Internet,UPI,1397.89,41936.7,6,3,Yes,1,25-48 Months
+CUST0349,Female,56,57,Month-to-Month,Fiber Optic,Credit Card,1814.19,103408.83,2,4,No,0,49-72 Months
+CUST0350,Male,32,47,Month-to-Month,Fiber Optic,Bank Transfer,916.7,43084.9,5,0,No,0,25-48 Months
+CUST0351,Female,46,35,Month-to-Month,Fiber Optic,Bank Transfer,2519.97,88198.95,7,2,Yes,1,25-48 Months
+CUST0352,Male,46,19,Two Year,DSL,Credit Card,1098.13,20864.47,4,3,No,0,13-24 Months
+CUST0353,Male,28,8,Month-to-Month,Fiber Optic,UPI,2204.48,17635.84,0,4,Yes,1,0-12 Months
+CUST0354,Female,69,26,Month-to-Month,Fiber Optic,Credit Card,1685.68,43827.68,6,5,No,0,25-48 Months
+CUST0355,Female,49,71,Month-to-Month,No Internet,Bank Transfer,1881.92,133616.32,5,0,Yes,1,49-72 Months
+CUST0356,Male,19,30,Month-to-Month,No Internet,Bank Transfer,784.94,23548.2,2,4,No,0,25-48 Months
+CUST0357,Female,64,7,Month-to-Month,Fiber Optic,UPI,2284.56,15991.92,6,2,Yes,1,0-12 Months
+CUST0358,Female,31,67,Two Year,Fiber Optic,Credit Card,809.28,54221.76,0,3,No,0,49-72 Months
+CUST0359,Male,37,65,Two Year,DSL,Bank Transfer,606.38,39414.7,3,3,Yes,1,49-72 Months
+CUST0360,Male,39,36,One Year,No Internet,Bank Transfer,1776.03,63937.08,4,5,No,0,25-48 Months
+CUST0361,Female,28,25,Month-to-Month,DSL,Credit Card,2215.1,55377.5,6,5,No,0,25-48 Months
+CUST0362,Male,44,37,Two Year,DSL,Credit Card,435.1,16098.7,5,5,No,0,25-48 Months
+CUST0363,Male,20,1,Month-to-Month,Fiber Optic,Debit Card,487.37,487.37,1,4,Yes,1,0-12 Months
+CUST0364,Female,34,15,Month-to-Month,DSL,UPI,2467.23,37008.45,7,0,Yes,1,13-24 Months
+CUST0365,Male,61,37,One Year,DSL,UPI,2484.39,91922.43,7,1,Yes,1,25-48 Months
+CUST0366,Male,45,13,Month-to-Month,DSL,Credit Card,962.32,12510.16,7,3,No,0,13-24 Months
+CUST0367,Female,46,8,Month-to-Month,Fiber Optic,UPI,1961.12,15688.96,2,1,Yes,1,0-12 Months
+CUST0368,Female,38,5,One Year,No Internet,Bank Transfer,1496.59,7482.95,6,3,No,0,0-12 Months
+CUST0369,Male,64,60,Month-to-Month,DSL,Credit Card,2008.28,120496.8,7,5,No,0,49-72 Months
+CUST0370,Male,33,1,One Year,Fiber Optic,Credit Card,2629.77,2629.77,5,0,Yes,1,0-12 Months
+CUST0371,Female,54,36,Month-to-Month,DSL,Credit Card,515.61,18561.96,1,0,Yes,1,25-48 Months
+CUST0372,Female,37,35,Two Year,DSL,Debit Card,2400.56,84019.6,5,3,No,0,25-48 Months
+CUST0373,Female,23,66,Two Year,DSL,UPI,1631.18,107657.88,6,4,Yes,1,49-72 Months
+CUST0374,Female,36,63,Two Year,DSL,Debit Card,1823.14,114857.82,0,5,Yes,1,49-72 Months
+CUST0375,Male,22,23,Month-to-Month,DSL,Bank Transfer,2065.61,47509.03,1,0,Yes,1,13-24 Months
+CUST0376,Female,20,9,Month-to-Month,No Internet,UPI,2791.08,25119.72,1,0,No,0,0-12 Months
+CUST0377,Female,18,34,Month-to-Month,Fiber Optic,Debit Card,453.14,15406.76,5,2,No,0,25-48 Months
+CUST0378,Male,55,46,Month-to-Month,Fiber Optic,Credit Card,379.59,17461.14,3,0,No,0,25-48 Months
+CUST0379,Female,32,4,Month-to-Month,Fiber Optic,Debit Card,781.31,3125.24,6,2,Yes,1,0-12 Months
+CUST0380,Male,51,30,One Year,DSL,Credit Card,2963.41,88902.3,7,0,No,0,25-48 Months
+CUST0381,Female,52,72,Month-to-Month,DSL,Debit Card,2230.71,160611.12,3,0,No,0,49-72 Months
+CUST0382,Female,66,3,Two Year,No Internet,Debit Card,1959.53,5878.59,4,4,Yes,1,0-12 Months
+CUST0383,Female,42,14,Month-to-Month,DSL,Debit Card,427.01,5978.14,7,4,Yes,1,13-24 Months
+CUST0384,Male,41,60,Month-to-Month,DSL,Credit Card,2673.6,160416.0,0,5,No,0,49-72 Months
+CUST0385,Male,29,45,Month-to-Month,No Internet,Debit Card,2494.44,112249.8,3,0,No,0,25-48 Months
+CUST0386,Female,35,34,Two Year,Fiber Optic,UPI,2094.96,71228.64,5,5,No,0,25-48 Months
+CUST0387,Male,32,45,One Year,DSL,UPI,1215.65,54704.25,6,5,No,0,25-48 Months
+CUST0388,Male,61,61,Two Year,Fiber Optic,UPI,490.36,29911.96,3,5,Yes,1,49-72 Months
+CUST0389,Male,33,16,Two Year,DSL,Credit Card,1866.1,29857.6,4,5,Yes,1,13-24 Months
+CUST0390,Male,44,66,Month-to-Month,DSL,Credit Card,2243.18,148049.88,2,3,Yes,1,49-72 Months
+CUST0391,Male,25,40,Month-to-Month,DSL,UPI,554.45,22178.0,4,3,Yes,1,25-48 Months
+CUST0392,Male,63,17,Month-to-Month,Fiber Optic,UPI,2011.17,34189.89,1,0,No,0,13-24 Months
+CUST0393,Female,42,34,One Year,Fiber Optic,UPI,1073.19,36488.46,7,3,No,0,25-48 Months
+CUST0394,Female,34,16,Month-to-Month,DSL,Bank Transfer,2363.46,37815.36,6,0,No,0,13-24 Months
+CUST0395,Male,46,60,Month-to-Month,DSL,UPI,1756.96,105417.6,1,4,Yes,1,49-72 Months
+CUST0396,Female,25,66,Two Year,Fiber Optic,Debit Card,648.4,42794.4,3,1,No,0,49-72 Months
+CUST0397,Female,32,66,Two Year,No Internet,Bank Transfer,1721.6,113625.6,3,2,No,0,49-72 Months
+CUST0398,Female,44,13,One Year,Fiber Optic,Bank Transfer,1368.49,17790.37,4,3,Yes,1,13-24 Months
+CUST0399,Female,63,56,One Year,DSL,Credit Card,786.96,44069.76,4,3,No,0,49-72 Months
+CUST0400,Male,67,31,One Year,DSL,Debit Card,2572.09,79734.79,5,4,Yes,1,25-48 Months
+CUST0401,Female,69,34,Month-to-Month,DSL,Credit Card,329.78,11212.52,0,3,Yes,1,25-48 Months
+CUST0402,Female,24,39,Month-to-Month,No Internet,Credit Card,1142.75,44567.25,5,0,No,0,25-48 Months
+CUST0403,Male,20,67,One Year,DSL,Debit Card,334.01,22378.67,1,0,No,0,49-72 Months
+CUST0404,Male,46,8,One Year,DSL,Credit Card,559.22,4473.76,5,1,Yes,1,0-12 Months
+CUST0405,Female,61,55,Month-to-Month,Fiber Optic,Debit Card,1102.16,60618.8,4,1,Yes,1,49-72 Months
+CUST0406,Female,41,27,Two Year,Fiber Optic,Debit Card,446.53,12056.31,6,1,No,0,25-48 Months
+CUST0407,Female,20,53,Month-to-Month,Fiber Optic,Credit Card,1910.9,101277.7,5,0,No,0,49-72 Months
+CUST0408,Female,37,39,Month-to-Month,DSL,UPI,534.53,20846.67,2,5,No,0,25-48 Months
+CUST0409,Female,63,65,One Year,Fiber Optic,Credit Card,2194.63,142650.95,7,5,Yes,1,49-72 Months
+CUST0410,Female,32,17,Month-to-Month,Fiber Optic,Bank Transfer,442.13,7516.21,0,1,Yes,1,13-24 Months
+CUST0411,Male,42,30,Month-to-Month,Fiber Optic,Credit Card,460.13,13803.9,4,1,Yes,1,25-48 Months
+CUST0412,Female,47,53,Month-to-Month,Fiber Optic,Debit Card,1124.38,59592.14,6,0,Yes,1,49-72 Months
+CUST0413,Female,31,13,One Year,Fiber Optic,Bank Transfer,2720.74,35369.62,3,4,Yes,1,13-24 Months
+CUST0414,Male,24,21,Month-to-Month,No Internet,Debit Card,2031.76,42666.96,7,3,Yes,1,13-24 Months
+CUST0415,Male,34,19,One Year,DSL,UPI,2379.35,45207.65,5,2,No,0,13-24 Months
+CUST0416,Male,61,53,One Year,DSL,UPI,682.19,36156.07,4,5,No,0,49-72 Months
+CUST0417,Male,37,19,Month-to-Month,DSL,Bank Transfer,2552.14,48490.66,3,5,No,0,13-24 Months
+CUST0418,Female,53,57,Two Year,Fiber Optic,UPI,321.99,18353.43,3,0,No,0,49-72 Months
+CUST0419,Female,26,25,Month-to-Month,No Internet,UPI,875.25,21881.25,1,0,No,0,25-48 Months
+CUST0420,Female,55,31,Two Year,Fiber Optic,Credit Card,1963.45,60866.95,1,2,Yes,1,25-48 Months
+CUST0421,Female,65,55,Month-to-Month,Fiber Optic,Credit Card,1313.17,72224.35,6,2,No,0,49-72 Months
+CUST0422,Female,39,23,Two Year,DSL,UPI,2957.32,68018.36,4,1,Yes,1,13-24 Months
+CUST0423,Female,19,32,Month-to-Month,Fiber Optic,UPI,381.92,12221.44,7,2,No,0,25-48 Months
+CUST0424,Male,41,62,Month-to-Month,DSL,Credit Card,2996.22,185765.64,6,3,No,0,49-72 Months
+CUST0425,Female,25,10,Month-to-Month,Fiber Optic,UPI,1983.8,19838.0,4,3,Yes,1,0-12 Months
+CUST0426,Male,28,72,Month-to-Month,DSL,UPI,1808.51,130212.72,2,5,Yes,1,49-72 Months
+CUST0427,Male,30,54,One Year,Fiber Optic,Debit Card,460.68,24876.72,0,3,No,0,49-72 Months
+CUST0428,Female,34,52,Month-to-Month,Fiber Optic,UPI,1037.99,53975.48,0,3,No,0,49-72 Months
+CUST0429,Male,25,20,One Year,DSL,Bank Transfer,2796.59,55931.8,7,3,Yes,1,13-24 Months
+CUST0430,Female,38,32,Month-to-Month,Fiber Optic,Debit Card,1256.46,40206.72,4,1,No,0,25-48 Months
+CUST0431,Male,35,14,Month-to-Month,Fiber Optic,Bank Transfer,2086.46,29210.44,1,5,No,0,13-24 Months
+CUST0432,Female,47,50,One Year,Fiber Optic,UPI,2998.64,149932.0,7,0,No,0,49-72 Months
+CUST0433,Male,35,28,Month-to-Month,DSL,Credit Card,1010.29,28288.12,5,5,No,0,25-48 Months
+CUST0434,Female,63,53,One Year,DSL,Debit Card,1855.42,98337.26,6,5,No,0,49-72 Months
+CUST0435,Female,64,24,One Year,Fiber Optic,Credit Card,2180.38,52329.12,2,5,No,0,13-24 Months
+CUST0436,Female,48,22,Two Year,No Internet,Debit Card,744.49,16378.78,0,2,No,0,13-24 Months
+CUST0437,Female,55,30,Month-to-Month,No Internet,Credit Card,701.42,21042.6,4,0,No,0,25-48 Months
+CUST0438,Female,49,63,One Year,DSL,Debit Card,1532.03,96517.89,1,2,No,0,49-72 Months
+CUST0439,Male,28,4,Two Year,DSL,Debit Card,1341.69,5366.76,1,1,No,0,0-12 Months
+CUST0440,Male,62,59,One Year,Fiber Optic,Bank Transfer,2228.38,131474.42,1,1,No,0,49-72 Months
+CUST0441,Male,42,8,Month-to-Month,DSL,Credit Card,487.67,3901.36,6,4,Yes,1,0-12 Months
+CUST0442,Female,50,12,One Year,Fiber Optic,Bank Transfer,2924.85,35098.2,5,4,Yes,1,0-12 Months
+CUST0443,Male,55,31,One Year,Fiber Optic,Bank Transfer,338.55,10495.05,3,1,No,0,25-48 Months
+CUST0444,Female,58,34,One Year,No Internet,Credit Card,1923.56,65401.04,7,1,No,0,25-48 Months
+CUST0445,Female,25,49,Month-to-Month,DSL,Debit Card,1819.11,89136.39,6,2,Yes,1,49-72 Months
+CUST0446,Male,28,57,Month-to-Month,Fiber Optic,Bank Transfer,663.73,37832.61,5,1,No,0,49-72 Months
+CUST0447,Male,39,26,Two Year,Fiber Optic,Credit Card,707.47,18394.22,1,0,Yes,1,25-48 Months
+CUST0448,Female,68,18,Month-to-Month,DSL,Debit Card,2440.23,43924.14,4,2,No,0,13-24 Months
+CUST0449,Male,41,38,One Year,Fiber Optic,Bank Transfer,2696.42,102463.96,7,1,No,0,25-48 Months
+CUST0450,Female,58,50,Month-to-Month,Fiber Optic,Bank Transfer,1064.15,53207.5,2,2,Yes,1,49-72 Months
+CUST0451,Female,34,8,Month-to-Month,Fiber Optic,Bank Transfer,1482.5,11860.0,5,2,Yes,1,0-12 Months
+CUST0452,Female,29,41,Month-to-Month,Fiber Optic,Debit Card,1258.49,51598.09,4,3,No,0,25-48 Months
+CUST0453,Female,63,6,Month-to-Month,DSL,Bank Transfer,495.88,2975.28,6,4,No,0,0-12 Months
+CUST0454,Female,49,69,Two Year,Fiber Optic,Debit Card,2117.65,146117.85,6,2,No,0,49-72 Months
+CUST0455,Male,32,44,Two Year,DSL,UPI,2528.02,111232.88,7,5,No,0,25-48 Months
+CUST0456,Male,33,64,One Year,Fiber Optic,Bank Transfer,1123.17,71882.88,1,2,No,0,49-72 Months
+CUST0457,Female,39,29,Month-to-Month,DSL,UPI,2973.47,86230.63,2,5,No,0,25-48 Months
+CUST0458,Female,45,28,One Year,No Internet,Credit Card,504.8,14134.4,0,3,No,0,25-48 Months
+CUST0459,Male,37,11,One Year,DSL,Bank Transfer,2086.83,22955.13,0,1,No,0,0-12 Months
+CUST0460,Male,50,65,One Year,No Internet,Credit Card,1510.22,98164.3,6,2,No,0,49-72 Months
+CUST0461,Female,27,19,Month-to-Month,No Internet,Credit Card,1505.83,28610.77,4,3,Yes,1,13-24 Months
+CUST0462,Male,57,9,One Year,Fiber Optic,Credit Card,1535.64,13820.76,2,0,No,0,0-12 Months
+CUST0463,Female,49,27,One Year,DSL,UPI,998.44,26957.88,4,3,No,0,25-48 Months
+CUST0464,Male,67,34,Two Year,No Internet,Debit Card,2232.02,75888.68,2,4,No,0,25-48 Months
+CUST0465,Female,50,44,Month-to-Month,Fiber Optic,UPI,2248.26,98923.44,2,4,Yes,1,25-48 Months
+CUST0466,Male,19,68,One Year,Fiber Optic,UPI,1062.47,72247.96,6,1,No,0,49-72 Months
+CUST0467,Female,50,15,One Year,No Internet,Credit Card,2555.33,38329.95,4,5,Yes,1,13-24 Months
+CUST0468,Male,50,51,Month-to-Month,DSL,Bank Transfer,1155.48,58929.48,6,1,Yes,1,49-72 Months
+CUST0469,Male,58,13,Month-to-Month,Fiber Optic,Debit Card,2257.75,29350.75,7,5,Yes,1,13-24 Months
+CUST0470,Female,30,49,Month-to-Month,Fiber Optic,Credit Card,626.7,30708.3,2,5,No,0,49-72 Months
+CUST0471,Male,47,70,Month-to-Month,DSL,Debit Card,755.49,52884.3,5,5,Yes,1,49-72 Months
+CUST0472,Female,50,56,Month-to-Month,DSL,UPI,1152.65,64548.4,1,5,Yes,1,49-72 Months
+CUST0473,Male,30,51,One Year,DSL,Debit Card,1903.46,97076.46,7,4,Yes,1,49-72 Months
+CUST0474,Female,69,37,One Year,DSL,Debit Card,2042.88,75586.56,2,4,No,0,25-48 Months
+CUST0475,Male,43,17,One Year,DSL,Bank Transfer,1370.16,23292.72,5,2,No,0,13-24 Months
+CUST0476,Female,39,58,Two Year,DSL,Credit Card,510.17,29589.86,2,4,No,0,49-72 Months
+CUST0477,Male,56,29,Month-to-Month,DSL,Debit Card,1308.81,37955.49,5,1,No,0,25-48 Months
+CUST0478,Female,19,33,Month-to-Month,DSL,Debit Card,2159.67,71269.11,4,4,No,0,25-48 Months
+CUST0479,Male,55,60,One Year,DSL,UPI,2111.69,126701.4,0,1,No,0,49-72 Months
+CUST0480,Female,56,55,Month-to-Month,Fiber Optic,UPI,732.53,40289.15,3,0,Yes,1,49-72 Months
+CUST0481,Female,43,10,Month-to-Month,Fiber Optic,Debit Card,321.02,3210.2,7,4,Yes,1,0-12 Months
+CUST0482,Female,63,47,Month-to-Month,No Internet,Credit Card,2333.05,109653.35,2,1,No,0,25-48 Months
+CUST0483,Male,67,23,Month-to-Month,Fiber Optic,Debit Card,587.19,13505.37,3,5,No,0,13-24 Months
+CUST0484,Female,32,21,Two Year,Fiber Optic,Debit Card,522.34,10969.14,2,3,No,0,13-24 Months
+CUST0485,Male,51,13,Month-to-Month,Fiber Optic,Bank Transfer,307.29,3994.77,4,5,Yes,1,13-24 Months
+CUST0486,Female,59,33,Month-to-Month,DSL,Credit Card,1468.02,48444.66,4,2,No,0,25-48 Months
+CUST0487,Male,61,24,Month-to-Month,Fiber Optic,Bank Transfer,1658.81,39811.44,5,1,Yes,1,13-24 Months
+CUST0488,Female,66,11,One Year,Fiber Optic,Credit Card,2021.69,22238.59,2,5,Yes,1,0-12 Months
+CUST0489,Male,57,17,Month-to-Month,Fiber Optic,Credit Card,1099.37,18689.29,4,4,Yes,1,13-24 Months
+CUST0490,Male,28,68,One Year,DSL,Credit Card,2218.15,150834.2,4,4,Yes,1,49-72 Months
+CUST0491,Female,20,47,Month-to-Month,Fiber Optic,Bank Transfer,757.2,35588.4,2,0,Yes,1,25-48 Months
+CUST0492,Male,23,25,Month-to-Month,Fiber Optic,Bank Transfer,2546.37,63659.25,5,3,No,0,25-48 Months
+CUST0493,Male,26,21,Month-to-Month,Fiber Optic,Bank Transfer,1843.99,38723.79,5,1,No,0,13-24 Months
+CUST0494,Female,23,12,Month-to-Month,No Internet,UPI,1876.5,22518.0,5,5,Yes,1,0-12 Months
+CUST0495,Male,26,37,Month-to-Month,Fiber Optic,Bank Transfer,866.39,32056.43,5,3,No,0,25-48 Months
+CUST0496,Male,56,42,Month-to-Month,Fiber Optic,UPI,500.09,21003.78,0,0,No,0,25-48 Months
+CUST0497,Male,48,17,Two Year,DSL,UPI,1554.76,26430.92,2,2,No,0,13-24 Months
+CUST0498,Female,49,48,Month-to-Month,No Internet,UPI,1962.15,94183.2,6,3,Yes,1,25-48 Months
+CUST0499,Male,58,28,One Year,DSL,Debit Card,556.63,15585.64,0,0,No,0,25-48 Months
+CUST0500,Female,67,41,Month-to-Month,No Internet,Debit Card,2866.44,117524.04,4,1,Yes,1,25-48 Months
+CUST0501,Male,29,47,Month-to-Month,DSL,Debit Card,2947.12,138514.64,0,2,No,0,25-48 Months
+CUST0502,Male,25,18,Month-to-Month,Fiber Optic,UPI,1772.73,31909.14,7,4,Yes,1,13-24 Months
+CUST0503,Male,25,71,Two Year,DSL,UPI,2865.19,203428.49,6,0,Yes,1,49-72 Months
+CUST0504,Female,67,13,Month-to-Month,Fiber Optic,Credit Card,784.5,10198.5,6,4,Yes,1,13-24 Months
+CUST0505,Male,45,13,Month-to-Month,DSL,UPI,368.64,4792.32,6,2,Yes,1,13-24 Months
+CUST0506,Male,37,31,Month-to-Month,Fiber Optic,Debit Card,406.41,12598.71,5,0,No,0,25-48 Months
+CUST0507,Female,64,2,Month-to-Month,Fiber Optic,UPI,1886.28,3772.56,4,0,Yes,1,0-12 Months
+CUST0508,Male,24,16,Month-to-Month,No Internet,UPI,466.43,7462.88,0,2,No,0,13-24 Months
+CUST0509,Female,28,9,One Year,Fiber Optic,Credit Card,2888.07,25992.63,0,1,Yes,1,0-12 Months
+CUST0510,Female,37,38,Month-to-Month,No Internet,UPI,683.22,25962.36,7,0,Yes,1,25-48 Months
+CUST0511,Male,33,54,Month-to-Month,Fiber Optic,Bank Transfer,1122.75,60628.5,2,2,No,0,49-72 Months
+CUST0512,Female,21,56,One Year,Fiber Optic,Credit Card,2520.8,141164.8,0,3,No,0,49-72 Months
+CUST0513,Male,23,45,Month-to-Month,No Internet,UPI,890.6,40077.0,7,4,Yes,1,25-48 Months
+CUST0514,Female,39,34,Month-to-Month,DSL,UPI,956.01,32504.34,4,0,Yes,1,25-48 Months
+CUST0515,Female,43,9,Month-to-Month,DSL,Credit Card,2034.23,18308.07,5,3,No,0,0-12 Months
+CUST0516,Male,20,8,One Year,Fiber Optic,UPI,1045.43,8363.44,2,0,Yes,1,0-12 Months
+CUST0517,Female,58,7,Month-to-Month,DSL,Debit Card,887.11,6209.77,7,1,No,0,0-12 Months
+CUST0518,Female,59,36,Month-to-Month,DSL,Bank Transfer,986.28,35506.08,0,2,No,0,25-48 Months
+CUST0519,Female,31,18,Month-to-Month,DSL,Bank Transfer,1624.75,29245.5,2,0,No,0,13-24 Months
+CUST0520,Female,28,3,One Year,Fiber Optic,Debit Card,2908.47,8725.41,3,2,No,0,0-12 Months
+CUST0521,Female,35,28,Month-to-Month,No Internet,UPI,2547.04,71317.12,2,5,Yes,1,25-48 Months
+CUST0522,Male,29,70,One Year,DSL,UPI,1068.45,74791.5,6,0,No,0,49-72 Months
+CUST0523,Female,40,44,Two Year,No Internet,Bank Transfer,1281.11,56368.84,5,1,No,0,25-48 Months
+CUST0524,Male,29,21,One Year,DSL,UPI,1554.18,32637.78,6,1,No,0,13-24 Months
+CUST0525,Female,30,28,Month-to-Month,DSL,Bank Transfer,2943.11,82407.08,3,3,No,0,25-48 Months
+CUST0526,Male,42,54,Month-to-Month,Fiber Optic,Bank Transfer,765.45,41334.3,6,1,No,0,49-72 Months
+CUST0527,Male,62,54,Month-to-Month,Fiber Optic,Debit Card,1265.2,68320.8,3,2,Yes,1,49-72 Months
+CUST0528,Female,68,65,Month-to-Month,No Internet,Bank Transfer,2269.45,147514.25,2,5,No,0,49-72 Months
+CUST0529,Female,36,21,Month-to-Month,Fiber Optic,UPI,2902.65,60955.65,4,1,Yes,1,13-24 Months
+CUST0530,Female,63,13,One Year,Fiber Optic,UPI,720.32,9364.16,5,0,No,0,13-24 Months
+CUST0531,Male,53,57,Month-to-Month,Fiber Optic,Credit Card,913.93,52094.01,4,1,Yes,1,49-72 Months
+CUST0532,Female,62,49,Month-to-Month,Fiber Optic,UPI,909.38,44559.62,5,5,No,0,49-72 Months
+CUST0533,Male,25,54,One Year,No Internet,Credit Card,356.52,19252.08,7,2,No,0,49-72 Months
+CUST0534,Male,46,10,One Year,No Internet,Bank Transfer,1931.11,19311.1,5,0,No,0,0-12 Months
+CUST0535,Male,49,53,Month-to-Month,Fiber Optic,UPI,2110.9,111877.7,6,3,Yes,1,49-72 Months
+CUST0536,Female,68,44,Two Year,Fiber Optic,Debit Card,1926.82,84780.08,6,3,No,0,25-48 Months
+CUST0537,Female,61,47,Month-to-Month,DSL,Debit Card,492.57,23150.79,4,3,Yes,1,25-48 Months
+CUST0538,Male,35,53,One Year,DSL,Debit Card,486.92,25806.76,1,0,No,0,49-72 Months
+CUST0539,Male,23,46,One Year,No Internet,Bank Transfer,868.04,39929.84,7,3,No,0,25-48 Months
+CUST0540,Female,35,13,One Year,DSL,Bank Transfer,1083.8,14089.4,3,1,No,0,13-24 Months
+CUST0541,Male,36,37,One Year,Fiber Optic,Credit Card,2423.67,89675.79,6,0,No,0,25-48 Months
+CUST0542,Female,39,24,Month-to-Month,DSL,Debit Card,730.35,17528.4,7,0,No,0,13-24 Months
+CUST0543,Male,54,2,Month-to-Month,No Internet,Credit Card,419.05,838.1,6,0,Yes,1,0-12 Months
+CUST0544,Female,49,14,One Year,DSL,Credit Card,1363.77,19092.78,6,4,Yes,1,13-24 Months
+CUST0545,Male,58,10,Month-to-Month,DSL,UPI,1424.26,14242.6,2,2,No,0,0-12 Months
+CUST0546,Female,20,35,Two Year,Fiber Optic,UPI,1517.45,53110.75,4,4,No,0,25-48 Months
+CUST0547,Male,45,25,Month-to-Month,DSL,Debit Card,2532.64,63316.0,4,4,Yes,1,25-48 Months
+CUST0548,Female,27,3,Month-to-Month,DSL,Bank Transfer,564.61,1693.83,6,4,Yes,1,0-12 Months
+CUST0549,Female,68,17,Month-to-Month,Fiber Optic,UPI,2200.64,37410.88,2,2,No,0,13-24 Months
+CUST0550,Male,52,12,Month-to-Month,Fiber Optic,Bank Transfer,1212.45,14549.4,6,4,No,0,0-12 Months
+CUST0551,Male,46,54,One Year,Fiber Optic,Credit Card,1136.95,61395.3,3,3,No,0,49-72 Months
+CUST0552,Female,32,24,One Year,Fiber Optic,Credit Card,2817.87,67628.88,2,0,No,0,13-24 Months
+CUST0553,Male,50,29,One Year,Fiber Optic,Credit Card,970.87,28155.23,6,0,No,0,25-48 Months
+CUST0554,Female,24,43,Two Year,Fiber Optic,Credit Card,2034.84,87498.12,5,1,No,0,25-48 Months
+CUST0555,Male,29,25,Two Year,DSL,Debit Card,1042.84,26071.0,1,5,No,0,25-48 Months
+CUST0556,Female,66,60,Two Year,Fiber Optic,Credit Card,1669.29,100157.4,5,3,No,0,49-72 Months
+CUST0557,Female,47,65,Month-to-Month,Fiber Optic,UPI,2422.99,157494.35,1,2,Yes,1,49-72 Months
+CUST0558,Female,38,28,One Year,No Internet,Credit Card,2680.65,75058.2,2,5,No,0,25-48 Months
+CUST0559,Female,48,16,Month-to-Month,DSL,Bank Transfer,2564.48,41031.68,5,0,Yes,1,13-24 Months
+CUST0560,Female,41,47,Month-to-Month,DSL,UPI,1871.89,87978.83,3,4,Yes,1,25-48 Months
+CUST0561,Female,37,58,One Year,Fiber Optic,Bank Transfer,971.8,56364.4,7,1,No,0,49-72 Months
+CUST0562,Male,54,27,Month-to-Month,DSL,Bank Transfer,2085.33,56303.91,5,1,No,0,25-48 Months
+CUST0563,Male,21,53,Month-to-Month,Fiber Optic,Debit Card,2216.74,117487.22,4,0,No,0,49-72 Months
+CUST0564,Male,45,42,Month-to-Month,DSL,Debit Card,328.87,13812.54,7,3,No,0,25-48 Months
+CUST0565,Female,61,59,Month-to-Month,Fiber Optic,Bank Transfer,1485.87,87666.33,7,5,Yes,1,49-72 Months
+CUST0566,Female,37,47,Two Year,DSL,Bank Transfer,2576.81,121110.07,1,1,No,0,25-48 Months
+CUST0567,Female,41,34,Month-to-Month,Fiber Optic,Credit Card,1621.89,55144.26,1,0,Yes,1,25-48 Months
+CUST0568,Female,67,37,Month-to-Month,DSL,UPI,1140.71,42206.27,6,3,No,0,25-48 Months
+CUST0569,Male,66,6,Month-to-Month,DSL,Credit Card,2653.85,15923.1,3,0,Yes,1,0-12 Months
+CUST0570,Male,68,7,Month-to-Month,Fiber Optic,Debit Card,720.88,5046.16,1,0,No,0,0-12 Months
+CUST0571,Female,49,25,Two Year,Fiber Optic,Debit Card,857.4,21435.0,1,3,Yes,1,25-48 Months
+CUST0572,Male,58,33,Month-to-Month,DSL,Credit Card,2155.91,71145.03,6,3,No,0,25-48 Months
+CUST0573,Male,53,55,Month-to-Month,No Internet,UPI,1251.58,68836.9,3,3,No,0,49-72 Months
+CUST0574,Female,51,58,One Year,DSL,Bank Transfer,2225.15,129058.7,5,0,No,0,49-72 Months
+CUST0575,Male,53,7,Two Year,Fiber Optic,Credit Card,725.8,5080.6,2,1,No,0,0-12 Months
+CUST0576,Female,19,57,One Year,Fiber Optic,Debit Card,981.13,55924.41,5,2,No,0,49-72 Months
+CUST0577,Male,32,12,Two Year,No Internet,UPI,722.95,8675.4,4,2,No,0,0-12 Months
+CUST0578,Female,51,16,Month-to-Month,DSL,Debit Card,2872.86,45965.76,4,0,No,0,13-24 Months
+CUST0579,Female,53,43,Month-to-Month,DSL,UPI,1394.59,59967.37,1,0,No,0,25-48 Months
+CUST0580,Female,23,7,Month-to-Month,No Internet,UPI,1210.49,8473.43,7,1,Yes,1,0-12 Months
+CUST0581,Female,56,51,Two Year,No Internet,UPI,338.35,17255.85,4,3,Yes,1,49-72 Months
+CUST0582,Male,59,32,Month-to-Month,DSL,Credit Card,714.23,22855.36,2,0,Yes,1,25-48 Months
+CUST0583,Female,68,8,Month-to-Month,Fiber Optic,Credit Card,1437.07,11496.56,1,4,Yes,1,0-12 Months
+CUST0584,Female,68,72,Month-to-Month,Fiber Optic,Credit Card,484.96,34917.12,6,3,No,0,49-72 Months
+CUST0585,Female,29,45,Month-to-Month,DSL,UPI,1679.0,75555.0,4,0,Yes,1,25-48 Months
+CUST0586,Male,20,59,Month-to-Month,Fiber Optic,UPI,1528.54,90183.86,7,4,Yes,1,49-72 Months
+CUST0587,Female,62,4,Two Year,Fiber Optic,Debit Card,2371.35,9485.4,6,5,Yes,1,0-12 Months
+CUST0588,Male,35,67,Month-to-Month,Fiber Optic,Bank Transfer,2081.47,139458.49,0,1,No,0,49-72 Months
+CUST0589,Female,57,29,One Year,Fiber Optic,Credit Card,1504.06,43617.74,0,4,No,0,25-48 Months
+CUST0590,Male,38,29,One Year,DSL,UPI,906.58,26290.82,0,0,No,0,25-48 Months
+CUST0591,Male,32,28,Month-to-Month,DSL,Debit Card,2262.53,63350.84,6,2,No,0,25-48 Months
+CUST0592,Female,50,44,Month-to-Month,Fiber Optic,Debit Card,2211.23,97294.12,0,0,Yes,1,25-48 Months
+CUST0593,Male,52,4,Month-to-Month,Fiber Optic,Debit Card,713.9,2855.6,5,2,No,0,0-12 Months
+CUST0594,Female,43,9,Month-to-Month,No Internet,Credit Card,2769.83,24928.47,0,1,No,0,0-12 Months
+CUST0595,Female,25,5,One Year,Fiber Optic,Credit Card,473.89,2369.45,1,1,Yes,1,0-12 Months
+CUST0596,Female,53,56,Month-to-Month,DSL,Bank Transfer,448.6,25121.6,3,3,No,0,49-72 Months
+CUST0597,Male,65,50,Month-to-Month,No Internet,Debit Card,805.85,40292.5,5,3,No,0,49-72 Months
+CUST0598,Male,47,15,Month-to-Month,Fiber Optic,Credit Card,2755.54,41333.1,7,2,Yes,1,13-24 Months
+CUST0599,Female,40,32,Two Year,DSL,Debit Card,1703.99,54527.68,3,2,No,0,25-48 Months
+CUST0600,Female,59,28,Two Year,No Internet,UPI,2427.44,67968.32,1,1,Yes,1,25-48 Months
+CUST0601,Male,61,22,Two Year,Fiber Optic,Debit Card,915.18,20133.96,7,4,Yes,1,13-24 Months
+CUST0602,Female,31,17,One Year,DSL,Bank Transfer,1623.6,27601.2,1,2,Yes,1,13-24 Months
+CUST0603,Female,31,59,Month-to-Month,Fiber Optic,Credit Card,1267.38,74775.42,2,2,Yes,1,49-72 Months
+CUST0604,Female,19,71,One Year,Fiber Optic,UPI,2535.14,179994.94,7,4,Yes,1,49-72 Months
+CUST0605,Male,54,57,Month-to-Month,DSL,Credit Card,361.03,20578.71,5,3,No,0,49-72 Months
+CUST0606,Male,22,26,One Year,No Internet,UPI,958.38,24917.88,3,3,Yes,1,25-48 Months
+CUST0607,Male,55,25,One Year,DSL,Debit Card,711.95,17798.75,0,2,No,0,25-48 Months
+CUST0608,Female,62,10,Month-to-Month,Fiber Optic,Debit Card,2619.81,26198.1,1,3,Yes,1,0-12 Months
+CUST0609,Female,58,45,One Year,Fiber Optic,Bank Transfer,1562.37,70306.65,0,3,No,0,25-48 Months
+CUST0610,Female,64,11,Two Year,DSL,Bank Transfer,1391.39,15305.29,7,5,No,0,0-12 Months
+CUST0611,Male,31,53,Month-to-Month,Fiber Optic,UPI,1513.6,80220.8,3,3,No,0,49-72 Months
+CUST0612,Female,56,72,Two Year,DSL,Bank Transfer,2924.2,210542.4,6,1,No,0,49-72 Months
+CUST0613,Female,42,68,Month-to-Month,DSL,Bank Transfer,2595.72,176508.96,5,0,No,0,49-72 Months
+CUST0614,Female,37,28,One Year,DSL,Bank Transfer,2207.2,61801.6,4,2,No,0,25-48 Months
+CUST0615,Female,19,65,Month-to-Month,DSL,Bank Transfer,1084.29,70478.85,6,2,No,0,49-72 Months
+CUST0616,Male,56,49,Month-to-Month,Fiber Optic,Debit Card,745.97,36552.53,7,1,Yes,1,49-72 Months
+CUST0617,Male,23,47,Two Year,Fiber Optic,Bank Transfer,2787.87,131029.89,7,0,No,0,25-48 Months
+CUST0618,Female,34,52,Two Year,Fiber Optic,Debit Card,1442.3,74999.6,6,0,No,0,49-72 Months
+CUST0619,Male,42,54,One Year,DSL,Debit Card,1052.64,56842.56,4,1,No,0,49-72 Months
+CUST0620,Male,45,60,Month-to-Month,DSL,Credit Card,1571.49,94289.4,7,4,Yes,1,49-72 Months
+CUST0621,Female,19,57,Two Year,DSL,Debit Card,2778.19,158356.83,7,4,No,0,49-72 Months
+CUST0622,Female,52,47,Month-to-Month,DSL,Debit Card,1345.08,63218.76,1,0,No,0,25-48 Months
+CUST0623,Male,54,31,Two Year,No Internet,Bank Transfer,1819.13,56393.03,2,4,Yes,1,25-48 Months
+CUST0624,Female,22,46,Month-to-Month,Fiber Optic,Debit Card,2468.01,113528.46,7,4,No,0,25-48 Months
+CUST0625,Male,18,26,Month-to-Month,Fiber Optic,UPI,1453.26,37784.76,0,4,No,0,25-48 Months
+CUST0626,Female,57,5,One Year,Fiber Optic,Bank Transfer,930.56,4652.8,1,0,No,0,0-12 Months
+CUST0627,Male,29,52,Month-to-Month,DSL,Bank Transfer,2985.22,155231.44,2,4,No,0,49-72 Months
+CUST0628,Female,53,54,Month-to-Month,Fiber Optic,Bank Transfer,2882.74,155667.96,0,2,No,0,49-72 Months
+CUST0629,Male,62,33,Month-to-Month,DSL,Credit Card,2577.39,85053.87,3,5,No,0,25-48 Months
+CUST0630,Male,40,50,Month-to-Month,DSL,Bank Transfer,2158.61,107930.5,6,0,Yes,1,49-72 Months
+CUST0631,Male,64,38,Month-to-Month,No Internet,Debit Card,1096.14,41653.32,6,1,No,0,25-48 Months
+CUST0632,Female,48,27,Month-to-Month,No Internet,UPI,2766.21,74687.67,4,4,No,0,25-48 Months
+CUST0633,Male,28,15,Month-to-Month,Fiber Optic,Bank Transfer,1044.0,15660.0,2,3,No,0,13-24 Months
+CUST0634,Male,27,61,Month-to-Month,Fiber Optic,Bank Transfer,2462.19,150193.59,0,0,No,0,49-72 Months
+CUST0635,Female,20,21,One Year,DSL,UPI,2779.3,58365.3,7,1,Yes,1,13-24 Months
+CUST0636,Female,31,46,Month-to-Month,Fiber Optic,Bank Transfer,1928.11,88693.06,1,5,No,0,25-48 Months
+CUST0637,Male,33,69,Two Year,Fiber Optic,Credit Card,2468.25,170309.25,0,2,No,0,49-72 Months
+CUST0638,Male,27,6,Two Year,DSL,Debit Card,2437.58,14625.48,1,1,Yes,1,0-12 Months
+CUST0639,Female,46,38,Month-to-Month,Fiber Optic,UPI,821.53,31218.14,6,4,Yes,1,25-48 Months
+CUST0640,Female,27,62,One Year,DSL,UPI,2103.4,130410.8,4,3,Yes,1,49-72 Months
+CUST0641,Female,29,62,Two Year,DSL,Credit Card,552.36,34246.32,7,4,No,0,49-72 Months
+CUST0642,Female,47,46,Two Year,Fiber Optic,Debit Card,1671.2,76875.2,4,1,No,0,25-48 Months
+CUST0643,Female,58,13,One Year,Fiber Optic,Credit Card,738.04,9594.52,0,0,No,0,13-24 Months
+CUST0644,Male,18,3,Month-to-Month,Fiber Optic,Debit Card,1424.14,4272.42,0,3,No,0,0-12 Months
+CUST0645,Female,22,6,One Year,DSL,Credit Card,2549.05,15294.3,1,3,Yes,1,0-12 Months
+CUST0646,Male,37,8,One Year,Fiber Optic,Bank Transfer,2965.35,23722.8,1,1,Yes,1,0-12 Months
+CUST0647,Male,25,44,One Year,No Internet,Credit Card,1158.49,50973.56,2,5,No,0,25-48 Months
+CUST0648,Male,60,33,Month-to-Month,Fiber Optic,UPI,1736.28,57297.24,6,5,Yes,1,25-48 Months
+CUST0649,Female,29,50,Two Year,Fiber Optic,UPI,1680.5,84025.0,2,4,Yes,1,49-72 Months
+CUST0650,Male,18,11,Two Year,Fiber Optic,UPI,2876.88,31645.68,2,1,Yes,1,0-12 Months
+CUST0651,Male,37,28,Month-to-Month,Fiber Optic,Credit Card,1592.18,44581.04,0,3,No,0,25-48 Months
+CUST0652,Female,45,70,Month-to-Month,Fiber Optic,UPI,2187.59,153131.3,5,1,Yes,1,49-72 Months
+CUST0653,Male,60,41,Month-to-Month,DSL,UPI,2788.83,114342.03,5,3,Yes,1,25-48 Months
+CUST0654,Male,54,16,Two Year,DSL,Bank Transfer,1308.12,20929.92,5,4,No,0,13-24 Months
+CUST0655,Female,64,68,One Year,Fiber Optic,Bank Transfer,2735.73,186029.64,5,0,No,0,49-72 Months
+CUST0656,Male,54,48,One Year,Fiber Optic,Debit Card,2777.13,133302.24,2,0,No,0,25-48 Months
+CUST0657,Male,29,56,Month-to-Month,DSL,Debit Card,2812.79,157516.24,0,1,No,0,49-72 Months
+CUST0658,Male,54,64,One Year,DSL,Debit Card,1030.2,65932.8,5,3,No,0,49-72 Months
+CUST0659,Female,66,59,Month-to-Month,Fiber Optic,Credit Card,1380.96,81476.64,7,0,No,0,49-72 Months
+CUST0660,Female,66,62,Month-to-Month,DSL,Debit Card,2650.07,164304.34,4,3,Yes,1,49-72 Months
+CUST0661,Female,61,11,One Year,Fiber Optic,Credit Card,1269.74,13967.14,3,4,Yes,1,0-12 Months
+CUST0662,Male,45,18,Two Year,DSL,Credit Card,1920.68,34572.24,4,1,No,0,13-24 Months
+CUST0663,Male,64,19,Two Year,Fiber Optic,Debit Card,618.75,11756.25,0,3,No,0,13-24 Months
+CUST0664,Female,32,55,Two Year,Fiber Optic,Debit Card,451.94,24856.7,0,1,No,0,49-72 Months
+CUST0665,Male,23,26,Month-to-Month,No Internet,Credit Card,1412.38,36721.88,3,3,No,0,25-48 Months
+CUST0666,Male,61,6,Month-to-Month,Fiber Optic,Bank Transfer,1863.07,11178.42,1,5,Yes,1,0-12 Months
+CUST0667,Female,37,4,One Year,DSL,UPI,1360.29,5441.16,1,5,No,0,0-12 Months
+CUST0668,Female,67,29,Two Year,Fiber Optic,UPI,1859.89,53936.81,7,3,No,0,25-48 Months
+CUST0669,Male,31,59,Month-to-Month,DSL,UPI,1690.73,99753.07,1,4,No,0,49-72 Months
+CUST0670,Male,19,17,Month-to-Month,No Internet,Bank Transfer,2151.41,36573.97,2,1,No,0,13-24 Months
+CUST0671,Male,26,43,Month-to-Month,Fiber Optic,Credit Card,2053.74,88310.82,1,2,No,0,25-48 Months
+CUST0672,Female,54,66,One Year,DSL,Debit Card,1445.46,95400.36,6,3,Yes,1,49-72 Months
+CUST0673,Female,37,34,Month-to-Month,DSL,Credit Card,1447.49,49214.66,2,3,No,0,25-48 Months
+CUST0674,Female,43,8,Month-to-Month,DSL,Credit Card,680.1,5440.8,2,5,Yes,1,0-12 Months
+CUST0675,Female,46,13,Month-to-Month,DSL,Debit Card,1685.74,21914.62,7,0,Yes,1,13-24 Months
+CUST0676,Male,18,8,Month-to-Month,No Internet,Bank Transfer,1885.38,15083.04,1,5,No,0,0-12 Months
+CUST0677,Female,52,65,Two Year,Fiber Optic,UPI,1586.52,103123.8,1,1,Yes,1,49-72 Months
+CUST0678,Female,23,43,Month-to-Month,Fiber Optic,UPI,1179.41,50714.63,7,5,No,0,25-48 Months
+CUST0679,Female,54,39,One Year,No Internet,Credit Card,2248.45,87689.55,3,2,Yes,1,25-48 Months
+CUST0680,Female,22,59,One Year,DSL,Bank Transfer,501.59,29593.81,5,4,No,0,49-72 Months
+CUST0681,Female,50,44,Two Year,Fiber Optic,UPI,2768.99,121835.56,7,2,Yes,1,25-48 Months
+CUST0682,Male,66,9,Month-to-Month,DSL,Bank Transfer,355.74,3201.66,3,4,Yes,1,0-12 Months
+CUST0683,Male,68,37,Two Year,DSL,Debit Card,2898.35,107238.95,2,2,No,0,25-48 Months
+CUST0684,Female,31,36,One Year,Fiber Optic,Credit Card,1548.36,55740.96,3,5,No,0,25-48 Months
+CUST0685,Male,29,28,Two Year,Fiber Optic,Credit Card,1414.21,39597.88,2,2,No,0,25-48 Months
+CUST0686,Female,59,42,Two Year,DSL,Bank Transfer,992.4,41680.8,0,5,No,0,25-48 Months
+CUST0687,Female,37,43,Month-to-Month,Fiber Optic,UPI,327.19,14069.17,2,5,Yes,1,25-48 Months
+CUST0688,Male,67,42,Month-to-Month,DSL,Bank Transfer,1041.93,43761.06,2,1,Yes,1,25-48 Months
+CUST0689,Male,41,66,Month-to-Month,DSL,Debit Card,595.38,39295.08,3,5,Yes,1,49-72 Months
+CUST0690,Female,60,55,Month-to-Month,Fiber Optic,UPI,2081.52,114483.6,5,0,No,0,49-72 Months
+CUST0691,Female,51,72,Month-to-Month,Fiber Optic,UPI,1161.5,83628.0,0,2,No,0,49-72 Months
+CUST0692,Female,42,48,Month-to-Month,Fiber Optic,Bank Transfer,2371.38,113826.24,4,3,No,0,25-48 Months
+CUST0693,Male,67,22,Month-to-Month,Fiber Optic,Debit Card,858.67,18890.74,4,3,Yes,1,13-24 Months
+CUST0694,Female,46,27,Month-to-Month,DSL,UPI,2730.63,73727.01,5,3,Yes,1,25-48 Months
+CUST0695,Female,56,67,Month-to-Month,Fiber Optic,Credit Card,1712.05,114707.35,4,0,No,0,49-72 Months
+CUST0696,Female,48,13,Month-to-Month,DSL,Debit Card,609.17,7919.21,0,5,Yes,1,13-24 Months
+CUST0697,Male,64,45,Month-to-Month,Fiber Optic,UPI,1382.28,62202.6,1,2,No,0,25-48 Months
+CUST0698,Female,60,10,Month-to-Month,Fiber Optic,Bank Transfer,858.25,8582.5,0,4,No,0,0-12 Months
+CUST0699,Female,67,9,Month-to-Month,Fiber Optic,UPI,839.15,7552.35,3,4,Yes,1,0-12 Months
+CUST0700,Male,40,54,Month-to-Month,Fiber Optic,Credit Card,1667.2,90028.8,7,1,Yes,1,49-72 Months
+CUST0701,Female,61,27,Two Year,Fiber Optic,Debit Card,2114.11,57080.97,6,0,Yes,1,25-48 Months
+CUST0702,Female,55,34,Month-to-Month,Fiber Optic,UPI,2761.37,93886.58,2,2,No,0,25-48 Months
+CUST0703,Male,37,1,Month-to-Month,No Internet,Credit Card,1655.84,1655.84,2,5,Yes,1,0-12 Months
+CUST0704,Female,40,32,Month-to-Month,DSL,UPI,2907.76,93048.32,7,3,Yes,1,25-48 Months
+CUST0705,Male,62,71,Two Year,Fiber Optic,UPI,2842.41,201811.11,3,0,No,0,49-72 Months
+CUST0706,Male,69,67,Two Year,Fiber Optic,Debit Card,2635.67,176589.89,3,0,Yes,1,49-72 Months
+CUST0707,Female,33,20,Two Year,Fiber Optic,Bank Transfer,1649.94,32998.8,6,2,Yes,1,13-24 Months
+CUST0708,Female,67,35,One Year,Fiber Optic,Bank Transfer,680.44,23815.4,6,5,No,0,25-48 Months
+CUST0709,Female,59,17,Month-to-Month,Fiber Optic,Credit Card,888.34,15101.78,2,1,Yes,1,13-24 Months
+CUST0710,Female,25,18,Month-to-Month,Fiber Optic,Credit Card,2048.71,36876.78,6,5,No,0,13-24 Months
+CUST0711,Male,67,45,Month-to-Month,Fiber Optic,Credit Card,1438.74,64743.3,6,1,Yes,1,25-48 Months
+CUST0712,Female,38,53,Two Year,Fiber Optic,Debit Card,696.36,36907.08,6,1,No,0,49-72 Months
+CUST0713,Male,18,68,One Year,Fiber Optic,Bank Transfer,1593.28,108343.04,7,3,No,0,49-72 Months
+CUST0714,Female,25,65,One Year,Fiber Optic,Credit Card,347.06,22558.9,5,3,Yes,1,49-72 Months
+CUST0715,Female,46,1,Month-to-Month,DSL,Credit Card,2281.52,2281.52,1,2,No,0,0-12 Months
+CUST0716,Female,49,58,Two Year,Fiber Optic,UPI,498.67,28922.86,6,5,No,0,49-72 Months
+CUST0717,Male,55,26,Month-to-Month,Fiber Optic,UPI,1998.61,51963.86,1,1,No,0,25-48 Months
+CUST0718,Female,22,20,Month-to-Month,DSL,Credit Card,2441.13,48822.6,1,2,No,0,13-24 Months
+CUST0719,Female,64,10,Month-to-Month,No Internet,UPI,658.14,6581.4,3,1,No,0,0-12 Months
+CUST0720,Female,39,59,One Year,No Internet,UPI,1700.32,100318.88,6,0,No,0,49-72 Months
+CUST0721,Female,64,41,Month-to-Month,DSL,UPI,2403.48,98542.68,2,4,No,0,25-48 Months
+CUST0722,Male,51,5,Two Year,Fiber Optic,Debit Card,1003.71,5018.55,5,4,No,0,0-12 Months
+CUST0723,Female,18,65,Month-to-Month,DSL,Credit Card,739.87,48091.55,2,1,No,0,49-72 Months
+CUST0724,Male,43,17,One Year,DSL,Credit Card,1209.41,20559.97,6,2,No,0,13-24 Months
+CUST0725,Male,60,22,Month-to-Month,Fiber Optic,UPI,1797.69,39549.18,2,3,No,0,13-24 Months
+CUST0726,Male,27,41,Month-to-Month,DSL,Debit Card,1853.25,75983.25,6,5,No,0,25-48 Months
+CUST0727,Male,47,68,Two Year,No Internet,UPI,653.37,44429.16,5,1,No,0,49-72 Months
+CUST0728,Male,67,69,One Year,Fiber Optic,Debit Card,1535.44,105945.36,0,1,No,0,49-72 Months
+CUST0729,Male,35,11,One Year,Fiber Optic,Credit Card,1024.36,11267.96,5,5,Yes,1,0-12 Months
+CUST0730,Female,34,56,Two Year,Fiber Optic,UPI,2573.47,144114.32,7,3,No,0,49-72 Months
+CUST0731,Male,43,51,One Year,Fiber Optic,Credit Card,1146.65,58479.15,0,1,No,0,49-72 Months
+CUST0732,Male,25,21,Month-to-Month,Fiber Optic,Debit Card,2564.5,53854.5,4,0,Yes,1,13-24 Months
+CUST0733,Male,64,26,One Year,DSL,Bank Transfer,1457.12,37885.12,0,3,No,0,25-48 Months
+CUST0734,Female,57,19,Month-to-Month,DSL,Debit Card,2261.78,42973.82,1,0,Yes,1,13-24 Months
+CUST0735,Female,66,60,Month-to-Month,Fiber Optic,Bank Transfer,1677.16,100629.6,7,4,No,0,49-72 Months
+CUST0736,Male,29,71,Month-to-Month,No Internet,Credit Card,1979.3,140530.3,1,5,No,0,49-72 Months
+CUST0737,Female,44,47,One Year,Fiber Optic,Credit Card,1367.46,64270.62,7,3,Yes,1,25-48 Months
+CUST0738,Male,25,71,One Year,Fiber Optic,UPI,2374.16,168565.36,5,3,Yes,1,49-72 Months
+CUST0739,Male,42,26,Month-to-Month,DSL,Bank Transfer,1448.01,37648.26,1,2,No,0,25-48 Months
+CUST0740,Female,63,40,One Year,DSL,Debit Card,1535.15,61406.0,1,2,No,0,25-48 Months
+CUST0741,Male,21,5,Two Year,DSL,Credit Card,1697.73,8488.65,4,5,No,0,0-12 Months
+CUST0742,Female,50,21,Month-to-Month,No Internet,Bank Transfer,2545.93,53464.53,1,3,No,0,13-24 Months
+CUST0743,Female,18,4,Month-to-Month,DSL,Debit Card,2080.32,8321.28,3,4,Yes,1,0-12 Months
+CUST0744,Male,36,23,One Year,No Internet,Bank Transfer,1242.73,28582.79,3,1,No,0,13-24 Months
+CUST0745,Male,48,15,Month-to-Month,Fiber Optic,Debit Card,2109.86,31647.9,3,5,No,0,13-24 Months
+CUST0746,Female,33,8,One Year,DSL,Debit Card,2034.55,16276.4,0,5,No,0,0-12 Months
+CUST0747,Male,31,41,Month-to-Month,No Internet,Debit Card,2813.75,115363.75,5,2,Yes,1,25-48 Months
+CUST0748,Male,65,19,Month-to-Month,DSL,Debit Card,2571.82,48864.58,5,4,Yes,1,13-24 Months
+CUST0749,Male,22,46,One Year,Fiber Optic,Bank Transfer,2048.11,94213.06,2,5,No,0,25-48 Months
+CUST0750,Female,58,28,One Year,DSL,Bank Transfer,1222.07,34217.96,4,4,No,0,25-48 Months
+CUST0751,Female,43,68,Two Year,DSL,UPI,2404.86,163530.48,3,5,No,0,49-72 Months
+CUST0752,Male,45,15,Two Year,Fiber Optic,Bank Transfer,1853.06,27795.9,3,2,No,0,13-24 Months
+CUST0753,Female,19,37,One Year,No Internet,Bank Transfer,2960.23,109528.51,1,1,No,0,25-48 Months
+CUST0754,Female,67,1,One Year,Fiber Optic,UPI,968.27,968.27,3,2,No,0,0-12 Months
+CUST0755,Female,23,67,Month-to-Month,Fiber Optic,Bank Transfer,515.07,34509.69,1,5,No,0,49-72 Months
+CUST0756,Female,26,24,Month-to-Month,No Internet,Debit Card,488.71,11729.04,1,4,No,0,13-24 Months
+CUST0757,Female,50,27,Month-to-Month,Fiber Optic,Credit Card,2028.08,54758.16,2,0,No,0,25-48 Months
+CUST0758,Male,58,40,Two Year,Fiber Optic,Credit Card,2836.0,113440.0,0,2,No,0,25-48 Months
+CUST0759,Male,42,63,Month-to-Month,DSL,UPI,305.22,19228.86,1,4,No,0,49-72 Months
+CUST0760,Male,65,61,One Year,DSL,Bank Transfer,2259.58,137834.38,1,2,No,0,49-72 Months
+CUST0761,Female,30,36,Month-to-Month,Fiber Optic,Bank Transfer,2074.08,74666.88,5,5,No,0,25-48 Months
+CUST0762,Female,26,24,One Year,No Internet,UPI,2277.22,54653.28,2,4,No,0,13-24 Months
+CUST0763,Male,30,24,Two Year,DSL,Credit Card,1259.59,30230.16,1,1,No,0,13-24 Months
+CUST0764,Female,48,4,Month-to-Month,DSL,Debit Card,2515.34,10061.36,4,4,No,0,0-12 Months
+CUST0765,Male,58,67,Two Year,DSL,Bank Transfer,420.71,28187.57,0,3,No,0,49-72 Months
+CUST0766,Male,28,34,Month-to-Month,DSL,UPI,2339.66,79548.44,7,0,No,0,25-48 Months
+CUST0767,Male,21,57,Month-to-Month,Fiber Optic,Debit Card,1021.09,58202.13,4,5,Yes,1,49-72 Months
+CUST0768,Female,51,49,Two Year,Fiber Optic,UPI,1587.46,77785.54,3,4,No,0,49-72 Months
+CUST0769,Female,55,53,Month-to-Month,DSL,UPI,2521.12,133619.36,0,5,Yes,1,49-72 Months
+CUST0770,Male,63,23,Two Year,DSL,UPI,1032.67,23751.41,3,2,No,0,13-24 Months
+CUST0771,Male,21,69,Month-to-Month,Fiber Optic,Credit Card,800.06,55204.14,5,2,No,0,49-72 Months
+CUST0772,Male,55,53,Month-to-Month,DSL,Credit Card,2139.55,113396.15,6,4,Yes,1,49-72 Months
+CUST0773,Male,36,62,Two Year,DSL,UPI,1740.17,107890.54,6,3,No,0,49-72 Months
+CUST0774,Female,23,41,Month-to-Month,Fiber Optic,Bank Transfer,1688.89,69244.49,6,4,Yes,1,25-48 Months
+CUST0775,Female,51,57,Two Year,Fiber Optic,Debit Card,993.28,56616.96,1,1,No,0,49-72 Months
+CUST0776,Male,35,60,Two Year,Fiber Optic,Bank Transfer,394.18,23650.8,2,3,No,0,49-72 Months
+CUST0777,Male,30,54,Month-to-Month,DSL,Credit Card,1407.73,76017.42,4,5,Yes,1,49-72 Months
+CUST0778,Female,58,70,Month-to-Month,Fiber Optic,Debit Card,587.71,41139.7,3,4,No,0,49-72 Months
+CUST0779,Female,40,57,Month-to-Month,Fiber Optic,UPI,2746.17,156531.69,1,5,Yes,1,49-72 Months
+CUST0780,Male,36,10,Month-to-Month,DSL,Bank Transfer,411.38,4113.8,6,0,No,0,0-12 Months
+CUST0781,Male,62,40,Month-to-Month,DSL,Bank Transfer,1465.46,58618.4,4,3,Yes,1,25-48 Months
+CUST0782,Male,28,7,Month-to-Month,Fiber Optic,UPI,441.06,3087.42,4,4,No,0,0-12 Months
+CUST0783,Female,18,38,Month-to-Month,Fiber Optic,Bank Transfer,557.97,21202.86,5,0,Yes,1,25-48 Months
+CUST0784,Female,41,61,Month-to-Month,DSL,Credit Card,2078.94,126815.34,5,4,No,0,49-72 Months
+CUST0785,Female,24,3,Two Year,No Internet,UPI,2047.2,6141.6,6,1,No,0,0-12 Months
+CUST0786,Male,42,51,Two Year,No Internet,Bank Transfer,389.24,19851.24,3,2,No,0,49-72 Months
+CUST0787,Male,38,47,One Year,DSL,UPI,303.05,14243.35,6,5,Yes,1,25-48 Months
+CUST0788,Female,32,68,Month-to-Month,Fiber Optic,Debit Card,512.81,34871.08,6,4,No,0,49-72 Months
+CUST0789,Female,18,38,Two Year,Fiber Optic,UPI,2360.1,89683.8,1,3,Yes,1,25-48 Months
+CUST0790,Male,29,36,Month-to-Month,Fiber Optic,Bank Transfer,1878.36,67620.96,2,4,Yes,1,25-48 Months
+CUST0791,Female,24,41,One Year,Fiber Optic,Credit Card,402.92,16519.72,6,4,No,0,25-48 Months
+CUST0792,Female,32,69,Two Year,DSL,UPI,1617.86,111632.34,3,4,No,0,49-72 Months
+CUST0793,Male,38,13,Month-to-Month,Fiber Optic,UPI,2222.48,28892.24,4,4,Yes,1,13-24 Months
+CUST0794,Female,36,58,One Year,Fiber Optic,Bank Transfer,2646.17,153477.86,4,3,No,0,49-72 Months
+CUST0795,Male,46,50,Two Year,No Internet,Credit Card,2821.9,141095.0,7,3,Yes,1,49-72 Months
+CUST0796,Male,42,30,Two Year,Fiber Optic,Credit Card,1184.09,35522.7,0,4,No,0,25-48 Months
+CUST0797,Male,50,62,One Year,Fiber Optic,Debit Card,666.75,41338.5,6,2,Yes,1,49-72 Months
+CUST0798,Male,66,25,Month-to-Month,Fiber Optic,Debit Card,939.7,23492.5,7,4,No,0,25-48 Months
+CUST0799,Male,49,27,Month-to-Month,DSL,Bank Transfer,2395.66,64682.82,7,5,Yes,1,25-48 Months
+CUST0800,Male,66,51,Month-to-Month,DSL,Credit Card,2923.01,149073.51,1,5,Yes,1,49-72 Months
+CUST0801,Male,52,57,One Year,Fiber Optic,Credit Card,1559.26,88877.82,0,3,No,0,49-72 Months
+CUST0802,Female,61,47,Month-to-Month,DSL,Debit Card,1124.45,52849.15,5,5,No,0,25-48 Months
+CUST0803,Male,55,39,Two Year,DSL,Debit Card,1458.81,56893.59,2,5,No,0,25-48 Months
+CUST0804,Male,43,16,Month-to-Month,DSL,Bank Transfer,1123.0,17968.0,3,1,No,0,13-24 Months
+CUST0805,Female,28,22,Month-to-Month,No Internet,Credit Card,992.52,21835.44,6,4,No,0,13-24 Months
+CUST0806,Female,52,54,Month-to-Month,DSL,UPI,1903.13,102769.02,4,4,No,0,49-72 Months
+CUST0807,Female,25,21,One Year,DSL,Debit Card,342.49,7192.29,1,4,No,0,13-24 Months
+CUST0808,Male,63,72,Month-to-Month,Fiber Optic,Bank Transfer,1000.79,72056.88,4,4,Yes,1,49-72 Months
+CUST0809,Female,31,16,Month-to-Month,Fiber Optic,Credit Card,2085.73,33371.68,6,0,Yes,1,13-24 Months
+CUST0810,Male,27,59,Month-to-Month,Fiber Optic,Credit Card,386.57,22807.63,5,4,No,0,49-72 Months
+CUST0811,Male,19,31,Month-to-Month,DSL,Debit Card,524.64,16263.84,0,3,No,0,25-48 Months
+CUST0812,Male,63,42,Month-to-Month,DSL,Bank Transfer,1092.17,45871.14,6,3,Yes,1,25-48 Months
+CUST0813,Male,26,32,Two Year,DSL,UPI,2670.07,85442.24,0,0,Yes,1,25-48 Months
+CUST0814,Female,20,59,Month-to-Month,Fiber Optic,Debit Card,2365.19,139546.21,3,4,No,0,49-72 Months
+CUST0815,Female,38,34,Month-to-Month,DSL,Bank Transfer,359.82,12233.88,1,2,No,0,25-48 Months
+CUST0816,Male,43,9,Two Year,No Internet,Credit Card,1654.62,14891.58,5,4,No,0,0-12 Months
+CUST0817,Male,25,11,Two Year,DSL,UPI,1041.66,11458.26,1,3,No,0,0-12 Months
+CUST0818,Male,65,10,One Year,DSL,Bank Transfer,2051.34,20513.4,3,1,No,0,0-12 Months
+CUST0819,Female,19,17,Month-to-Month,DSL,UPI,2248.2,38219.4,5,5,Yes,1,13-24 Months
+CUST0820,Male,23,68,Two Year,No Internet,Bank Transfer,2629.73,178821.64,7,1,Yes,1,49-72 Months
+CUST0821,Male,45,48,Two Year,DSL,Bank Transfer,1583.62,76013.76,5,2,Yes,1,25-48 Months
+CUST0822,Female,46,52,One Year,DSL,Bank Transfer,2985.02,155221.04,0,4,No,0,49-72 Months
+CUST0823,Female,43,25,Month-to-Month,Fiber Optic,Bank Transfer,2945.96,73649.0,0,0,Yes,1,25-48 Months
+CUST0824,Male,42,21,One Year,Fiber Optic,UPI,2681.85,56318.85,0,4,No,0,13-24 Months
+CUST0825,Female,29,65,One Year,DSL,Debit Card,1852.15,120389.75,4,2,No,0,49-72 Months
+CUST0826,Female,22,63,Month-to-Month,Fiber Optic,UPI,1374.62,86601.06,7,2,Yes,1,49-72 Months
+CUST0827,Male,51,51,Month-to-Month,No Internet,Bank Transfer,1283.84,65475.84,2,5,No,0,49-72 Months
+CUST0828,Female,65,36,Two Year,Fiber Optic,UPI,332.74,11978.64,6,2,Yes,1,25-48 Months
+CUST0829,Male,54,66,One Year,No Internet,UPI,972.77,64202.82,0,1,No,0,49-72 Months
+CUST0830,Female,32,15,Month-to-Month,Fiber Optic,UPI,2240.78,33611.7,2,5,No,0,13-24 Months
+CUST0831,Male,61,39,One Year,Fiber Optic,Bank Transfer,1929.81,75262.59,2,4,Yes,1,25-48 Months
+CUST0832,Male,53,70,Month-to-Month,No Internet,UPI,2774.34,194203.8,1,4,No,0,49-72 Months
+CUST0833,Male,32,1,Month-to-Month,Fiber Optic,Credit Card,435.06,435.06,3,0,No,0,0-12 Months
+CUST0834,Female,60,23,One Year,Fiber Optic,Bank Transfer,719.25,16542.75,4,2,No,0,13-24 Months
+CUST0835,Male,65,39,Month-to-Month,Fiber Optic,UPI,2430.96,94807.44,2,2,No,0,25-48 Months
+CUST0836,Female,40,57,Month-to-Month,DSL,Credit Card,1267.97,72274.29,6,3,Yes,1,49-72 Months
+CUST0837,Male,23,34,Two Year,Fiber Optic,UPI,619.53,21064.02,4,5,No,0,25-48 Months
+CUST0838,Male,63,41,Month-to-Month,DSL,Debit Card,2990.42,122607.22,1,3,Yes,1,25-48 Months
+CUST0839,Female,67,13,Month-to-Month,DSL,UPI,2425.58,31532.54,0,5,Yes,1,13-24 Months
+CUST0840,Male,61,70,Two Year,DSL,UPI,1403.6,98252.0,5,1,Yes,1,49-72 Months
+CUST0841,Male,60,6,One Year,DSL,Debit Card,2523.04,15138.24,2,5,Yes,1,0-12 Months
+CUST0842,Female,62,52,One Year,DSL,Bank Transfer,2137.63,111156.76,3,4,No,0,49-72 Months
+CUST0843,Male,38,3,Two Year,Fiber Optic,Debit Card,2432.93,7298.79,5,0,Yes,1,0-12 Months
+CUST0844,Male,40,63,Month-to-Month,DSL,Bank Transfer,2501.06,157566.78,1,5,No,0,49-72 Months
+CUST0845,Male,60,49,One Year,Fiber Optic,Debit Card,528.77,25909.73,4,5,No,0,49-72 Months
+CUST0846,Male,33,47,Month-to-Month,DSL,UPI,1982.03,93155.41,6,5,Yes,1,25-48 Months
+CUST0847,Female,64,55,Two Year,Fiber Optic,UPI,318.32,17507.6,7,0,No,0,49-72 Months
+CUST0848,Female,32,64,Month-to-Month,No Internet,Bank Transfer,417.33,26709.12,0,2,No,0,49-72 Months
+CUST0849,Male,42,65,One Year,Fiber Optic,Bank Transfer,2740.75,178148.75,4,0,No,0,49-72 Months
+CUST0850,Female,53,67,Month-to-Month,Fiber Optic,Credit Card,1724.42,115536.14,3,2,No,0,49-72 Months
+CUST0851,Male,28,15,Month-to-Month,DSL,Credit Card,2286.94,34304.1,2,4,Yes,1,13-24 Months
+CUST0852,Female,68,32,One Year,DSL,UPI,2563.95,82046.4,3,0,No,0,25-48 Months
+CUST0853,Male,32,68,One Year,Fiber Optic,UPI,2863.88,194743.84,4,2,No,0,49-72 Months
+CUST0854,Male,21,18,One Year,DSL,Credit Card,2647.25,47650.5,4,4,Yes,1,13-24 Months
+CUST0855,Male,38,43,Month-to-Month,DSL,Credit Card,1604.94,69012.42,5,4,Yes,1,25-48 Months
+CUST0856,Male,30,35,Month-to-Month,No Internet,Bank Transfer,1207.12,42249.2,3,2,Yes,1,25-48 Months
+CUST0857,Male,39,58,One Year,DSL,Debit Card,717.13,41593.54,3,2,No,0,49-72 Months
+CUST0858,Male,36,33,Two Year,Fiber Optic,Bank Transfer,1380.87,45568.71,3,1,No,0,25-48 Months
+CUST0859,Female,51,14,One Year,Fiber Optic,Credit Card,1289.53,18053.42,0,4,No,0,13-24 Months
+CUST0860,Male,31,34,Two Year,No Internet,UPI,1810.85,61568.9,6,2,No,0,25-48 Months
+CUST0861,Female,21,61,Two Year,DSL,Credit Card,2096.88,127909.68,4,4,No,0,49-72 Months
+CUST0862,Male,65,4,One Year,Fiber Optic,UPI,2941.48,11765.92,1,0,No,0,0-12 Months
+CUST0863,Female,69,59,One Year,Fiber Optic,UPI,2266.64,133731.76,0,3,No,0,49-72 Months
+CUST0864,Female,63,29,Two Year,DSL,UPI,2038.12,59105.48,0,3,No,0,25-48 Months
+CUST0865,Female,44,6,One Year,Fiber Optic,UPI,1204.75,7228.5,0,5,No,0,0-12 Months
+CUST0866,Male,46,49,Two Year,Fiber Optic,Debit Card,393.16,19264.84,5,2,No,0,49-72 Months
+CUST0867,Male,64,40,One Year,Fiber Optic,Credit Card,1077.94,43117.6,7,2,No,0,25-48 Months
+CUST0868,Female,45,65,One Year,Fiber Optic,Bank Transfer,2374.81,154362.65,6,4,No,0,49-72 Months
+CUST0869,Male,52,69,Month-to-Month,Fiber Optic,UPI,854.23,58941.87,6,5,Yes,1,49-72 Months
+CUST0870,Female,25,27,Month-to-Month,DSL,UPI,2222.91,60018.57,1,2,Yes,1,25-48 Months
+CUST0871,Male,33,6,Two Year,Fiber Optic,Bank Transfer,1865.41,11192.46,7,4,No,0,0-12 Months
+CUST0872,Female,59,13,One Year,Fiber Optic,Bank Transfer,764.01,9932.13,3,2,No,0,13-24 Months
+CUST0873,Female,53,64,One Year,Fiber Optic,UPI,1006.39,64408.96,5,4,No,0,49-72 Months
+CUST0874,Male,47,62,Two Year,Fiber Optic,Bank Transfer,1640.02,101681.24,4,2,No,0,49-72 Months
+CUST0875,Female,35,19,One Year,Fiber Optic,Bank Transfer,1429.61,27162.59,7,1,Yes,1,13-24 Months
+CUST0876,Male,19,43,Month-to-Month,Fiber Optic,Debit Card,2402.12,103291.16,2,4,Yes,1,25-48 Months
+CUST0877,Female,66,20,One Year,DSL,Bank Transfer,2282.89,45657.8,5,1,Yes,1,13-24 Months
+CUST0878,Female,30,68,One Year,Fiber Optic,Credit Card,1851.35,125891.8,2,1,No,0,49-72 Months
+CUST0879,Male,21,44,Month-to-Month,Fiber Optic,Credit Card,2520.14,110886.16,4,1,No,0,25-48 Months
+CUST0880,Male,43,23,Month-to-Month,Fiber Optic,Credit Card,1819.21,41841.83,1,1,No,0,13-24 Months
+CUST0881,Male,42,2,Month-to-Month,DSL,UPI,2903.85,5807.7,6,0,No,0,0-12 Months
+CUST0882,Female,47,22,Month-to-Month,No Internet,Credit Card,886.51,19503.22,2,5,No,0,13-24 Months
+CUST0883,Male,28,57,Month-to-Month,Fiber Optic,Debit Card,2228.16,127005.12,0,3,No,0,49-72 Months
+CUST0884,Female,24,72,Month-to-Month,No Internet,Credit Card,1298.85,93517.2,5,0,No,0,49-72 Months
+CUST0885,Female,48,7,Month-to-Month,Fiber Optic,UPI,1053.21,7372.47,7,2,No,0,0-12 Months
+CUST0886,Male,61,56,Month-to-Month,DSL,Debit Card,787.05,44074.8,7,2,No,0,49-72 Months
+CUST0887,Male,27,67,Month-to-Month,Fiber Optic,Credit Card,1791.76,120047.92,2,5,Yes,1,49-72 Months
+CUST0888,Female,56,16,One Year,DSL,Debit Card,881.77,14108.32,4,3,Yes,1,13-24 Months
+CUST0889,Female,30,51,Two Year,DSL,Debit Card,840.95,42888.45,6,3,Yes,1,49-72 Months
+CUST0890,Male,48,72,One Year,Fiber Optic,UPI,2974.44,214159.68,0,3,Yes,1,49-72 Months
+CUST0891,Male,24,12,Month-to-Month,DSL,UPI,2464.72,29576.64,7,1,No,0,0-12 Months
+CUST0892,Male,66,53,Month-to-Month,DSL,Debit Card,2320.35,122978.55,2,0,Yes,1,49-72 Months
+CUST0893,Male,59,5,Month-to-Month,Fiber Optic,Credit Card,2443.96,12219.8,6,2,No,0,0-12 Months
+CUST0894,Male,59,27,Month-to-Month,Fiber Optic,UPI,2916.09,78734.43,4,0,No,0,25-48 Months
+CUST0895,Female,53,12,Month-to-Month,Fiber Optic,Debit Card,1847.85,22174.2,1,0,No,0,0-12 Months
+CUST0896,Female,37,17,Month-to-Month,DSL,Bank Transfer,894.66,15209.22,4,0,No,0,13-24 Months
+CUST0897,Female,21,6,Month-to-Month,DSL,Bank Transfer,2627.97,15767.82,1,3,Yes,1,0-12 Months
+CUST0898,Female,24,5,Two Year,Fiber Optic,UPI,2305.37,11526.85,7,5,Yes,1,0-12 Months
+CUST0899,Male,18,57,Month-to-Month,DSL,Credit Card,1418.63,80861.91,6,5,Yes,1,49-72 Months
+CUST0900,Male,61,28,Month-to-Month,No Internet,Bank Transfer,1578.64,44201.92,6,3,No,0,25-48 Months
+CUST0901,Male,62,69,Two Year,DSL,Bank Transfer,1410.38,97316.22,0,2,No,0,49-72 Months
+CUST0902,Female,59,59,Month-to-Month,DSL,Bank Transfer,2810.84,165839.56,4,2,No,0,49-72 Months
+CUST0903,Female,64,33,Month-to-Month,DSL,Credit Card,1227.54,40508.82,3,2,No,0,25-48 Months
+CUST0904,Male,30,62,One Year,Fiber Optic,Credit Card,2901.41,179887.42,7,5,No,0,49-72 Months
+CUST0905,Male,39,50,One Year,Fiber Optic,UPI,2757.73,137886.5,5,5,Yes,1,49-72 Months
+CUST0906,Female,38,19,One Year,DSL,UPI,2002.41,38045.79,3,0,Yes,1,13-24 Months
+CUST0907,Female,39,69,Month-to-Month,Fiber Optic,Bank Transfer,1865.52,128720.88,7,3,No,0,49-72 Months
+CUST0908,Male,45,66,Month-to-Month,No Internet,Credit Card,1299.24,85749.84,3,1,No,0,49-72 Months
+CUST0909,Male,26,47,Month-to-Month,Fiber Optic,Debit Card,349.51,16426.97,3,0,No,0,25-48 Months
+CUST0910,Female,43,39,Month-to-Month,Fiber Optic,Bank Transfer,644.58,25138.62,5,4,Yes,1,25-48 Months
+CUST0911,Male,26,68,Two Year,No Internet,UPI,2336.42,158876.56,3,5,No,0,49-72 Months
+CUST0912,Male,32,33,One Year,DSL,Credit Card,1573.16,51914.28,1,0,No,0,25-48 Months
+CUST0913,Male,27,13,Month-to-Month,Fiber Optic,UPI,704.56,9159.28,4,3,No,0,13-24 Months
+CUST0914,Female,41,54,One Year,DSL,UPI,1012.69,54685.26,6,4,No,0,49-72 Months
+CUST0915,Female,59,7,Month-to-Month,DSL,Credit Card,2859.16,20014.12,0,0,No,0,0-12 Months
+CUST0916,Female,25,14,Two Year,DSL,Bank Transfer,1291.26,18077.64,3,3,No,0,13-24 Months
+CUST0917,Female,41,19,Month-to-Month,Fiber Optic,Credit Card,2750.74,52264.06,6,3,No,0,13-24 Months
+CUST0918,Female,33,54,Month-to-Month,DSL,Bank Transfer,1122.52,60616.08,3,5,Yes,1,49-72 Months
+CUST0919,Female,66,20,Month-to-Month,No Internet,UPI,1766.69,35333.8,7,1,Yes,1,13-24 Months
+CUST0920,Female,43,29,One Year,Fiber Optic,Credit Card,355.29,10303.41,0,0,No,0,25-48 Months
+CUST0921,Male,44,24,One Year,No Internet,Debit Card,1709.06,41017.44,7,3,No,0,13-24 Months
+CUST0922,Male,54,63,Month-to-Month,No Internet,Bank Transfer,2019.74,127243.62,0,2,No,0,49-72 Months
+CUST0923,Male,21,57,Month-to-Month,DSL,Debit Card,932.62,53159.34,3,3,No,0,49-72 Months
+CUST0924,Male,67,8,Month-to-Month,DSL,Bank Transfer,1863.13,14905.04,1,1,No,0,0-12 Months
+CUST0925,Male,41,62,Month-to-Month,Fiber Optic,Credit Card,2047.35,126935.7,6,3,Yes,1,49-72 Months
+CUST0926,Male,36,29,Two Year,Fiber Optic,Debit Card,2154.59,62483.11,0,5,No,0,25-48 Months
+CUST0927,Male,53,17,Month-to-Month,DSL,Credit Card,2396.29,40736.93,4,0,Yes,1,13-24 Months
+CUST0928,Female,56,66,Month-to-Month,No Internet,Bank Transfer,1140.62,75280.92,6,5,No,0,49-72 Months
+CUST0929,Female,27,6,One Year,DSL,Bank Transfer,1833.0,10998.0,4,0,Yes,1,0-12 Months
+CUST0930,Male,42,58,Month-to-Month,DSL,Bank Transfer,2950.26,171115.08,6,4,Yes,1,49-72 Months
+CUST0931,Male,35,69,One Year,Fiber Optic,Bank Transfer,2724.99,188024.31,1,0,No,0,49-72 Months
+CUST0932,Female,36,28,Two Year,Fiber Optic,UPI,2872.2,80421.6,7,4,Yes,1,25-48 Months
+CUST0933,Male,53,62,Month-to-Month,Fiber Optic,Bank Transfer,1342.57,83239.34,5,5,Yes,1,49-72 Months
+CUST0934,Male,27,41,Two Year,Fiber Optic,Debit Card,2424.71,99413.11,7,2,Yes,1,25-48 Months
+CUST0935,Female,50,69,One Year,DSL,Bank Transfer,1973.72,136186.68,2,1,No,0,49-72 Months
+CUST0936,Male,67,41,Month-to-Month,Fiber Optic,Credit Card,523.38,21458.58,1,2,Yes,1,25-48 Months
+CUST0937,Female,22,49,Month-to-Month,DSL,UPI,2524.75,123712.75,3,4,No,0,49-72 Months
+CUST0938,Male,64,49,Month-to-Month,Fiber Optic,Debit Card,2128.17,104280.33,2,3,No,0,49-72 Months
+CUST0939,Female,66,71,One Year,DSL,UPI,837.08,59432.68,3,3,No,0,49-72 Months
+CUST0940,Female,52,3,One Year,DSL,UPI,515.29,1545.87,4,2,No,0,0-12 Months
+CUST0941,Female,61,10,Two Year,Fiber Optic,UPI,2559.96,25599.6,0,3,No,0,0-12 Months
+CUST0942,Male,51,35,Two Year,Fiber Optic,Credit Card,513.03,17956.05,6,4,No,0,25-48 Months
+CUST0943,Female,50,2,One Year,Fiber Optic,UPI,546.66,1093.32,3,5,No,0,0-12 Months
+CUST0944,Male,38,24,One Year,No Internet,UPI,1454.0,34896.0,4,1,No,0,13-24 Months
+CUST0945,Male,34,38,Month-to-Month,Fiber Optic,Bank Transfer,663.95,25230.1,1,0,No,0,25-48 Months
+CUST0946,Male,39,22,Month-to-Month,DSL,Credit Card,2766.91,60872.02,3,4,Yes,1,13-24 Months
+CUST0947,Male,65,26,Month-to-Month,No Internet,Debit Card,1569.77,40814.02,7,4,No,0,25-48 Months
+CUST0948,Female,54,43,One Year,DSL,Debit Card,1836.71,78978.53,4,0,No,0,25-48 Months
+CUST0949,Female,32,55,Month-to-Month,Fiber Optic,Debit Card,2805.89,154323.95,0,0,Yes,1,49-72 Months
+CUST0950,Male,52,39,Month-to-Month,No Internet,Credit Card,1731.71,67536.69,6,1,No,0,25-48 Months
+CUST0951,Male,45,29,Month-to-Month,Fiber Optic,Debit Card,1254.7,36386.3,3,1,Yes,1,25-48 Months
+CUST0952,Female,24,20,Month-to-Month,Fiber Optic,Credit Card,2452.32,49046.4,5,1,Yes,1,13-24 Months
+CUST0953,Male,49,41,One Year,No Internet,Bank Transfer,1495.7,61323.7,4,3,Yes,1,25-48 Months
+CUST0954,Female,28,54,Month-to-Month,DSL,Bank Transfer,1159.87,62632.98,3,4,No,0,49-72 Months
+CUST0955,Male,27,20,One Year,Fiber Optic,Credit Card,2252.72,45054.4,0,5,No,0,13-24 Months
+CUST0956,Male,26,19,Month-to-Month,Fiber Optic,Debit Card,2464.34,46822.46,6,0,No,0,13-24 Months
+CUST0957,Female,31,66,One Year,Fiber Optic,Credit Card,2437.63,160883.58,3,4,Yes,1,49-72 Months
+CUST0958,Male,30,30,Month-to-Month,DSL,Credit Card,2939.72,88191.6,3,4,No,0,25-48 Months
+CUST0959,Female,42,53,Month-to-Month,Fiber Optic,UPI,2424.0,128472.0,6,1,No,0,49-72 Months
+CUST0960,Male,19,34,One Year,No Internet,Credit Card,2378.82,80879.88,5,1,Yes,1,25-48 Months
+CUST0961,Male,52,22,Month-to-Month,No Internet,UPI,2615.21,57534.62,4,4,No,0,13-24 Months
+CUST0962,Male,24,67,Month-to-Month,No Internet,Bank Transfer,300.5,20133.5,2,1,Yes,1,49-72 Months
+CUST0963,Female,38,6,Month-to-Month,Fiber Optic,UPI,1278.56,7671.36,7,3,Yes,1,0-12 Months
+CUST0964,Male,35,27,Month-to-Month,DSL,Credit Card,2291.53,61871.31,6,0,Yes,1,25-48 Months
+CUST0965,Male,20,10,Month-to-Month,No Internet,Bank Transfer,1919.24,19192.4,3,4,No,0,0-12 Months
+CUST0966,Male,59,48,Month-to-Month,No Internet,UPI,779.44,37413.12,2,0,Yes,1,25-48 Months
+CUST0967,Male,56,70,One Year,Fiber Optic,Credit Card,1120.08,78405.6,1,3,Yes,1,49-72 Months
+CUST0968,Female,58,59,Two Year,Fiber Optic,Bank Transfer,1209.34,71351.06,3,1,No,0,49-72 Months
+CUST0969,Female,66,59,Month-to-Month,Fiber Optic,UPI,1833.14,108155.26,2,2,Yes,1,49-72 Months
+CUST0970,Male,28,2,Two Year,DSL,Credit Card,2545.32,5090.64,1,3,Yes,1,0-12 Months
+CUST0971,Female,56,29,Month-to-Month,DSL,Credit Card,2817.73,81714.17,5,2,Yes,1,25-48 Months
+CUST0972,Male,41,68,One Year,DSL,Debit Card,2325.25,158117.0,4,0,No,0,49-72 Months
+CUST0973,Male,63,65,One Year,Fiber Optic,Debit Card,2575.97,167438.05,3,4,No,0,49-72 Months
+CUST0974,Male,36,26,One Year,Fiber Optic,UPI,1569.26,40800.76,4,1,No,0,25-48 Months
+CUST0975,Female,21,10,Month-to-Month,Fiber Optic,UPI,1352.39,13523.9,1,3,No,0,0-12 Months
+CUST0976,Female,43,53,Month-to-Month,Fiber Optic,UPI,1360.31,72096.43,4,1,Yes,1,49-72 Months
+CUST0977,Female,55,59,Month-to-Month,Fiber Optic,Credit Card,1963.3,115834.7,4,2,Yes,1,49-72 Months
+CUST0978,Female,59,22,Month-to-Month,DSL,UPI,635.44,13979.68,6,2,No,0,13-24 Months
+CUST0979,Female,49,51,Month-to-Month,DSL,Credit Card,1864.63,95096.13,0,5,Yes,1,49-72 Months
+CUST0980,Female,56,48,Month-to-Month,DSL,UPI,2095.86,100601.28,1,4,Yes,1,25-48 Months
+CUST0981,Female,62,21,Month-to-Month,Fiber Optic,Credit Card,1485.05,31186.05,4,2,Yes,1,13-24 Months
+CUST0982,Female,63,22,Month-to-Month,Fiber Optic,Credit Card,2873.55,63218.1,7,4,No,0,13-24 Months
+CUST0983,Female,53,30,One Year,Fiber Optic,Debit Card,1942.18,58265.4,2,5,No,0,25-48 Months
+CUST0984,Male,57,25,Two Year,No Internet,Bank Transfer,894.0,22350.0,1,3,No,0,25-48 Months
+CUST0985,Female,54,28,Two Year,Fiber Optic,Credit Card,1593.88,44628.64,0,5,No,0,25-48 Months
+CUST0986,Female,50,65,Month-to-Month,DSL,UPI,2123.59,138033.35,3,4,No,0,49-72 Months
+CUST0987,Female,53,45,One Year,Fiber Optic,Debit Card,1173.8,52821.0,5,2,No,0,25-48 Months
+CUST0988,Female,20,68,Two Year,No Internet,UPI,515.03,35022.04,4,0,No,0,49-72 Months
+CUST0989,Female,26,7,Month-to-Month,DSL,UPI,1875.28,13126.96,2,4,Yes,1,0-12 Months
+CUST0990,Female,25,49,Month-to-Month,Fiber Optic,Credit Card,2859.25,140103.25,0,1,Yes,1,49-72 Months
+CUST0991,Female,50,9,Two Year,DSL,Credit Card,1609.69,14487.21,1,0,Yes,1,0-12 Months
+CUST0992,Female,23,36,Month-to-Month,Fiber Optic,Bank Transfer,2746.49,98873.64,5,4,Yes,1,25-48 Months
+CUST0993,Female,58,1,Month-to-Month,No Internet,Credit Card,2554.56,2554.56,5,1,Yes,1,0-12 Months
+CUST0994,Female,56,10,Month-to-Month,Fiber Optic,Credit Card,698.01,6980.1,7,5,Yes,1,0-12 Months
+CUST0995,Female,21,36,Month-to-Month,Fiber Optic,Bank Transfer,2212.06,79634.16,4,0,No,0,25-48 Months
+CUST0996,Male,30,46,Two Year,DSL,UPI,1475.76,67884.96,0,4,No,0,25-48 Months
+CUST0997,Male,66,32,One Year,DSL,Bank Transfer,975.67,31221.44,0,3,No,0,25-48 Months
+CUST0998,Female,19,32,Month-to-Month,Fiber Optic,Bank Transfer,2154.73,68951.36,2,5,Yes,1,25-48 Months
+CUST0999,Female,22,6,Month-to-Month,DSL,Bank Transfer,2305.18,13831.08,3,1,Yes,1,0-12 Months
+CUST1000,Male,61,48,One Year,Fiber Optic,Debit Card,785.72,37714.56,3,3,No,0,25-48 Months
+CUST1001,Female,44,38,One Year,Fiber Optic,UPI,2769.0,105222.0,6,2,Yes,1,25-48 Months
+CUST1002,Male,49,17,Month-to-Month,DSL,Debit Card,2328.1,39577.7,3,5,Yes,1,13-24 Months
+CUST1003,Male,38,27,Two Year,Fiber Optic,Debit Card,2820.11,76142.97,6,5,No,0,25-48 Months
+CUST1004,Male,25,54,Month-to-Month,Fiber Optic,Credit Card,1156.1,62429.4,5,4,No,0,49-72 Months
+CUST1005,Male,55,50,Month-to-Month,DSL,Bank Transfer,2836.2,141810.0,5,4,Yes,1,49-72 Months
+CUST1006,Male,25,35,One Year,Fiber Optic,Bank Transfer,1295.0,45325.0,7,1,Yes,1,25-48 Months
+CUST1007,Female,67,25,Month-to-Month,DSL,Debit Card,445.72,11143.0,1,5,No,0,25-48 Months
+CUST1008,Male,20,28,Two Year,Fiber Optic,Credit Card,2360.02,66080.56,5,4,Yes,1,25-48 Months
+CUST1009,Female,61,15,One Year,Fiber Optic,Credit Card,2199.47,32992.05,5,2,No,0,13-24 Months
+CUST1010,Female,20,4,One Year,Fiber Optic,Credit Card,1914.36,7657.44,0,4,Yes,1,0-12 Months
+CUST1011,Male,39,27,Month-to-Month,DSL,UPI,1622.71,43813.17,1,5,No,0,25-48 Months
+CUST1012,Male,23,26,Month-to-Month,DSL,Debit Card,386.85,10058.1,0,0,Yes,1,25-48 Months
+CUST1013,Female,19,19,Month-to-Month,Fiber Optic,UPI,1986.41,37741.79,2,3,Yes,1,13-24 Months
+CUST1014,Male,40,17,Month-to-Month,Fiber Optic,Credit Card,1425.45,24232.65,6,5,Yes,1,13-24 Months
+CUST1015,Male,61,43,One Year,No Internet,Credit Card,1812.57,77940.51,6,2,No,0,25-48 Months
+CUST1016,Female,19,41,Two Year,Fiber Optic,Credit Card,1459.17,59825.97,2,5,No,0,25-48 Months
+CUST1017,Female,55,42,One Year,No Internet,Bank Transfer,2908.35,122150.7,6,2,No,0,25-48 Months
+CUST1018,Male,34,50,Two Year,Fiber Optic,Debit Card,1931.09,96554.5,1,5,No,0,49-72 Months
+CUST1019,Female,52,40,One Year,DSL,Bank Transfer,2322.94,92917.6,1,3,No,0,25-48 Months
+CUST1020,Male,51,39,Month-to-Month,Fiber Optic,UPI,2828.14,110297.46,5,3,No,0,25-48 Months
+CUST1021,Male,40,23,Month-to-Month,No Internet,Bank Transfer,1897.32,43638.36,6,2,No,0,13-24 Months
+CUST1022,Male,47,52,One Year,DSL,Debit Card,332.57,17293.64,2,5,No,0,49-72 Months
+CUST1023,Female,69,47,Month-to-Month,Fiber Optic,Bank Transfer,392.59,18451.73,4,3,No,0,25-48 Months
+CUST1024,Female,25,63,Month-to-Month,Fiber Optic,Credit Card,2196.31,138367.53,3,1,Yes,1,49-72 Months
+CUST1025,Female,39,69,Month-to-Month,DSL,UPI,1053.53,72693.57,5,5,Yes,1,49-72 Months
+CUST1026,Female,61,43,Two Year,DSL,UPI,1864.33,80166.19,3,3,No,0,25-48 Months
+CUST1027,Female,53,48,Month-to-Month,Fiber Optic,Credit Card,846.15,40615.2,2,0,No,0,25-48 Months
+CUST1028,Male,22,34,One Year,Fiber Optic,Credit Card,1029.67,35008.78,6,0,No,0,25-48 Months
+CUST1029,Male,30,40,Two Year,DSL,Credit Card,1662.53,66501.2,6,1,No,0,25-48 Months
+CUST1030,Male,46,61,Month-to-Month,Fiber Optic,Debit Card,2934.04,178976.44,3,3,No,0,49-72 Months
+CUST1031,Male,48,50,Month-to-Month,DSL,Bank Transfer,1963.93,98196.5,4,0,No,0,49-72 Months
+CUST1032,Female,64,67,Month-to-Month,Fiber Optic,UPI,2827.6,189449.2,6,5,No,0,49-72 Months
+CUST1033,Male,33,62,One Year,No Internet,Bank Transfer,2890.33,179200.46,4,4,No,0,49-72 Months
+CUST1034,Female,59,58,One Year,No Internet,Credit Card,861.9,49990.2,0,3,No,0,49-72 Months
+CUST1035,Male,47,33,Two Year,No Internet,Credit Card,1140.22,37627.26,1,1,No,0,25-48 Months
+CUST1036,Female,33,16,One Year,Fiber Optic,Bank Transfer,2378.98,38063.68,3,3,No,0,13-24 Months
+CUST1037,Female,29,48,Month-to-Month,No Internet,UPI,2640.26,126732.48,6,2,No,0,25-48 Months
+CUST1038,Male,34,10,Month-to-Month,Fiber Optic,Debit Card,1701.91,17019.1,4,2,Yes,1,0-12 Months
+CUST1039,Male,33,38,One Year,DSL,Bank Transfer,2981.71,113304.98,7,0,Yes,1,25-48 Months
+CUST1040,Male,29,19,Month-to-Month,DSL,Credit Card,331.24,6293.56,7,2,No,0,13-24 Months
+CUST1041,Male,25,36,Month-to-Month,Fiber Optic,Credit Card,1108.9,39920.4,6,1,No,0,25-48 Months
+CUST1042,Female,37,59,Month-to-Month,No Internet,Debit Card,1982.54,116969.86,1,0,No,0,49-72 Months
+CUST1043,Male,20,63,Month-to-Month,Fiber Optic,Bank Transfer,1567.08,98726.04,1,1,Yes,1,49-72 Months
+CUST1044,Male,33,46,Month-to-Month,DSL,Debit Card,614.83,28282.18,0,5,No,0,25-48 Months
+CUST1045,Female,47,3,Month-to-Month,DSL,Debit Card,1293.03,3879.09,1,1,No,0,0-12 Months
+CUST1046,Male,62,65,Month-to-Month,DSL,UPI,368.71,23966.15,1,2,No,0,49-72 Months
+CUST1047,Male,40,8,Month-to-Month,Fiber Optic,UPI,2035.41,16283.28,5,5,No,0,0-12 Months
+CUST1048,Male,45,51,One Year,Fiber Optic,Credit Card,2710.4,138230.4,7,2,No,0,49-72 Months
+CUST1049,Male,68,6,Two Year,DSL,Bank Transfer,2689.16,16134.96,2,1,No,0,0-12 Months
+CUST1050,Male,57,39,Month-to-Month,Fiber Optic,UPI,2188.77,85362.03,7,2,Yes,1,25-48 Months
+CUST1051,Female,22,60,One Year,Fiber Optic,Credit Card,1557.58,93454.8,7,2,No,0,49-72 Months
+CUST1052,Male,37,28,Month-to-Month,Fiber Optic,Bank Transfer,1682.49,47109.72,6,2,Yes,1,25-48 Months
+CUST1053,Male,57,54,Month-to-Month,Fiber Optic,Credit Card,669.68,36162.72,7,3,No,0,49-72 Months
+CUST1054,Male,61,37,Two Year,No Internet,UPI,1220.75,45167.75,0,5,No,0,25-48 Months
+CUST1055,Male,18,9,One Year,Fiber Optic,Credit Card,806.87,7261.83,0,5,No,0,0-12 Months
+CUST1056,Male,47,56,Two Year,DSL,Bank Transfer,2517.24,140965.44,3,5,No,0,49-72 Months
+CUST1057,Female,38,59,Month-to-Month,Fiber Optic,Bank Transfer,2769.84,163420.56,1,1,Yes,1,49-72 Months
+CUST1058,Male,37,2,Month-to-Month,Fiber Optic,Credit Card,1749.69,3499.38,3,4,No,0,0-12 Months
+CUST1059,Female,23,61,Two Year,Fiber Optic,Bank Transfer,2264.96,138162.56,5,1,Yes,1,49-72 Months
+CUST1060,Female,39,58,Month-to-Month,Fiber Optic,Credit Card,627.95,36421.1,7,5,Yes,1,49-72 Months
+CUST1061,Male,35,60,Month-to-Month,Fiber Optic,Bank Transfer,1943.04,116582.4,4,0,No,0,49-72 Months
+CUST1062,Male,25,40,One Year,DSL,Credit Card,2197.54,87901.6,1,2,Yes,1,25-48 Months
+CUST1063,Male,56,36,Two Year,Fiber Optic,Credit Card,1522.47,54808.92,4,2,No,0,25-48 Months
+CUST1064,Male,49,37,Two Year,Fiber Optic,Credit Card,956.84,35403.08,7,4,No,0,25-48 Months
+CUST1065,Female,50,18,Month-to-Month,Fiber Optic,Debit Card,2668.91,48040.38,2,0,Yes,1,13-24 Months
+CUST1066,Male,33,63,Two Year,Fiber Optic,Bank Transfer,2305.85,145268.55,5,3,Yes,1,49-72 Months
+CUST1067,Male,29,22,Month-to-Month,No Internet,UPI,2729.61,60051.42,1,1,No,0,13-24 Months
+CUST1068,Male,55,11,Month-to-Month,DSL,Credit Card,2509.69,27606.59,3,3,No,0,0-12 Months
+CUST1069,Male,69,58,One Year,Fiber Optic,Debit Card,2974.01,172492.58,3,0,No,0,49-72 Months
+CUST1070,Male,51,57,Month-to-Month,Fiber Optic,UPI,818.87,46675.59,1,4,No,0,49-72 Months
+CUST1071,Male,31,4,Month-to-Month,No Internet,Credit Card,534.22,2136.88,6,0,No,0,0-12 Months
+CUST1072,Female,53,7,One Year,Fiber Optic,UPI,1209.91,8469.37,3,4,No,0,0-12 Months
+CUST1073,Female,50,61,Month-to-Month,DSL,Debit Card,648.31,39546.91,7,3,Yes,1,49-72 Months
+CUST1074,Male,40,54,Month-to-Month,Fiber Optic,UPI,1712.45,92472.3,7,3,No,0,49-72 Months
+CUST1075,Male,67,68,Month-to-Month,No Internet,Credit Card,2009.18,136624.24,6,0,No,0,49-72 Months
+CUST1076,Male,62,1,Month-to-Month,No Internet,UPI,1861.38,1861.38,1,0,No,0,0-12 Months
+CUST1077,Female,19,55,Month-to-Month,DSL,UPI,999.95,54997.25,0,2,No,0,49-72 Months
+CUST1078,Male,58,3,One Year,Fiber Optic,Credit Card,2753.82,8261.46,3,4,No,0,0-12 Months
+CUST1079,Female,38,38,One Year,Fiber Optic,Debit Card,357.17,13572.46,6,2,Yes,1,25-48 Months
+CUST1080,Male,19,1,Month-to-Month,Fiber Optic,Debit Card,1239.64,1239.64,1,1,No,0,0-12 Months
+CUST1081,Male,44,38,Two Year,Fiber Optic,UPI,2241.28,85168.64,1,1,No,0,25-48 Months
+CUST1082,Male,26,29,Month-to-Month,Fiber Optic,Bank Transfer,2370.71,68750.59,6,0,No,0,25-48 Months
+CUST1083,Male,18,5,Month-to-Month,Fiber Optic,UPI,1423.52,7117.6,3,3,Yes,1,0-12 Months
+CUST1084,Female,28,21,Two Year,DSL,Bank Transfer,345.66,7258.86,0,1,No,0,13-24 Months
+CUST1085,Female,20,71,Month-to-Month,DSL,UPI,1968.72,139779.12,3,1,No,0,49-72 Months
+CUST1086,Male,69,67,Two Year,Fiber Optic,Debit Card,470.36,31514.12,1,2,No,0,49-72 Months
+CUST1087,Male,40,47,Month-to-Month,Fiber Optic,UPI,591.21,27786.87,0,2,Yes,1,25-48 Months
+CUST1088,Female,43,35,One Year,No Internet,UPI,2055.68,71948.8,7,1,No,0,25-48 Months
+CUST1089,Female,21,68,Month-to-Month,Fiber Optic,Bank Transfer,1143.72,77772.96,4,0,Yes,1,49-72 Months
+CUST1090,Female,35,69,Month-to-Month,DSL,Debit Card,1239.68,85537.92,2,2,No,0,49-72 Months
+CUST1091,Female,23,1,Month-to-Month,Fiber Optic,Bank Transfer,1614.38,1614.38,3,1,No,0,0-12 Months
+CUST1092,Male,52,68,One Year,Fiber Optic,UPI,2942.16,200066.88,5,3,Yes,1,49-72 Months
+CUST1093,Female,39,12,Month-to-Month,Fiber Optic,Credit Card,2906.69,34880.28,1,2,No,0,0-12 Months
+CUST1094,Male,60,60,Two Year,Fiber Optic,UPI,1423.9,85434.0,0,1,No,0,49-72 Months
+CUST1095,Female,32,27,Month-to-Month,DSL,UPI,1016.85,27454.95,6,4,Yes,1,25-48 Months
+CUST1096,Female,39,56,Month-to-Month,DSL,Bank Transfer,1117.0,62552.0,7,2,No,0,49-72 Months
+CUST1097,Female,54,23,Month-to-Month,Fiber Optic,Credit Card,1025.71,23591.33,6,4,Yes,1,13-24 Months
+CUST1098,Female,69,25,One Year,No Internet,Credit Card,1737.06,43426.5,6,2,No,0,25-48 Months
+CUST1099,Female,59,21,Two Year,Fiber Optic,Bank Transfer,1938.52,40708.92,0,2,No,0,13-24 Months
+CUST1100,Male,29,61,Month-to-Month,No Internet,Debit Card,1619.7,98801.7,4,5,Yes,1,49-72 Months
+CUST1101,Male,64,63,One Year,No Internet,Credit Card,1401.58,88299.54,3,5,No,0,49-72 Months
+CUST1102,Female,66,52,Month-to-Month,Fiber Optic,Credit Card,870.47,45264.44,5,4,Yes,1,49-72 Months
+CUST1103,Female,59,25,One Year,Fiber Optic,Bank Transfer,1602.77,40069.25,7,0,No,0,25-48 Months
+CUST1104,Male,55,55,Two Year,Fiber Optic,Debit Card,1220.98,67153.9,6,1,No,0,49-72 Months
+CUST1105,Female,35,46,Month-to-Month,DSL,Debit Card,1762.31,81066.26,0,0,No,0,25-48 Months
+CUST1106,Female,62,32,Month-to-Month,DSL,UPI,2123.01,67936.32,6,0,No,0,25-48 Months
+CUST1107,Male,52,55,Two Year,No Internet,UPI,2009.94,110546.7,4,5,No,0,49-72 Months
+CUST1108,Female,47,5,Two Year,DSL,Bank Transfer,1548.72,7743.6,1,1,No,0,0-12 Months
+CUST1109,Female,41,36,One Year,Fiber Optic,Debit Card,1801.34,64848.24,6,5,No,0,25-48 Months
+CUST1110,Male,59,49,Month-to-Month,Fiber Optic,Bank Transfer,1069.11,52386.39,4,5,No,0,49-72 Months
+CUST1111,Male,47,58,Month-to-Month,DSL,UPI,365.45,21196.1,3,5,Yes,1,49-72 Months
+CUST1112,Male,31,39,Month-to-Month,Fiber Optic,Bank Transfer,1987.55,77514.45,7,3,Yes,1,25-48 Months
+CUST1113,Female,23,61,Two Year,DSL,Bank Transfer,981.94,59898.34,7,0,No,0,49-72 Months
+CUST1114,Male,20,9,One Year,Fiber Optic,Credit Card,2106.18,18955.62,6,0,No,0,0-12 Months
+CUST1115,Male,33,6,Month-to-Month,Fiber Optic,Credit Card,2316.92,13901.52,4,0,Yes,1,0-12 Months
+CUST1116,Male,24,35,Month-to-Month,Fiber Optic,Credit Card,2773.0,97055.0,0,3,Yes,1,25-48 Months
+CUST1117,Male,69,39,Month-to-Month,DSL,UPI,2886.93,112590.27,0,2,Yes,1,25-48 Months
+CUST1118,Male,31,22,Month-to-Month,Fiber Optic,Bank Transfer,328.42,7225.24,2,4,No,0,13-24 Months
+CUST1119,Male,26,41,Month-to-Month,DSL,Credit Card,2974.01,121934.41,4,4,No,0,25-48 Months
+CUST1120,Female,32,5,Month-to-Month,Fiber Optic,Credit Card,2144.15,10720.75,1,3,No,0,0-12 Months
+CUST1121,Female,38,42,Month-to-Month,DSL,Credit Card,2037.52,85575.84,6,0,No,0,25-48 Months
+CUST1122,Male,52,67,Month-to-Month,DSL,UPI,341.08,22852.36,5,4,Yes,1,49-72 Months
+CUST1123,Male,19,30,Month-to-Month,Fiber Optic,UPI,2625.33,78759.9,5,3,Yes,1,25-48 Months
+CUST1124,Male,44,57,Month-to-Month,DSL,Bank Transfer,692.83,39491.31,3,5,No,0,49-72 Months
+CUST1125,Female,19,29,Month-to-Month,Fiber Optic,Bank Transfer,2560.79,74262.91,2,1,Yes,1,25-48 Months
+CUST1126,Female,52,37,Month-to-Month,Fiber Optic,Bank Transfer,342.02,12654.74,4,4,Yes,1,25-48 Months
+CUST1127,Female,35,13,Month-to-Month,Fiber Optic,Credit Card,2044.1,26573.3,1,1,No,0,13-24 Months
+CUST1128,Female,31,32,Month-to-Month,DSL,Debit Card,1473.96,47166.72,2,0,No,0,25-48 Months
+CUST1129,Female,37,46,Month-to-Month,No Internet,UPI,842.07,38735.22,0,4,Yes,1,25-48 Months
+CUST1130,Female,35,23,One Year,DSL,Credit Card,590.42,13579.66,3,3,No,0,13-24 Months
+CUST1131,Female,27,45,Two Year,DSL,Credit Card,1488.34,66975.3,6,2,No,0,25-48 Months
+CUST1132,Female,42,17,One Year,DSL,Bank Transfer,632.93,10759.81,6,4,Yes,1,13-24 Months
+CUST1133,Female,19,66,Month-to-Month,Fiber Optic,Bank Transfer,1613.41,106485.06,6,4,No,0,49-72 Months
+CUST1134,Male,42,6,Two Year,No Internet,Credit Card,1988.09,11928.54,4,4,Yes,1,0-12 Months
+CUST1135,Male,50,18,One Year,Fiber Optic,UPI,2533.94,45610.92,5,4,No,0,13-24 Months
+CUST1136,Male,53,22,Month-to-Month,No Internet,UPI,2132.35,46911.7,1,3,No,0,13-24 Months
+CUST1137,Male,48,33,Month-to-Month,DSL,Credit Card,476.04,15709.32,6,3,No,0,25-48 Months
+CUST1138,Female,31,30,Two Year,DSL,Debit Card,1130.07,33902.1,6,2,No,0,25-48 Months
+CUST1139,Female,18,32,Month-to-Month,DSL,Debit Card,1077.54,34481.28,0,3,Yes,1,25-48 Months
+CUST1140,Male,63,42,Month-to-Month,Fiber Optic,UPI,2770.59,116364.78,7,3,Yes,1,25-48 Months
+CUST1141,Female,33,10,One Year,DSL,Bank Transfer,2643.01,26430.1,2,0,No,0,0-12 Months
+CUST1142,Male,63,36,Two Year,Fiber Optic,Debit Card,1299.4,46778.4,6,0,Yes,1,25-48 Months
+CUST1143,Female,69,34,Month-to-Month,DSL,Debit Card,492.12,16732.08,3,1,No,0,25-48 Months
+CUST1144,Male,20,28,Month-to-Month,DSL,Bank Transfer,2714.09,75994.52,2,2,Yes,1,25-48 Months
+CUST1145,Female,52,11,Month-to-Month,No Internet,Debit Card,2698.11,29679.21,5,0,Yes,1,0-12 Months
+CUST1146,Female,58,39,One Year,DSL,Credit Card,2607.81,101704.59,2,2,Yes,1,25-48 Months
+CUST1147,Male,23,47,Month-to-Month,Fiber Optic,Debit Card,2581.72,121340.84,1,2,No,0,25-48 Months
+CUST1148,Female,42,19,Month-to-Month,Fiber Optic,Bank Transfer,1596.69,30337.11,0,4,Yes,1,13-24 Months
+CUST1149,Male,30,15,Two Year,DSL,Credit Card,779.07,11686.05,4,5,No,0,13-24 Months
+CUST1150,Male,51,28,Month-to-Month,Fiber Optic,Debit Card,1589.22,44498.16,1,5,No,0,25-48 Months
+CUST1151,Male,25,24,One Year,Fiber Optic,UPI,1635.41,39249.84,5,5,No,0,13-24 Months
+CUST1152,Male,38,72,Month-to-Month,DSL,Credit Card,1622.82,116843.04,3,2,Yes,1,49-72 Months
+CUST1153,Female,51,9,Month-to-Month,DSL,Credit Card,1754.69,15792.21,5,4,Yes,1,0-12 Months
+CUST1154,Female,21,47,One Year,DSL,UPI,995.67,46796.49,5,1,No,0,25-48 Months
+CUST1155,Female,42,33,Month-to-Month,Fiber Optic,UPI,1288.85,42532.05,2,1,No,0,25-48 Months
+CUST1156,Male,32,62,Month-to-Month,DSL,Debit Card,1472.3,91282.6,3,5,No,0,49-72 Months
+CUST1157,Female,21,19,Month-to-Month,Fiber Optic,Debit Card,654.03,12426.57,1,1,No,0,13-24 Months
+CUST1158,Male,62,67,One Year,DSL,Bank Transfer,1529.48,102475.16,5,4,No,0,49-72 Months
+CUST1159,Female,29,40,Two Year,Fiber Optic,Bank Transfer,2488.27,99530.8,1,5,No,0,25-48 Months
+CUST1160,Female,49,47,Two Year,No Internet,Credit Card,2535.76,119180.72,6,4,No,0,25-48 Months
+CUST1161,Female,49,65,Month-to-Month,Fiber Optic,UPI,1411.22,91729.3,6,1,No,0,49-72 Months
+CUST1162,Male,45,29,Month-to-Month,Fiber Optic,UPI,1700.78,49322.62,6,5,Yes,1,25-48 Months
+CUST1163,Female,30,50,Month-to-Month,DSL,Bank Transfer,390.86,19543.0,4,4,No,0,49-72 Months
+CUST1164,Female,48,13,Two Year,DSL,Credit Card,2120.97,27572.61,2,3,Yes,1,13-24 Months
+CUST1165,Male,31,1,Month-to-Month,Fiber Optic,Credit Card,1392.44,1392.44,1,3,Yes,1,0-12 Months
+CUST1166,Female,37,34,Two Year,DSL,Bank Transfer,1502.79,51094.86,6,4,No,0,25-48 Months
+CUST1167,Male,35,48,Month-to-Month,Fiber Optic,Bank Transfer,2658.92,127628.16,6,4,Yes,1,25-48 Months
+CUST1168,Female,46,48,Two Year,No Internet,Bank Transfer,1546.95,74253.6,3,0,No,0,25-48 Months
+CUST1169,Male,23,49,Two Year,DSL,Debit Card,357.22,17503.78,5,0,No,0,49-72 Months
+CUST1170,Male,49,64,Two Year,Fiber Optic,Credit Card,914.23,58510.72,6,2,No,0,49-72 Months
+CUST1171,Female,46,61,Month-to-Month,DSL,Credit Card,1584.18,96634.98,4,5,No,0,49-72 Months
+CUST1172,Male,60,29,Month-to-Month,Fiber Optic,Credit Card,1445.87,41930.23,3,2,Yes,1,25-48 Months
+CUST1173,Male,19,39,Month-to-Month,Fiber Optic,Bank Transfer,2623.0,102297.0,2,2,Yes,1,25-48 Months
+CUST1174,Male,40,26,Month-to-Month,No Internet,Bank Transfer,1763.77,45858.02,7,1,Yes,1,25-48 Months
+CUST1175,Male,36,17,Month-to-Month,DSL,Bank Transfer,2162.02,36754.34,7,3,Yes,1,13-24 Months
+CUST1176,Male,48,71,Month-to-Month,Fiber Optic,Bank Transfer,1567.17,111269.07,4,1,No,0,49-72 Months
+CUST1177,Male,68,13,Month-to-Month,Fiber Optic,UPI,1487.07,19331.91,4,5,Yes,1,13-24 Months
+CUST1178,Female,22,69,One Year,Fiber Optic,Bank Transfer,1504.97,103842.93,4,4,No,0,49-72 Months
+CUST1179,Male,36,26,One Year,No Internet,Debit Card,1409.49,36646.74,5,0,No,0,25-48 Months
+CUST1180,Male,51,49,Month-to-Month,Fiber Optic,UPI,1754.18,85954.82,7,5,No,0,49-72 Months
+CUST1181,Female,27,67,Two Year,Fiber Optic,UPI,976.2,65405.4,6,4,No,0,49-72 Months
+CUST1182,Female,42,7,Month-to-Month,Fiber Optic,Bank Transfer,2705.85,18940.95,0,5,No,0,0-12 Months
+CUST1183,Female,19,58,Month-to-Month,Fiber Optic,Credit Card,1199.33,69561.14,4,4,Yes,1,49-72 Months
+CUST1184,Female,28,49,Month-to-Month,Fiber Optic,Bank Transfer,698.31,34217.19,3,0,No,0,49-72 Months
+CUST1185,Female,67,53,Two Year,Fiber Optic,Credit Card,560.69,29716.57,7,4,No,0,49-72 Months
+CUST1186,Female,48,65,Month-to-Month,Fiber Optic,Bank Transfer,336.24,21855.6,3,2,No,0,49-72 Months
+CUST1187,Female,32,62,Month-to-Month,Fiber Optic,Bank Transfer,1441.71,89386.02,2,5,Yes,1,49-72 Months
+CUST1188,Male,26,17,One Year,No Internet,Credit Card,806.55,13711.35,1,0,No,0,13-24 Months
+CUST1189,Male,40,43,Month-to-Month,Fiber Optic,Credit Card,358.45,15413.35,1,4,No,0,25-48 Months
+CUST1190,Female,36,25,One Year,DSL,Credit Card,1704.05,42601.25,0,2,No,0,25-48 Months
+CUST1191,Male,26,3,Two Year,DSL,Credit Card,2135.94,6407.82,5,2,No,0,0-12 Months
+CUST1192,Male,52,29,Two Year,DSL,Debit Card,531.53,15414.37,6,3,Yes,1,25-48 Months
+CUST1193,Male,38,32,Month-to-Month,No Internet,Credit Card,1544.49,49423.68,5,2,No,0,25-48 Months
+CUST1194,Female,26,26,Month-to-Month,Fiber Optic,Bank Transfer,2307.8,60002.8,6,1,No,0,25-48 Months
+CUST1195,Female,45,16,Month-to-Month,Fiber Optic,Bank Transfer,2961.68,47386.88,4,0,Yes,1,13-24 Months
+CUST1196,Male,63,25,Month-to-Month,Fiber Optic,Debit Card,2101.41,52535.25,7,0,No,0,25-48 Months
+CUST1197,Female,68,54,Month-to-Month,Fiber Optic,Credit Card,961.07,51897.78,6,0,Yes,1,49-72 Months
+CUST1198,Male,24,28,Month-to-Month,DSL,Bank Transfer,2234.69,62571.32,7,4,No,0,25-48 Months
+CUST1199,Male,33,56,Two Year,DSL,Debit Card,1914.41,107206.96,0,5,No,0,49-72 Months
+CUST1200,Male,33,65,Two Year,No Internet,Bank Transfer,871.86,56670.9,2,4,No,0,49-72 Months
+CUST1201,Male,50,41,Month-to-Month,Fiber Optic,Debit Card,2598.0,106518.0,2,1,No,0,25-48 Months
+CUST1202,Female,21,51,Month-to-Month,No Internet,Debit Card,1453.99,74153.49,1,5,Yes,1,49-72 Months
+CUST1203,Female,21,71,Month-to-Month,Fiber Optic,UPI,2897.34,205711.14,2,2,Yes,1,49-72 Months
+CUST1204,Female,56,29,Month-to-Month,Fiber Optic,UPI,2251.83,65303.07,4,4,Yes,1,25-48 Months
+CUST1205,Male,57,19,One Year,Fiber Optic,Credit Card,2040.32,38766.08,3,5,No,0,13-24 Months
+CUST1206,Female,34,66,One Year,DSL,UPI,2266.55,149592.3,2,2,No,0,49-72 Months
+CUST1207,Male,54,41,Two Year,Fiber Optic,Debit Card,1590.86,65225.26,0,5,No,0,25-48 Months
+CUST1208,Female,56,45,One Year,No Internet,Bank Transfer,1664.11,74884.95,4,2,No,0,25-48 Months
+CUST1209,Male,69,15,Month-to-Month,No Internet,Bank Transfer,2598.26,38973.9,2,5,No,0,13-24 Months
+CUST1210,Male,46,3,One Year,No Internet,Credit Card,2138.51,6415.53,5,4,Yes,1,0-12 Months
+CUST1211,Male,69,11,Month-to-Month,Fiber Optic,UPI,2722.56,29948.16,6,4,Yes,1,0-12 Months
+CUST1212,Female,53,53,One Year,No Internet,Credit Card,2705.23,143377.19,2,1,No,0,49-72 Months
+CUST1213,Female,55,46,Month-to-Month,DSL,Debit Card,2936.52,135079.92,5,3,No,0,25-48 Months
+CUST1214,Female,56,30,Month-to-Month,Fiber Optic,UPI,2190.58,65717.4,4,0,Yes,1,25-48 Months
+CUST1215,Female,67,57,Month-to-Month,Fiber Optic,Credit Card,1656.21,94403.97,2,4,No,0,49-72 Months
+CUST1216,Male,54,18,Month-to-Month,Fiber Optic,Bank Transfer,749.04,13482.72,5,4,Yes,1,13-24 Months
+CUST1217,Female,69,51,Two Year,Fiber Optic,Bank Transfer,2204.53,112431.03,3,2,No,0,49-72 Months
+CUST1218,Female,52,48,Month-to-Month,DSL,Credit Card,1087.26,52188.48,7,3,No,0,25-48 Months
+CUST1219,Male,24,66,Month-to-Month,No Internet,Credit Card,1063.96,70221.36,1,4,Yes,1,49-72 Months
+CUST1220,Male,44,8,Month-to-Month,Fiber Optic,Credit Card,943.38,7547.04,4,5,No,0,0-12 Months
+CUST1221,Male,45,22,One Year,DSL,Debit Card,2662.83,58582.26,5,3,Yes,1,13-24 Months
+CUST1222,Female,39,6,Month-to-Month,No Internet,Debit Card,2643.5,15861.0,0,0,Yes,1,0-12 Months
+CUST1223,Male,31,57,Two Year,Fiber Optic,Bank Transfer,2003.62,114206.34,7,5,No,0,49-72 Months
+CUST1224,Male,24,36,Two Year,No Internet,Debit Card,1577.05,56773.8,2,2,No,0,25-48 Months
+CUST1225,Male,54,57,One Year,DSL,Debit Card,2114.71,120538.47,5,1,Yes,1,49-72 Months
+CUST1226,Female,39,49,One Year,DSL,UPI,1939.52,95036.48,7,5,No,0,49-72 Months
+CUST1227,Male,22,45,Month-to-Month,Fiber Optic,Debit Card,1422.48,64011.6,6,0,No,0,25-48 Months
+CUST1228,Female,19,66,Month-to-Month,DSL,UPI,1325.0,87450.0,7,5,No,0,49-72 Months
+CUST1229,Female,44,45,One Year,Fiber Optic,Debit Card,1333.54,60009.3,5,3,No,0,25-48 Months
+CUST1230,Male,38,20,Month-to-Month,DSL,Bank Transfer,1890.66,37813.2,5,3,Yes,1,13-24 Months
+CUST1231,Male,55,64,Month-to-Month,Fiber Optic,Credit Card,2048.71,131117.44,6,0,No,0,49-72 Months
+CUST1232,Female,32,67,One Year,No Internet,Bank Transfer,1519.7,101819.9,1,3,No,0,49-72 Months
+CUST1233,Male,38,3,Month-to-Month,Fiber Optic,Debit Card,2915.47,8746.41,7,5,No,0,0-12 Months
+CUST1234,Male,27,54,Two Year,Fiber Optic,Credit Card,526.38,28424.52,6,1,No,0,49-72 Months
+CUST1235,Female,40,64,Month-to-Month,DSL,Credit Card,1237.03,79169.92,6,5,Yes,1,49-72 Months
+CUST1236,Female,56,40,One Year,Fiber Optic,Credit Card,1431.5,57260.0,7,1,No,0,25-48 Months
+CUST1237,Male,22,59,Month-to-Month,DSL,UPI,345.69,20395.71,0,3,No,0,49-72 Months
+CUST1238,Female,18,55,One Year,No Internet,Bank Transfer,1285.38,70695.9,6,5,Yes,1,49-72 Months
+CUST1239,Male,30,62,Month-to-Month,DSL,UPI,1039.02,64419.24,0,3,Yes,1,49-72 Months
+CUST1240,Male,38,4,Month-to-Month,Fiber Optic,Credit Card,1666.3,6665.2,3,1,No,0,0-12 Months
+CUST1241,Male,43,60,Two Year,DSL,Bank Transfer,1208.31,72498.6,7,3,Yes,1,49-72 Months
+CUST1242,Female,67,30,Month-to-Month,DSL,Bank Transfer,2260.69,67820.7,6,4,Yes,1,25-48 Months
+CUST1243,Male,62,2,Month-to-Month,DSL,Debit Card,1676.82,3353.64,1,2,No,0,0-12 Months
+CUST1244,Male,38,62,Month-to-Month,Fiber Optic,UPI,650.36,40322.32,6,5,No,0,49-72 Months
+CUST1245,Male,35,49,One Year,Fiber Optic,UPI,2325.17,113933.33,5,4,Yes,1,49-72 Months
+CUST1246,Female,54,9,Month-to-Month,DSL,Debit Card,567.92,5111.28,4,3,No,0,0-12 Months
+CUST1247,Female,62,31,Two Year,Fiber Optic,UPI,2565.43,79528.33,1,3,Yes,1,25-48 Months
+CUST1248,Female,49,61,Month-to-Month,Fiber Optic,Credit Card,2814.84,171705.24,6,2,No,0,49-72 Months
+CUST1249,Female,53,48,Month-to-Month,Fiber Optic,Credit Card,1170.6,56188.8,1,3,Yes,1,25-48 Months
+CUST1250,Female,34,25,One Year,DSL,UPI,2800.59,70014.75,7,2,No,0,25-48 Months
+CUST1251,Male,52,36,One Year,No Internet,Debit Card,2441.12,87880.32,0,5,No,0,25-48 Months
+CUST1252,Female,66,8,Two Year,DSL,Bank Transfer,2790.58,22324.64,3,1,No,0,0-12 Months
+CUST1253,Female,28,58,Two Year,Fiber Optic,UPI,2098.93,121737.94,3,2,No,0,49-72 Months
+CUST1254,Female,38,45,Month-to-Month,Fiber Optic,Bank Transfer,936.24,42130.8,7,2,No,0,25-48 Months
+CUST1255,Male,69,62,Month-to-Month,No Internet,Debit Card,2715.21,168343.02,7,4,No,0,49-72 Months
+CUST1256,Female,43,39,Month-to-Month,No Internet,Bank Transfer,797.52,31103.28,1,3,No,0,25-48 Months
+CUST1257,Female,21,58,One Year,No Internet,Debit Card,875.26,50765.08,7,5,No,0,49-72 Months
+CUST1258,Male,51,64,Two Year,DSL,Debit Card,1031.87,66039.68,1,1,No,0,49-72 Months
+CUST1259,Female,69,44,Month-to-Month,Fiber Optic,Credit Card,1121.47,49344.68,7,0,No,0,25-48 Months
+CUST1260,Male,65,29,Month-to-Month,DSL,Credit Card,1689.1,48983.9,6,2,Yes,1,25-48 Months
+CUST1261,Male,35,59,Month-to-Month,Fiber Optic,Debit Card,2226.33,131353.47,7,0,Yes,1,49-72 Months
+CUST1262,Male,57,71,Two Year,Fiber Optic,UPI,2800.76,198853.96,2,3,Yes,1,49-72 Months
+CUST1263,Male,52,9,Month-to-Month,DSL,Credit Card,538.78,4849.02,5,2,Yes,1,0-12 Months
+CUST1264,Male,58,6,Month-to-Month,Fiber Optic,Debit Card,2876.8,17260.8,0,0,No,0,0-12 Months
+CUST1265,Female,46,29,Month-to-Month,Fiber Optic,Bank Transfer,2787.57,80839.53,5,4,No,0,25-48 Months
+CUST1266,Male,69,58,Two Year,Fiber Optic,Bank Transfer,445.8,25856.4,4,0,No,0,49-72 Months
+CUST1267,Male,46,17,One Year,Fiber Optic,UPI,1272.87,21638.79,4,4,No,0,13-24 Months
+CUST1268,Female,55,16,One Year,No Internet,Bank Transfer,2495.49,39927.84,3,1,No,0,13-24 Months
+CUST1269,Male,59,3,Month-to-Month,Fiber Optic,Bank Transfer,1951.26,5853.78,0,3,No,0,0-12 Months
+CUST1270,Female,38,21,Month-to-Month,Fiber Optic,Debit Card,2403.55,50474.55,5,5,Yes,1,13-24 Months
+CUST1271,Female,59,64,One Year,Fiber Optic,Bank Transfer,2241.39,143448.96,3,0,No,0,49-72 Months
+CUST1272,Female,30,36,Two Year,Fiber Optic,Bank Transfer,1641.28,59086.08,4,2,No,0,25-48 Months
+CUST1273,Male,66,62,Month-to-Month,Fiber Optic,Bank Transfer,411.29,25499.98,1,3,No,0,49-72 Months
+CUST1274,Male,58,42,Month-to-Month,DSL,Bank Transfer,1877.52,78855.84,0,0,No,0,25-48 Months
+CUST1275,Male,34,42,Month-to-Month,Fiber Optic,Debit Card,431.13,18107.46,0,2,No,0,25-48 Months
+CUST1276,Female,26,61,Month-to-Month,DSL,Bank Transfer,1930.06,117733.66,7,2,Yes,1,49-72 Months
+CUST1277,Male,58,13,Two Year,No Internet,UPI,2461.11,31994.43,7,5,Yes,1,13-24 Months
+CUST1278,Male,18,11,Month-to-Month,DSL,Credit Card,1879.48,20674.28,5,5,No,0,0-12 Months
+CUST1279,Male,19,54,Month-to-Month,Fiber Optic,UPI,2991.96,161565.84,7,2,No,0,49-72 Months
+CUST1280,Female,65,16,Month-to-Month,Fiber Optic,Credit Card,1530.84,24493.44,7,5,No,0,13-24 Months
+CUST1281,Female,46,8,Month-to-Month,No Internet,UPI,2321.83,18574.64,6,2,Yes,1,0-12 Months
+CUST1282,Male,50,59,Month-to-Month,DSL,Credit Card,2101.48,123987.32,2,0,No,0,49-72 Months
+CUST1283,Male,27,57,Month-to-Month,DSL,Credit Card,2976.87,169681.59,5,1,No,0,49-72 Months
+CUST1284,Male,67,40,Month-to-Month,No Internet,Credit Card,2225.69,89027.6,7,5,Yes,1,25-48 Months
+CUST1285,Male,57,59,One Year,No Internet,Credit Card,742.88,43829.92,1,4,No,0,49-72 Months
+CUST1286,Female,38,2,Month-to-Month,No Internet,Debit Card,2879.9,5759.8,6,4,Yes,1,0-12 Months
+CUST1287,Female,45,10,Month-to-Month,DSL,UPI,2103.0,21030.0,6,4,Yes,1,0-12 Months
+CUST1288,Female,28,44,Two Year,Fiber Optic,Credit Card,460.21,20249.24,6,1,No,0,25-48 Months
+CUST1289,Female,51,11,One Year,No Internet,UPI,2075.43,22829.73,1,2,Yes,1,0-12 Months
+CUST1290,Male,25,2,One Year,DSL,Bank Transfer,2684.42,5368.84,3,2,No,0,0-12 Months
+CUST1291,Male,39,50,Month-to-Month,Fiber Optic,Credit Card,1858.01,92900.5,0,3,No,0,49-72 Months
+CUST1292,Male,25,12,Month-to-Month,DSL,UPI,1255.85,15070.2,3,4,Yes,1,0-12 Months
+CUST1293,Female,66,23,Month-to-Month,DSL,Debit Card,2516.46,57878.58,1,4,No,0,13-24 Months
+CUST1294,Male,32,18,Month-to-Month,No Internet,UPI,2412.78,43430.04,2,2,No,0,13-24 Months
+CUST1295,Female,34,62,Month-to-Month,DSL,Credit Card,1769.29,109695.98,0,4,Yes,1,49-72 Months
+CUST1296,Female,40,62,Two Year,Fiber Optic,Bank Transfer,716.78,44440.36,1,2,No,0,49-72 Months
+CUST1297,Male,41,38,Month-to-Month,No Internet,UPI,977.66,37151.08,2,2,No,0,25-48 Months
+CUST1298,Male,62,67,Month-to-Month,DSL,Bank Transfer,2293.91,153691.97,5,5,No,0,49-72 Months
+CUST1299,Male,36,38,One Year,DSL,Debit Card,2476.42,94103.96,4,2,No,0,25-48 Months
+CUST1300,Female,22,67,Month-to-Month,Fiber Optic,UPI,1054.02,70619.34,6,0,No,0,49-72 Months
+CUST1301,Male,49,61,One Year,Fiber Optic,UPI,1293.56,78907.16,7,0,No,0,49-72 Months
+CUST1302,Female,61,1,One Year,DSL,Debit Card,509.61,509.61,1,0,No,0,0-12 Months
+CUST1303,Male,18,45,One Year,Fiber Optic,Debit Card,2226.35,100185.75,4,0,No,0,25-48 Months
+CUST1304,Female,40,28,Two Year,Fiber Optic,Debit Card,309.66,8670.48,3,1,No,0,25-48 Months
+CUST1305,Female,54,21,Month-to-Month,DSL,Credit Card,425.66,8938.86,4,3,Yes,1,13-24 Months
+CUST1306,Male,25,13,Month-to-Month,Fiber Optic,Credit Card,311.73,4052.49,1,3,No,0,13-24 Months
+CUST1307,Female,30,27,Two Year,Fiber Optic,UPI,2042.36,55143.72,4,2,No,0,25-48 Months
+CUST1308,Female,25,7,One Year,Fiber Optic,UPI,1426.95,9988.65,6,4,No,0,0-12 Months
+CUST1309,Male,40,22,Month-to-Month,Fiber Optic,UPI,1103.38,24274.36,0,0,No,0,13-24 Months
+CUST1310,Female,60,53,Two Year,DSL,Bank Transfer,2764.29,146507.37,1,3,Yes,1,49-72 Months
+CUST1311,Male,18,4,Month-to-Month,Fiber Optic,Debit Card,820.57,3282.28,2,3,No,0,0-12 Months
+CUST1312,Female,62,23,Two Year,Fiber Optic,UPI,1351.29,31079.67,4,0,No,0,13-24 Months
+CUST1313,Male,68,70,Month-to-Month,DSL,Debit Card,2838.84,198718.8,0,1,No,0,49-72 Months
+CUST1314,Male,41,33,Month-to-Month,No Internet,Credit Card,1453.19,47955.27,6,1,No,0,25-48 Months
+CUST1315,Female,52,28,Two Year,DSL,Debit Card,1797.67,50334.76,3,3,No,0,25-48 Months
+CUST1316,Female,41,8,Month-to-Month,Fiber Optic,Bank Transfer,516.91,4135.28,3,1,No,0,0-12 Months
+CUST1317,Female,34,1,Month-to-Month,Fiber Optic,Bank Transfer,2433.45,2433.45,6,5,Yes,1,0-12 Months
+CUST1318,Female,22,37,Month-to-Month,No Internet,Debit Card,1441.45,53333.65,4,0,Yes,1,25-48 Months
+CUST1319,Female,37,63,Two Year,Fiber Optic,Bank Transfer,2461.39,155067.57,3,3,No,0,49-72 Months
+CUST1320,Male,38,22,Two Year,DSL,Bank Transfer,985.25,21675.5,2,0,No,0,13-24 Months
+CUST1321,Female,57,70,One Year,Fiber Optic,Credit Card,1440.69,100848.3,1,1,No,0,49-72 Months
+CUST1322,Male,48,21,One Year,Fiber Optic,UPI,2423.68,50897.28,0,0,No,0,13-24 Months
+CUST1323,Male,63,35,Two Year,DSL,Bank Transfer,2929.47,102531.45,5,1,No,0,25-48 Months
+CUST1324,Female,53,5,Month-to-Month,DSL,UPI,460.99,2304.95,4,1,Yes,1,0-12 Months
+CUST1325,Male,28,60,Month-to-Month,DSL,Debit Card,2493.63,149617.8,3,0,No,0,49-72 Months
+CUST1326,Male,69,46,One Year,Fiber Optic,Debit Card,1111.86,51145.56,1,1,No,0,25-48 Months
+CUST1327,Male,32,50,Month-to-Month,Fiber Optic,Bank Transfer,1787.01,89350.5,5,5,No,0,49-72 Months
+CUST1328,Male,36,48,Month-to-Month,DSL,Debit Card,1083.25,51996.0,2,2,No,0,25-48 Months
+CUST1329,Female,24,6,Month-to-Month,DSL,Credit Card,1956.3,11737.8,3,0,Yes,1,0-12 Months
+CUST1330,Male,68,56,Month-to-Month,Fiber Optic,Bank Transfer,1255.27,70295.12,3,2,No,0,49-72 Months
+CUST1331,Female,45,59,Two Year,Fiber Optic,Bank Transfer,1200.76,70844.84,0,0,No,0,49-72 Months
+CUST1332,Female,68,29,Month-to-Month,Fiber Optic,Bank Transfer,402.43,11670.47,2,1,Yes,1,25-48 Months
+CUST1333,Male,60,71,One Year,No Internet,Debit Card,696.79,49472.09,2,1,No,0,49-72 Months
+CUST1334,Female,22,18,Month-to-Month,DSL,Debit Card,2776.11,49969.98,4,3,Yes,1,13-24 Months
+CUST1335,Female,22,2,Month-to-Month,No Internet,Bank Transfer,2995.35,5990.7,5,5,Yes,1,0-12 Months
+CUST1336,Female,47,8,Month-to-Month,Fiber Optic,UPI,2407.41,19259.28,0,3,Yes,1,0-12 Months
+CUST1337,Male,49,54,One Year,No Internet,Debit Card,1074.39,58017.06,4,2,No,0,49-72 Months
+CUST1338,Female,25,38,One Year,Fiber Optic,Debit Card,1386.6,52690.8,0,1,No,0,25-48 Months
+CUST1339,Female,27,48,Two Year,DSL,Bank Transfer,2296.66,110239.68,2,3,No,0,25-48 Months
+CUST1340,Female,55,27,One Year,DSL,UPI,2914.99,78704.73,0,1,No,0,25-48 Months
+CUST1341,Male,64,20,One Year,Fiber Optic,Bank Transfer,1529.77,30595.4,0,0,Yes,1,13-24 Months
+CUST1342,Female,49,12,One Year,Fiber Optic,Debit Card,2539.71,30476.52,0,3,No,0,0-12 Months
+CUST1343,Male,65,43,Two Year,Fiber Optic,Bank Transfer,2932.69,126105.67,7,2,Yes,1,25-48 Months
+CUST1344,Male,45,61,One Year,Fiber Optic,Bank Transfer,2658.38,162161.18,1,3,No,0,49-72 Months
+CUST1345,Male,34,31,Month-to-Month,DSL,Bank Transfer,913.3,28312.3,1,1,Yes,1,25-48 Months
+CUST1346,Male,48,61,Month-to-Month,DSL,UPI,321.69,19623.09,5,4,Yes,1,49-72 Months
+CUST1347,Male,25,67,One Year,DSL,Bank Transfer,1628.62,109117.54,5,4,No,0,49-72 Months
+CUST1348,Male,57,35,One Year,DSL,Debit Card,1734.67,60713.45,6,5,No,0,25-48 Months
+CUST1349,Female,42,15,Month-to-Month,DSL,Bank Transfer,843.38,12650.7,2,1,No,0,13-24 Months
+CUST1350,Male,26,16,Two Year,Fiber Optic,UPI,1068.62,17097.92,0,0,No,0,13-24 Months
+CUST1351,Female,19,13,Two Year,Fiber Optic,Credit Card,2365.91,30756.83,2,3,Yes,1,13-24 Months
+CUST1352,Female,32,35,Month-to-Month,No Internet,UPI,1569.94,54947.9,1,4,No,0,25-48 Months
+CUST1353,Male,67,59,Two Year,Fiber Optic,Bank Transfer,1156.86,68254.74,7,0,No,0,49-72 Months
+CUST1354,Female,20,21,Month-to-Month,DSL,Credit Card,1981.09,41602.89,0,1,Yes,1,13-24 Months
+CUST1355,Female,66,54,Month-to-Month,Fiber Optic,Bank Transfer,2062.45,111372.3,4,0,Yes,1,49-72 Months
+CUST1356,Female,53,30,Month-to-Month,DSL,UPI,2377.37,71321.1,1,1,Yes,1,25-48 Months
+CUST1357,Female,21,48,Month-to-Month,DSL,Credit Card,723.12,34709.76,1,5,No,0,25-48 Months
+CUST1358,Male,31,35,Two Year,Fiber Optic,Credit Card,2302.1,80573.5,1,3,Yes,1,25-48 Months
+CUST1359,Female,58,38,Month-to-Month,Fiber Optic,Bank Transfer,1918.46,72901.48,6,0,No,0,25-48 Months
+CUST1360,Male,58,31,Month-to-Month,DSL,Bank Transfer,455.44,14118.64,0,3,No,0,25-48 Months
+CUST1361,Female,42,24,Month-to-Month,Fiber Optic,UPI,2399.1,57578.4,5,0,Yes,1,13-24 Months
+CUST1362,Female,67,49,Month-to-Month,Fiber Optic,Bank Transfer,1334.32,65381.68,3,1,No,0,49-72 Months
+CUST1363,Male,27,32,Month-to-Month,DSL,Credit Card,1192.03,38144.96,4,1,No,0,25-48 Months
+CUST1364,Female,38,55,One Year,Fiber Optic,Debit Card,1509.8,83039.0,4,0,No,0,49-72 Months
+CUST1365,Female,53,58,Month-to-Month,No Internet,Debit Card,1234.67,71610.86,2,5,No,0,49-72 Months
+CUST1366,Female,29,3,Two Year,DSL,UPI,1213.37,3640.11,0,1,No,0,0-12 Months
+CUST1367,Male,44,69,Two Year,Fiber Optic,Bank Transfer,2481.81,171244.89,5,2,No,0,49-72 Months
+CUST1368,Female,57,10,Month-to-Month,DSL,UPI,636.16,6361.6,1,2,Yes,1,0-12 Months
+CUST1369,Male,19,25,Two Year,DSL,Debit Card,2920.62,73015.5,3,3,Yes,1,25-48 Months
+CUST1370,Female,30,68,Month-to-Month,Fiber Optic,Debit Card,1798.32,122285.76,0,2,No,0,49-72 Months
+CUST1371,Male,49,61,Month-to-Month,Fiber Optic,Bank Transfer,793.89,48427.29,0,2,Yes,1,49-72 Months
+CUST1372,Male,48,29,Month-to-Month,Fiber Optic,Credit Card,654.28,18974.12,6,5,No,0,25-48 Months
+CUST1373,Female,33,19,Month-to-Month,Fiber Optic,Bank Transfer,1897.08,36044.52,5,5,Yes,1,13-24 Months
+CUST1374,Female,49,43,Month-to-Month,Fiber Optic,Debit Card,2009.1,86391.3,3,4,No,0,25-48 Months
+CUST1375,Male,49,66,One Year,Fiber Optic,Credit Card,443.17,29249.22,1,4,Yes,1,49-72 Months
+CUST1376,Male,51,61,Month-to-Month,Fiber Optic,UPI,956.11,58322.71,0,5,No,0,49-72 Months
+CUST1377,Female,28,43,One Year,DSL,Debit Card,2447.75,105253.25,4,4,No,0,25-48 Months
+CUST1378,Male,27,25,Month-to-Month,DSL,UPI,433.99,10849.75,7,5,Yes,1,25-48 Months
+CUST1379,Female,32,20,One Year,DSL,Credit Card,2608.74,52174.8,4,4,Yes,1,13-24 Months
+CUST1380,Female,34,48,Month-to-Month,DSL,UPI,2077.04,99697.92,3,1,No,0,25-48 Months
+CUST1381,Female,57,24,Month-to-Month,DSL,Debit Card,1472.94,35350.56,7,5,Yes,1,13-24 Months
+CUST1382,Female,35,11,Month-to-Month,DSL,Bank Transfer,1235.37,13589.07,1,3,Yes,1,0-12 Months
+CUST1383,Male,26,55,Month-to-Month,DSL,UPI,351.97,19358.35,3,3,Yes,1,49-72 Months
+CUST1384,Female,42,28,Month-to-Month,Fiber Optic,Debit Card,2528.08,70786.24,0,5,No,0,25-48 Months
+CUST1385,Male,57,69,Two Year,No Internet,Debit Card,685.35,47289.15,6,2,No,0,49-72 Months
+CUST1386,Female,31,63,Month-to-Month,Fiber Optic,Credit Card,1135.76,71552.88,6,3,No,0,49-72 Months
+CUST1387,Male,42,59,One Year,Fiber Optic,Debit Card,1836.59,108358.81,4,2,No,0,49-72 Months
+CUST1388,Female,67,5,One Year,DSL,Bank Transfer,964.18,4820.9,6,3,No,0,0-12 Months
+CUST1389,Male,39,51,Two Year,Fiber Optic,Bank Transfer,1642.28,83756.28,2,0,No,0,49-72 Months
+CUST1390,Male,69,21,Month-to-Month,Fiber Optic,UPI,2485.23,52189.83,3,0,No,0,13-24 Months
+CUST1391,Female,47,12,Month-to-Month,DSL,UPI,1570.45,18845.4,6,5,Yes,1,0-12 Months
+CUST1392,Female,37,50,Two Year,DSL,UPI,2862.24,143112.0,2,3,Yes,1,49-72 Months
+CUST1393,Female,38,4,One Year,DSL,UPI,2588.25,10353.0,2,1,No,0,0-12 Months
+CUST1394,Female,61,42,Month-to-Month,DSL,Bank Transfer,1199.21,50366.82,5,2,No,0,25-48 Months
+CUST1395,Male,49,38,Month-to-Month,Fiber Optic,Credit Card,1379.9,52436.2,4,3,Yes,1,25-48 Months
+CUST1396,Female,68,25,Month-to-Month,Fiber Optic,UPI,1442.98,36074.5,3,5,Yes,1,25-48 Months
+CUST1397,Male,63,14,One Year,DSL,Credit Card,1990.68,27869.52,2,2,No,0,13-24 Months
+CUST1398,Male,66,32,One Year,Fiber Optic,Debit Card,1074.35,34379.2,0,4,No,0,25-48 Months
+CUST1399,Female,38,11,Month-to-Month,DSL,Debit Card,2916.97,32086.67,6,5,Yes,1,0-12 Months
+CUST1400,Male,52,61,One Year,Fiber Optic,UPI,1943.45,118550.45,5,3,No,0,49-72 Months
+CUST1401,Male,49,18,One Year,Fiber Optic,Debit Card,1378.38,24810.84,1,1,No,0,13-24 Months
+CUST1402,Male,47,27,Month-to-Month,DSL,Credit Card,2041.53,55121.31,6,4,No,0,25-48 Months
+CUST1403,Male,56,55,One Year,DSL,Credit Card,1367.59,75217.45,6,5,No,0,49-72 Months
+CUST1404,Female,66,54,Two Year,DSL,Debit Card,2508.05,135434.7,6,3,Yes,1,49-72 Months
+CUST1405,Female,29,21,Month-to-Month,Fiber Optic,UPI,1833.17,38496.57,5,0,No,0,13-24 Months
+CUST1406,Female,58,44,Two Year,Fiber Optic,Credit Card,413.32,18186.08,1,3,No,0,25-48 Months
+CUST1407,Female,64,5,Month-to-Month,Fiber Optic,Credit Card,777.24,3886.2,4,0,No,0,0-12 Months
+CUST1408,Male,35,41,Month-to-Month,Fiber Optic,Bank Transfer,2635.48,108054.68,3,0,Yes,1,25-48 Months
+CUST1409,Male,38,59,Month-to-Month,Fiber Optic,UPI,1819.83,107369.97,3,5,No,0,49-72 Months
+CUST1410,Female,30,54,Month-to-Month,Fiber Optic,Bank Transfer,2865.93,154760.22,1,3,Yes,1,49-72 Months
+CUST1411,Female,38,22,Month-to-Month,DSL,Debit Card,495.54,10901.88,7,3,Yes,1,13-24 Months
+CUST1412,Female,25,65,Month-to-Month,Fiber Optic,Debit Card,1097.2,71318.0,6,0,No,0,49-72 Months
+CUST1413,Male,63,64,Two Year,DSL,Bank Transfer,822.57,52644.48,0,2,No,0,49-72 Months
+CUST1414,Female,57,71,Month-to-Month,No Internet,UPI,1795.37,127471.27,1,4,No,0,49-72 Months
+CUST1415,Female,63,4,One Year,Fiber Optic,Credit Card,1333.54,5334.16,1,1,No,0,0-12 Months
+CUST1416,Female,24,65,Month-to-Month,Fiber Optic,Debit Card,724.64,47101.6,3,3,No,0,49-72 Months
+CUST1417,Male,40,15,Two Year,Fiber Optic,UPI,2035.43,30531.45,2,4,No,0,13-24 Months
+CUST1418,Male,61,22,One Year,DSL,UPI,1748.01,38456.22,0,4,No,0,13-24 Months
+CUST1419,Male,49,47,Month-to-Month,Fiber Optic,Debit Card,1041.79,48964.13,3,2,Yes,1,25-48 Months
+CUST1420,Male,28,46,One Year,Fiber Optic,Debit Card,1595.38,73387.48,5,4,No,0,25-48 Months
+CUST1421,Male,39,14,Month-to-Month,DSL,UPI,2313.49,32388.86,1,3,No,0,13-24 Months
+CUST1422,Male,39,50,One Year,Fiber Optic,Credit Card,854.23,42711.5,7,5,Yes,1,49-72 Months
+CUST1423,Male,60,20,Month-to-Month,DSL,Bank Transfer,1090.85,21817.0,2,5,No,0,13-24 Months
+CUST1424,Male,42,50,One Year,DSL,Debit Card,1234.5,61725.0,0,4,No,0,49-72 Months
+CUST1425,Female,39,33,One Year,DSL,Bank Transfer,2316.16,76433.28,4,3,Yes,1,25-48 Months
+CUST1426,Female,45,59,Month-to-Month,Fiber Optic,UPI,2586.69,152614.71,0,3,Yes,1,49-72 Months
+CUST1427,Male,46,43,Month-to-Month,No Internet,Bank Transfer,1316.25,56598.75,0,0,No,0,25-48 Months
+CUST1428,Male,30,12,Two Year,DSL,Credit Card,1100.88,13210.56,6,2,Yes,1,0-12 Months
+CUST1429,Female,35,40,Month-to-Month,Fiber Optic,UPI,2701.51,108060.4,1,1,Yes,1,25-48 Months
+CUST1430,Male,19,20,Month-to-Month,Fiber Optic,Credit Card,2998.29,59965.8,1,0,No,0,13-24 Months
+CUST1431,Male,46,38,Month-to-Month,Fiber Optic,UPI,2109.95,80178.1,4,1,No,0,25-48 Months
+CUST1432,Male,38,3,Month-to-Month,DSL,Credit Card,2972.95,8918.85,4,3,Yes,1,0-12 Months
+CUST1433,Female,32,28,Two Year,DSL,UPI,2081.91,58293.48,4,5,No,0,25-48 Months
+CUST1434,Female,69,56,Month-to-Month,DSL,Credit Card,2280.34,127699.04,3,0,No,0,49-72 Months
+CUST1435,Female,44,13,Month-to-Month,No Internet,UPI,1349.37,17541.81,3,4,No,0,13-24 Months
+CUST1436,Female,67,66,One Year,Fiber Optic,Credit Card,1469.01,96954.66,1,4,No,0,49-72 Months
+CUST1437,Female,48,37,Two Year,Fiber Optic,UPI,689.17,25499.29,1,1,Yes,1,25-48 Months
+CUST1438,Male,32,49,Month-to-Month,No Internet,Credit Card,2521.43,123550.07,4,3,Yes,1,49-72 Months
+CUST1439,Female,68,66,Month-to-Month,DSL,Debit Card,2813.86,185714.76,3,5,No,0,49-72 Months
+CUST1440,Male,40,36,Two Year,Fiber Optic,Bank Transfer,1983.28,71398.08,2,1,No,0,25-48 Months
+CUST1441,Male,41,54,One Year,DSL,UPI,1227.85,66303.9,3,5,No,0,49-72 Months
+CUST1442,Female,61,26,Month-to-Month,No Internet,Credit Card,715.84,18611.84,1,2,No,0,25-48 Months
+CUST1443,Female,30,72,Month-to-Month,DSL,Debit Card,1015.92,73146.24,3,5,No,0,49-72 Months
+CUST1444,Male,39,40,Month-to-Month,DSL,UPI,989.61,39584.4,1,4,No,0,25-48 Months
+CUST1445,Male,60,43,Month-to-Month,DSL,UPI,1956.53,84130.79,4,0,No,0,25-48 Months
+CUST1446,Male,54,22,Month-to-Month,Fiber Optic,UPI,2851.6,62735.2,6,0,No,0,13-24 Months
+CUST1447,Female,50,20,Two Year,DSL,Bank Transfer,430.33,8606.6,4,0,No,0,13-24 Months
+CUST1448,Female,20,8,Month-to-Month,Fiber Optic,Credit Card,302.76,2422.08,4,5,Yes,1,0-12 Months
+CUST1449,Female,36,29,One Year,No Internet,Credit Card,1920.49,55694.21,2,4,No,0,25-48 Months
+CUST1450,Female,40,40,Month-to-Month,Fiber Optic,UPI,1066.96,42678.4,6,5,Yes,1,25-48 Months
+CUST1451,Female,46,30,One Year,DSL,UPI,2677.48,80324.4,2,3,No,0,25-48 Months
+CUST1452,Male,47,55,One Year,Fiber Optic,UPI,1183.58,65096.9,1,4,No,0,49-72 Months
+CUST1453,Female,56,16,Month-to-Month,Fiber Optic,Debit Card,1082.29,17316.64,0,4,No,0,13-24 Months
+CUST1454,Male,61,46,Month-to-Month,Fiber Optic,UPI,1027.68,47273.28,5,5,Yes,1,25-48 Months
+CUST1455,Male,64,62,Month-to-Month,No Internet,Bank Transfer,691.1,42848.2,2,5,No,0,49-72 Months
+CUST1456,Male,42,7,Two Year,No Internet,Credit Card,1870.13,13090.91,1,0,No,0,0-12 Months
+CUST1457,Female,54,45,Two Year,Fiber Optic,Bank Transfer,754.18,33938.1,6,4,Yes,1,25-48 Months
+CUST1458,Female,64,59,Month-to-Month,No Internet,UPI,1446.5,85343.5,3,0,No,0,49-72 Months
+CUST1459,Female,25,56,Month-to-Month,DSL,Debit Card,1544.62,86498.72,6,3,No,0,49-72 Months
+CUST1460,Male,59,48,Month-to-Month,DSL,UPI,355.33,17055.84,4,2,No,0,25-48 Months
+CUST1461,Male,33,27,One Year,Fiber Optic,UPI,345.38,9325.26,4,0,No,0,25-48 Months
+CUST1462,Male,25,53,Month-to-Month,No Internet,UPI,1704.57,90342.21,4,5,No,0,49-72 Months
+CUST1463,Male,18,35,Month-to-Month,DSL,UPI,2179.29,76275.15,1,1,Yes,1,25-48 Months
+CUST1464,Male,61,51,Month-to-Month,No Internet,UPI,2843.78,145032.78,4,2,Yes,1,49-72 Months
+CUST1465,Male,22,37,Month-to-Month,DSL,Credit Card,783.62,28993.94,2,3,No,0,25-48 Months
+CUST1466,Female,20,57,One Year,DSL,Bank Transfer,578.8,32991.6,3,5,No,0,49-72 Months
+CUST1467,Female,18,8,Month-to-Month,DSL,Debit Card,440.64,3525.12,4,2,No,0,0-12 Months
+CUST1468,Female,21,20,One Year,Fiber Optic,UPI,1477.31,29546.2,1,5,No,0,13-24 Months
+CUST1469,Female,57,53,Month-to-Month,Fiber Optic,Debit Card,1982.5,105072.5,3,0,No,0,49-72 Months
+CUST1470,Male,52,12,Month-to-Month,Fiber Optic,Credit Card,2569.49,30833.88,4,5,Yes,1,0-12 Months
+CUST1471,Male,49,49,One Year,Fiber Optic,Bank Transfer,2143.14,105013.86,0,3,No,0,49-72 Months
+CUST1472,Female,59,17,Two Year,DSL,UPI,862.57,14663.69,7,1,No,0,13-24 Months
+CUST1473,Male,51,64,One Year,DSL,Credit Card,1546.78,98993.92,4,0,No,0,49-72 Months
+CUST1474,Female,60,42,Month-to-Month,No Internet,Credit Card,2757.94,115833.48,5,0,No,0,25-48 Months
+CUST1475,Female,42,29,Month-to-Month,Fiber Optic,Bank Transfer,1182.2,34283.8,6,3,Yes,1,25-48 Months
+CUST1476,Female,27,19,Two Year,DSL,UPI,1646.57,31284.83,2,3,No,0,13-24 Months
+CUST1477,Male,38,11,Month-to-Month,Fiber Optic,Bank Transfer,2888.13,31769.43,3,2,Yes,1,0-12 Months
+CUST1478,Female,63,50,Month-to-Month,Fiber Optic,Bank Transfer,2283.71,114185.5,2,1,Yes,1,49-72 Months
+CUST1479,Female,56,71,Two Year,Fiber Optic,Debit Card,2318.9,164641.9,0,5,No,0,49-72 Months
+CUST1480,Female,44,58,Two Year,DSL,Debit Card,981.3,56915.4,0,2,No,0,49-72 Months
+CUST1481,Male,44,34,Two Year,Fiber Optic,Bank Transfer,1419.68,48269.12,5,5,Yes,1,25-48 Months
+CUST1482,Male,19,20,Two Year,DSL,Debit Card,522.32,10446.4,2,5,No,0,13-24 Months
+CUST1483,Female,58,50,Two Year,Fiber Optic,Credit Card,1937.62,96881.0,3,5,No,0,49-72 Months
+CUST1484,Male,65,10,Month-to-Month,No Internet,Bank Transfer,580.07,5800.7,0,2,Yes,1,0-12 Months
+CUST1485,Male,30,32,Month-to-Month,DSL,UPI,2556.96,81822.72,7,0,Yes,1,25-48 Months
+CUST1486,Male,26,52,One Year,No Internet,UPI,2499.3,129963.6,0,3,No,0,49-72 Months
+CUST1487,Male,69,15,Month-to-Month,No Internet,Credit Card,1740.73,26110.95,4,0,No,0,13-24 Months
+CUST1488,Male,53,3,Month-to-Month,No Internet,UPI,681.15,2043.45,5,1,No,0,0-12 Months
+CUST1489,Male,39,37,Month-to-Month,No Internet,UPI,369.06,13655.22,6,2,No,0,25-48 Months
+CUST1490,Male,59,40,Month-to-Month,DSL,Bank Transfer,2451.11,98044.4,1,1,No,0,25-48 Months
+CUST1491,Male,43,72,One Year,Fiber Optic,Credit Card,1920.38,138267.36,6,3,No,0,49-72 Months
+CUST1492,Male,29,40,Month-to-Month,Fiber Optic,Bank Transfer,2219.51,88780.4,7,3,No,0,25-48 Months
+CUST1493,Male,34,56,Month-to-Month,Fiber Optic,Credit Card,1120.28,62735.68,6,4,Yes,1,49-72 Months
+CUST1494,Female,31,23,Month-to-Month,DSL,Bank Transfer,1675.6,38538.8,7,1,No,0,13-24 Months
+CUST1495,Female,31,11,One Year,DSL,Bank Transfer,2317.37,25491.07,0,0,No,0,0-12 Months
+CUST1496,Male,51,64,Month-to-Month,No Internet,Debit Card,1548.92,99130.88,3,1,No,0,49-72 Months
+CUST1497,Female,37,8,Month-to-Month,No Internet,UPI,1923.74,15389.92,3,2,No,0,0-12 Months
+CUST1498,Female,28,56,One Year,Fiber Optic,Credit Card,2432.27,136207.12,4,3,Yes,1,49-72 Months
+CUST1499,Male,33,60,Month-to-Month,DSL,UPI,881.1,52866.0,7,3,Yes,1,49-72 Months
+CUST1500,Male,68,10,Month-to-Month,No Internet,Debit Card,478.01,4780.1,3,1,Yes,1,0-12 Months
+CUST1501,Male,48,39,Month-to-Month,Fiber Optic,Credit Card,1735.92,67700.88,4,1,Yes,1,25-48 Months
+CUST1502,Female,23,28,Month-to-Month,DSL,Debit Card,467.74,13096.72,0,5,Yes,1,25-48 Months
+CUST1503,Female,36,49,Two Year,Fiber Optic,UPI,2369.7,116115.3,0,1,No,0,49-72 Months
+CUST1504,Male,54,36,Month-to-Month,DSL,Bank Transfer,2241.87,80707.32,6,5,No,0,25-48 Months
+CUST1505,Male,21,13,One Year,Fiber Optic,Debit Card,2680.62,34848.06,0,2,No,0,13-24 Months
+CUST1506,Male,64,36,Month-to-Month,No Internet,Debit Card,2026.82,72965.52,0,2,No,0,25-48 Months
+CUST1507,Female,21,26,Month-to-Month,DSL,Bank Transfer,481.43,12517.18,7,0,No,0,25-48 Months
+CUST1508,Female,37,4,One Year,Fiber Optic,UPI,983.51,3934.04,1,1,No,0,0-12 Months
+CUST1509,Female,27,64,Month-to-Month,Fiber Optic,Debit Card,2481.42,158810.88,5,0,Yes,1,49-72 Months
+CUST1510,Female,41,38,Month-to-Month,Fiber Optic,UPI,751.26,28547.88,6,4,No,0,25-48 Months
+CUST1511,Male,52,22,Month-to-Month,No Internet,Bank Transfer,2185.9,48089.8,6,2,No,0,13-24 Months
+CUST1512,Male,43,2,Month-to-Month,DSL,Credit Card,2406.7,4813.4,5,3,No,0,0-12 Months
+CUST1513,Male,54,31,One Year,Fiber Optic,Debit Card,1191.3,36930.3,1,5,Yes,1,25-48 Months
+CUST1514,Male,55,11,Month-to-Month,Fiber Optic,UPI,1170.2,12872.2,0,4,Yes,1,0-12 Months
+CUST1515,Female,38,46,Two Year,DSL,Bank Transfer,1806.07,83079.22,3,3,No,0,25-48 Months
+CUST1516,Female,57,62,One Year,DSL,Bank Transfer,2625.47,162779.14,4,4,No,0,49-72 Months
+CUST1517,Male,56,69,Month-to-Month,DSL,Debit Card,904.55,62413.95,6,0,No,0,49-72 Months
+CUST1518,Male,38,64,Month-to-Month,Fiber Optic,Credit Card,2841.4,181849.6,5,0,No,0,49-72 Months
+CUST1519,Female,27,10,Month-to-Month,DSL,Debit Card,1917.62,19176.2,2,5,No,0,0-12 Months
+CUST1520,Male,55,40,One Year,DSL,UPI,2978.74,119149.6,4,2,Yes,1,25-48 Months
+CUST1521,Female,63,24,Month-to-Month,No Internet,Bank Transfer,541.96,13007.04,2,5,No,0,13-24 Months
+CUST1522,Male,21,44,Two Year,No Internet,Credit Card,641.72,28235.68,2,3,Yes,1,25-48 Months
+CUST1523,Male,62,60,Month-to-Month,DSL,UPI,2531.93,151915.8,7,4,No,0,49-72 Months
+CUST1524,Male,37,62,Two Year,DSL,Debit Card,2634.84,163360.08,6,5,No,0,49-72 Months
+CUST1525,Male,34,17,Month-to-Month,Fiber Optic,Bank Transfer,1502.74,25546.58,0,1,Yes,1,13-24 Months
+CUST1526,Male,24,65,Two Year,DSL,Debit Card,2227.99,144819.35,7,1,No,0,49-72 Months
+CUST1527,Male,21,57,Month-to-Month,Fiber Optic,Credit Card,2642.4,150616.8,2,2,No,0,49-72 Months
+CUST1528,Male,46,55,Month-to-Month,Fiber Optic,Credit Card,416.45,22904.75,0,5,Yes,1,49-72 Months
+CUST1529,Female,31,53,Month-to-Month,Fiber Optic,Credit Card,1849.67,98032.51,1,3,No,0,49-72 Months
+CUST1530,Female,20,56,Month-to-Month,DSL,Credit Card,2604.4,145846.4,3,1,Yes,1,49-72 Months
+CUST1531,Female,41,9,Two Year,Fiber Optic,Credit Card,1375.02,12375.18,2,2,No,0,0-12 Months
+CUST1532,Female,54,22,Month-to-Month,Fiber Optic,Debit Card,1116.44,24561.68,6,5,Yes,1,13-24 Months
+CUST1533,Female,33,13,Month-to-Month,Fiber Optic,Credit Card,2448.41,31829.33,3,2,No,0,13-24 Months
+CUST1534,Male,69,48,One Year,Fiber Optic,Credit Card,1206.62,57917.76,0,3,No,0,25-48 Months
+CUST1535,Male,21,18,Month-to-Month,Fiber Optic,Bank Transfer,308.57,5554.26,2,1,No,0,13-24 Months
+CUST1536,Female,41,40,Month-to-Month,DSL,Credit Card,2890.85,115634.0,4,1,Yes,1,25-48 Months
+CUST1537,Male,51,17,One Year,DSL,Bank Transfer,1898.73,32278.41,7,1,No,0,13-24 Months
+CUST1538,Female,47,15,Month-to-Month,Fiber Optic,Bank Transfer,2512.7,37690.5,6,0,No,0,13-24 Months
+CUST1539,Female,35,15,Two Year,No Internet,Bank Transfer,2528.31,37924.65,1,1,Yes,1,13-24 Months
+CUST1540,Male,36,63,Month-to-Month,DSL,Debit Card,479.31,30196.53,5,4,No,0,49-72 Months
+CUST1541,Male,48,39,Month-to-Month,Fiber Optic,Debit Card,761.32,29691.48,1,0,Yes,1,25-48 Months
+CUST1542,Male,36,13,One Year,DSL,UPI,1140.03,14820.39,7,5,No,0,13-24 Months
+CUST1543,Female,66,32,One Year,No Internet,UPI,1165.89,37308.48,2,0,No,0,25-48 Months
+CUST1544,Male,63,9,Month-to-Month,Fiber Optic,Bank Transfer,2078.72,18708.48,7,0,Yes,1,0-12 Months
+CUST1545,Female,36,40,One Year,Fiber Optic,Debit Card,1982.46,79298.4,6,0,No,0,25-48 Months
+CUST1546,Female,39,20,Month-to-Month,No Internet,Credit Card,1635.39,32707.8,1,2,No,0,13-24 Months
+CUST1547,Female,41,63,Month-to-Month,DSL,UPI,870.41,54835.83,5,4,Yes,1,49-72 Months
+CUST1548,Male,62,44,Two Year,Fiber Optic,Debit Card,1331.36,58579.84,4,3,No,0,25-48 Months
+CUST1549,Male,29,38,Month-to-Month,DSL,Credit Card,1767.7,67172.6,3,1,No,0,25-48 Months
+CUST1550,Female,47,60,Month-to-Month,DSL,Credit Card,1563.56,93813.6,7,0,No,0,49-72 Months
+CUST1551,Male,55,71,Two Year,No Internet,Debit Card,643.69,45701.99,4,3,No,0,49-72 Months
+CUST1552,Male,48,48,Two Year,DSL,UPI,2053.68,98576.64,1,2,Yes,1,25-48 Months
+CUST1553,Male,53,18,Month-to-Month,Fiber Optic,Debit Card,497.24,8950.32,5,3,No,0,13-24 Months
+CUST1554,Female,36,16,Month-to-Month,DSL,UPI,1321.13,21138.08,3,0,Yes,1,13-24 Months
+CUST1555,Female,65,55,One Year,DSL,Bank Transfer,2217.08,121939.4,6,5,Yes,1,49-72 Months
+CUST1556,Male,62,39,Two Year,Fiber Optic,Debit Card,354.06,13808.34,5,4,No,0,25-48 Months
+CUST1557,Female,53,68,Two Year,DSL,Debit Card,1838.95,125048.6,4,3,Yes,1,49-72 Months
+CUST1558,Male,47,59,Month-to-Month,DSL,UPI,1203.21,70989.39,0,0,Yes,1,49-72 Months
+CUST1559,Male,66,62,Month-to-Month,Fiber Optic,UPI,323.85,20078.7,0,0,No,0,49-72 Months
+CUST1560,Male,50,13,Month-to-Month,DSL,Debit Card,814.03,10582.39,3,1,Yes,1,13-24 Months
+CUST1561,Male,35,6,One Year,Fiber Optic,Credit Card,2840.55,17043.3,7,5,Yes,1,0-12 Months
+CUST1562,Female,69,60,One Year,Fiber Optic,Credit Card,1707.1,102426.0,3,1,Yes,1,49-72 Months
+CUST1563,Female,66,14,One Year,Fiber Optic,Credit Card,2992.51,41895.14,3,5,Yes,1,13-24 Months
+CUST1564,Female,45,54,Two Year,Fiber Optic,Bank Transfer,1717.01,92718.54,0,4,No,0,49-72 Months
+CUST1565,Male,64,4,Month-to-Month,DSL,Bank Transfer,1768.63,7074.52,4,1,No,0,0-12 Months
+CUST1566,Male,28,39,Month-to-Month,Fiber Optic,UPI,1357.98,52961.22,7,4,Yes,1,25-48 Months
+CUST1567,Male,62,72,Month-to-Month,DSL,Bank Transfer,1137.11,81871.92,3,2,No,0,49-72 Months
+CUST1568,Female,50,25,Month-to-Month,Fiber Optic,Credit Card,979.17,24479.25,0,2,Yes,1,25-48 Months
+CUST1569,Male,34,32,Month-to-Month,No Internet,Debit Card,1227.24,39271.68,3,5,Yes,1,25-48 Months
+CUST1570,Female,23,59,Month-to-Month,DSL,Bank Transfer,1541.6,90954.4,3,5,Yes,1,49-72 Months
+CUST1571,Female,21,63,One Year,DSL,Bank Transfer,818.38,51557.94,7,1,No,0,49-72 Months
+CUST1572,Female,37,38,Two Year,Fiber Optic,Credit Card,907.16,34472.08,7,2,No,0,25-48 Months
+CUST1573,Female,65,53,Month-to-Month,Fiber Optic,Bank Transfer,1033.17,54758.01,5,3,No,0,49-72 Months
+CUST1574,Female,64,67,Month-to-Month,Fiber Optic,UPI,1513.0,101371.0,3,3,No,0,49-72 Months
+CUST1575,Female,44,28,Month-to-Month,No Internet,Debit Card,2062.6,57752.8,0,3,Yes,1,25-48 Months
+CUST1576,Male,32,3,One Year,Fiber Optic,Credit Card,2611.59,7834.77,4,2,No,0,0-12 Months
+CUST1577,Male,23,22,One Year,DSL,UPI,1075.26,23655.72,0,3,No,0,13-24 Months
+CUST1578,Female,64,38,One Year,DSL,Credit Card,796.07,30250.66,0,4,No,0,25-48 Months
+CUST1579,Female,31,72,Month-to-Month,Fiber Optic,UPI,1322.89,95248.08,3,0,No,0,49-72 Months
+CUST1580,Male,28,72,Month-to-Month,DSL,Debit Card,2714.83,195467.76,5,5,No,0,49-72 Months
+CUST1581,Female,56,62,Month-to-Month,DSL,Debit Card,326.62,20250.44,2,1,No,0,49-72 Months
+CUST1582,Female,26,57,One Year,DSL,UPI,2130.25,121424.25,6,4,No,0,49-72 Months
+CUST1583,Male,43,6,Two Year,Fiber Optic,UPI,1588.33,9529.98,2,3,No,0,0-12 Months
+CUST1584,Female,33,32,Two Year,Fiber Optic,UPI,734.82,23514.24,2,0,No,0,25-48 Months
+CUST1585,Female,22,10,Month-to-Month,Fiber Optic,UPI,1166.76,11667.6,0,1,Yes,1,0-12 Months
+CUST1586,Female,69,3,One Year,DSL,UPI,907.37,2722.11,3,4,No,0,0-12 Months
+CUST1587,Male,27,59,Two Year,DSL,UPI,2670.15,157538.85,7,1,No,0,49-72 Months
+CUST1588,Male,67,49,Month-to-Month,Fiber Optic,Debit Card,1601.06,78451.94,6,5,Yes,1,49-72 Months
+CUST1589,Male,20,59,Month-to-Month,No Internet,UPI,1820.35,107400.65,2,2,No,0,49-72 Months
+CUST1590,Female,30,31,Two Year,Fiber Optic,Bank Transfer,1902.96,58991.76,1,3,Yes,1,25-48 Months
+CUST1591,Female,60,69,Month-to-Month,No Internet,Debit Card,2026.97,139860.93,1,4,No,0,49-72 Months
+CUST1592,Male,66,62,Two Year,No Internet,Credit Card,1638.0,101556.0,1,4,No,0,49-72 Months
+CUST1593,Female,47,52,Two Year,No Internet,Debit Card,348.26,18109.52,4,0,No,0,49-72 Months
+CUST1594,Female,62,41,One Year,DSL,Credit Card,1203.75,49353.75,3,0,Yes,1,25-48 Months
+CUST1595,Female,23,31,Two Year,Fiber Optic,Credit Card,796.46,24690.26,0,0,No,0,25-48 Months
+CUST1596,Female,34,22,One Year,Fiber Optic,Bank Transfer,2136.39,47000.58,0,1,No,0,13-24 Months
+CUST1597,Female,62,4,One Year,DSL,UPI,453.1,1812.4,3,3,No,0,0-12 Months
+CUST1598,Male,68,13,Month-to-Month,Fiber Optic,UPI,1822.27,23689.51,5,1,Yes,1,13-24 Months
+CUST1599,Female,36,45,Month-to-Month,Fiber Optic,Debit Card,868.71,39091.95,7,3,No,0,25-48 Months
+CUST1600,Male,59,42,Month-to-Month,DSL,UPI,2861.88,120198.96,6,4,Yes,1,25-48 Months
+CUST1601,Female,52,49,One Year,Fiber Optic,Bank Transfer,1205.96,59092.04,5,1,Yes,1,49-72 Months
+CUST1602,Male,63,20,Month-to-Month,No Internet,Debit Card,1178.1,23562.0,7,1,Yes,1,13-24 Months
+CUST1603,Female,43,54,Month-to-Month,DSL,Debit Card,2793.14,150829.56,4,1,Yes,1,49-72 Months
+CUST1604,Male,68,36,Month-to-Month,DSL,Debit Card,1426.84,51366.24,3,2,Yes,1,25-48 Months
+CUST1605,Female,22,1,One Year,DSL,UPI,2899.73,2899.73,5,5,No,0,0-12 Months
+CUST1606,Male,46,15,Two Year,No Internet,UPI,365.26,5478.9,6,3,Yes,1,13-24 Months
+CUST1607,Female,54,17,Two Year,DSL,UPI,1127.13,19161.21,4,3,No,0,13-24 Months
+CUST1608,Male,37,24,Month-to-Month,DSL,Debit Card,2098.72,50369.28,2,1,No,0,13-24 Months
+CUST1609,Female,66,58,Two Year,Fiber Optic,Debit Card,2705.31,156907.98,2,2,No,0,49-72 Months
+CUST1610,Male,38,72,One Year,No Internet,Credit Card,992.3,71445.6,4,1,No,0,49-72 Months
+CUST1611,Male,27,23,Month-to-Month,DSL,Credit Card,2812.29,64682.67,7,3,Yes,1,13-24 Months
+CUST1612,Female,22,46,One Year,Fiber Optic,UPI,1904.13,87589.98,3,5,No,0,25-48 Months
+CUST1613,Female,53,72,Month-to-Month,Fiber Optic,Debit Card,2462.72,177315.84,2,5,Yes,1,49-72 Months
+CUST1614,Male,23,8,Two Year,DSL,UPI,1372.46,10979.68,3,4,No,0,0-12 Months
+CUST1615,Female,43,59,Month-to-Month,Fiber Optic,UPI,872.89,51500.51,5,2,No,0,49-72 Months
+CUST1616,Male,21,59,Month-to-Month,No Internet,Credit Card,2760.34,162860.06,2,5,No,0,49-72 Months
+CUST1617,Male,56,13,One Year,No Internet,Bank Transfer,2819.47,36653.11,6,2,No,0,13-24 Months
+CUST1618,Male,56,39,Month-to-Month,Fiber Optic,UPI,1643.45,64094.55,6,1,No,0,25-48 Months
+CUST1619,Female,67,28,Month-to-Month,DSL,Bank Transfer,317.54,8891.12,5,4,Yes,1,25-48 Months
+CUST1620,Male,52,61,One Year,Fiber Optic,Bank Transfer,596.41,36381.01,6,3,No,0,49-72 Months
+CUST1621,Male,18,16,Month-to-Month,DSL,Debit Card,1847.18,29554.88,3,5,No,0,13-24 Months
+CUST1622,Female,41,2,One Year,Fiber Optic,Debit Card,364.2,728.4,7,5,No,0,0-12 Months
+CUST1623,Female,53,17,Month-to-Month,DSL,UPI,1371.66,23318.22,3,0,Yes,1,13-24 Months
+CUST1624,Female,23,30,One Year,Fiber Optic,Credit Card,1119.1,33573.0,7,3,No,0,25-48 Months
+CUST1625,Female,58,13,One Year,Fiber Optic,Credit Card,2228.74,28973.62,6,5,No,0,13-24 Months
+CUST1626,Male,63,13,Month-to-Month,Fiber Optic,UPI,450.06,5850.78,1,5,No,0,13-24 Months
+CUST1627,Male,61,43,One Year,Fiber Optic,UPI,1619.57,69641.51,4,3,No,0,25-48 Months
+CUST1628,Male,48,21,One Year,DSL,Credit Card,1863.61,39135.81,7,4,No,0,13-24 Months
+CUST1629,Male,37,55,One Year,Fiber Optic,Bank Transfer,1966.69,108167.95,0,2,No,0,49-72 Months
+CUST1630,Female,41,40,One Year,DSL,UPI,1393.93,55757.2,4,3,No,0,25-48 Months
+CUST1631,Male,42,15,Two Year,No Internet,Bank Transfer,1121.79,16826.85,6,2,No,0,13-24 Months
+CUST1632,Male,53,52,Month-to-Month,DSL,UPI,2142.73,111421.96,3,4,Yes,1,49-72 Months
+CUST1633,Female,38,53,Month-to-Month,No Internet,UPI,2588.44,137187.32,7,4,Yes,1,49-72 Months
+CUST1634,Male,47,52,Two Year,No Internet,Bank Transfer,2172.77,112984.04,3,1,Yes,1,49-72 Months
+CUST1635,Male,41,30,Month-to-Month,Fiber Optic,Bank Transfer,2816.68,84500.4,4,0,No,0,25-48 Months
+CUST1636,Male,61,33,Month-to-Month,Fiber Optic,Credit Card,2236.61,73808.13,7,4,Yes,1,25-48 Months
+CUST1637,Male,59,57,Month-to-Month,DSL,UPI,2364.47,134774.79,3,4,Yes,1,49-72 Months
+CUST1638,Male,47,52,Month-to-Month,No Internet,Debit Card,753.34,39173.68,5,2,No,0,49-72 Months
+CUST1639,Male,39,9,Month-to-Month,No Internet,Debit Card,1432.76,12894.84,2,4,No,0,0-12 Months
+CUST1640,Female,45,54,Two Year,Fiber Optic,UPI,1609.65,86921.1,3,3,No,0,49-72 Months
+CUST1641,Female,24,1,Month-to-Month,Fiber Optic,UPI,991.99,991.99,7,1,Yes,1,0-12 Months
+CUST1642,Male,52,44,Month-to-Month,Fiber Optic,UPI,1727.06,75990.64,6,1,No,0,25-48 Months
+CUST1643,Male,45,9,Two Year,DSL,Bank Transfer,1085.14,9766.26,6,3,Yes,1,0-12 Months
+CUST1644,Female,31,32,Two Year,DSL,Debit Card,2156.26,69000.32,4,5,No,0,25-48 Months
+CUST1645,Male,27,15,Month-to-Month,Fiber Optic,Debit Card,1569.78,23546.7,4,4,Yes,1,13-24 Months
+CUST1646,Male,33,12,Month-to-Month,Fiber Optic,Debit Card,1538.78,18465.36,4,0,No,0,0-12 Months
+CUST1647,Male,33,57,Two Year,DSL,UPI,2955.83,168482.31,6,4,No,0,49-72 Months
+CUST1648,Female,48,8,One Year,DSL,Bank Transfer,1359.6,10876.8,1,1,No,0,0-12 Months
+CUST1649,Male,59,72,One Year,Fiber Optic,UPI,1278.2,92030.4,7,0,No,0,49-72 Months
+CUST1650,Female,42,27,Two Year,No Internet,Credit Card,1160.23,31326.21,6,5,No,0,25-48 Months
+CUST1651,Male,30,62,One Year,DSL,Credit Card,2715.82,168380.84,5,2,No,0,49-72 Months
+CUST1652,Female,23,12,Month-to-Month,DSL,Debit Card,1641.15,19693.8,6,2,Yes,1,0-12 Months
+CUST1653,Female,61,65,One Year,DSL,UPI,1920.04,124802.6,5,4,No,0,49-72 Months
+CUST1654,Male,26,42,Month-to-Month,Fiber Optic,Credit Card,788.21,33104.82,6,4,No,0,25-48 Months
+CUST1655,Female,62,62,One Year,Fiber Optic,Credit Card,1760.54,109153.48,6,0,No,0,49-72 Months
+CUST1656,Male,53,11,One Year,DSL,UPI,1041.55,11457.05,1,0,Yes,1,0-12 Months
+CUST1657,Female,60,43,Month-to-Month,Fiber Optic,Bank Transfer,2272.72,97726.96,5,5,Yes,1,25-48 Months
+CUST1658,Male,37,17,Month-to-Month,DSL,UPI,2547.83,43313.11,1,4,No,0,13-24 Months
+CUST1659,Male,35,32,Month-to-Month,DSL,UPI,2229.99,71359.68,5,1,Yes,1,25-48 Months
+CUST1660,Female,60,40,Month-to-Month,DSL,Bank Transfer,2271.66,90866.4,1,2,No,0,25-48 Months
+CUST1661,Male,38,23,One Year,Fiber Optic,Debit Card,1683.68,38724.64,1,5,No,0,13-24 Months
+CUST1662,Male,21,56,Month-to-Month,Fiber Optic,Debit Card,2222.72,124472.32,5,0,No,0,49-72 Months
+CUST1663,Female,67,6,One Year,DSL,Debit Card,1441.25,8647.5,1,1,Yes,1,0-12 Months
+CUST1664,Male,50,50,Month-to-Month,Fiber Optic,Bank Transfer,2059.02,102951.0,6,4,Yes,1,49-72 Months
+CUST1665,Male,44,37,One Year,DSL,Credit Card,999.41,36978.17,5,3,Yes,1,25-48 Months
+CUST1666,Female,24,64,Two Year,DSL,Bank Transfer,488.34,31253.76,1,0,No,0,49-72 Months
+CUST1667,Female,23,54,One Year,Fiber Optic,UPI,1416.38,76484.52,6,5,No,0,49-72 Months
+CUST1668,Male,32,72,Month-to-Month,DSL,Bank Transfer,1546.8,111369.6,6,3,No,0,49-72 Months
+CUST1669,Male,35,49,Two Year,Fiber Optic,Credit Card,992.3,48622.7,4,1,Yes,1,49-72 Months
+CUST1670,Female,49,11,Month-to-Month,Fiber Optic,Credit Card,2264.82,24913.02,0,2,Yes,1,0-12 Months
+CUST1671,Female,28,49,Month-to-Month,No Internet,UPI,498.59,24430.91,5,1,Yes,1,49-72 Months
+CUST1672,Male,37,21,Month-to-Month,No Internet,Debit Card,901.42,18929.82,1,2,No,0,13-24 Months
+CUST1673,Female,41,66,Month-to-Month,DSL,Credit Card,2321.12,153193.92,4,1,Yes,1,49-72 Months
+CUST1674,Male,32,63,Two Year,No Internet,Credit Card,1480.24,93255.12,0,0,No,0,49-72 Months
+CUST1675,Male,65,28,Month-to-Month,DSL,Credit Card,2204.27,61719.56,7,0,No,0,25-48 Months
+CUST1676,Male,24,17,One Year,Fiber Optic,UPI,1832.21,31147.57,7,5,No,0,13-24 Months
+CUST1677,Male,38,6,One Year,Fiber Optic,Credit Card,2866.92,17201.52,1,3,No,0,0-12 Months
+CUST1678,Male,59,19,Month-to-Month,No Internet,Debit Card,1914.05,36366.95,7,1,Yes,1,13-24 Months
+CUST1679,Female,43,56,One Year,Fiber Optic,UPI,340.15,19048.4,0,1,No,0,49-72 Months
+CUST1680,Female,61,28,Month-to-Month,DSL,Debit Card,1252.77,35077.56,5,3,Yes,1,25-48 Months
+CUST1681,Female,31,66,Month-to-Month,DSL,Credit Card,686.26,45293.16,6,4,No,0,49-72 Months
+CUST1682,Female,54,38,Month-to-Month,DSL,Credit Card,2796.51,106267.38,6,5,Yes,1,25-48 Months
+CUST1683,Male,38,37,Two Year,Fiber Optic,Debit Card,580.83,21490.71,0,1,No,0,25-48 Months
+CUST1684,Male,35,68,Two Year,Fiber Optic,UPI,1346.81,91583.08,7,5,Yes,1,49-72 Months
+CUST1685,Male,22,49,Month-to-Month,Fiber Optic,UPI,910.47,44613.03,6,1,No,0,49-72 Months
+CUST1686,Male,20,43,Month-to-Month,DSL,Debit Card,2586.15,111204.45,7,1,Yes,1,25-48 Months
+CUST1687,Female,40,36,One Year,DSL,Credit Card,1133.13,40792.68,2,4,No,0,25-48 Months
+CUST1688,Male,43,58,Month-to-Month,DSL,Bank Transfer,2978.11,172730.38,3,0,No,0,49-72 Months
+CUST1689,Male,54,13,Two Year,DSL,Debit Card,404.26,5255.38,6,5,No,0,13-24 Months
+CUST1690,Female,41,52,One Year,Fiber Optic,Debit Card,646.35,33610.2,2,3,No,0,49-72 Months
+CUST1691,Female,66,58,Month-to-Month,No Internet,Debit Card,906.52,52578.16,5,5,No,0,49-72 Months
+CUST1692,Female,36,32,Two Year,DSL,Credit Card,2489.99,79679.68,5,4,Yes,1,25-48 Months
+CUST1693,Female,68,60,Month-to-Month,Fiber Optic,UPI,2672.0,160320.0,0,2,No,0,49-72 Months
+CUST1694,Male,42,58,Two Year,Fiber Optic,Credit Card,492.92,28589.36,6,2,No,0,49-72 Months
+CUST1695,Male,38,56,Two Year,DSL,Debit Card,387.64,21707.84,7,4,No,0,49-72 Months
+CUST1696,Female,29,28,Month-to-Month,No Internet,Credit Card,2310.3,64688.4,6,4,Yes,1,25-48 Months
+CUST1697,Male,58,1,Month-to-Month,Fiber Optic,Credit Card,660.05,660.05,7,0,Yes,1,0-12 Months
+CUST1698,Male,50,42,Two Year,DSL,Debit Card,659.1,27682.2,7,5,No,0,25-48 Months
+CUST1699,Male,67,48,Two Year,Fiber Optic,Credit Card,360.39,17298.72,6,5,No,0,25-48 Months
+CUST1700,Female,21,40,Month-to-Month,Fiber Optic,Bank Transfer,434.48,17379.2,7,2,No,0,25-48 Months
+CUST1701,Male,59,63,Two Year,DSL,Credit Card,1011.92,63750.96,4,3,Yes,1,49-72 Months
+CUST1702,Female,24,72,Month-to-Month,DSL,Credit Card,475.51,34236.72,1,5,Yes,1,49-72 Months
+CUST1703,Male,39,4,Month-to-Month,DSL,UPI,1295.97,5183.88,3,1,No,0,0-12 Months
+CUST1704,Male,50,38,Two Year,Fiber Optic,UPI,2548.49,96842.62,6,1,No,0,25-48 Months
+CUST1705,Male,34,27,Month-to-Month,Fiber Optic,Debit Card,1181.06,31888.62,1,0,No,0,25-48 Months
+CUST1706,Female,41,9,Two Year,Fiber Optic,Debit Card,2265.15,20386.35,4,0,Yes,1,0-12 Months
+CUST1707,Male,51,16,Month-to-Month,Fiber Optic,UPI,553.56,8856.96,7,2,No,0,13-24 Months
+CUST1708,Female,45,56,One Year,Fiber Optic,Bank Transfer,2080.31,116497.36,7,3,No,0,49-72 Months
+CUST1709,Female,60,31,Month-to-Month,Fiber Optic,Credit Card,1155.22,35811.82,5,3,Yes,1,25-48 Months
+CUST1710,Female,58,14,Month-to-Month,Fiber Optic,Bank Transfer,2324.33,32540.62,3,4,No,0,13-24 Months
+CUST1711,Male,56,25,One Year,Fiber Optic,Bank Transfer,667.88,16697.0,2,0,No,0,25-48 Months
+CUST1712,Male,39,34,Month-to-Month,DSL,UPI,2724.29,92625.86,5,5,Yes,1,25-48 Months
+CUST1713,Male,66,67,Month-to-Month,Fiber Optic,Debit Card,954.96,63982.32,5,1,No,0,49-72 Months
+CUST1714,Male,34,24,Month-to-Month,Fiber Optic,Credit Card,1253.47,30083.28,7,5,Yes,1,13-24 Months
+CUST1715,Female,51,26,Month-to-Month,DSL,Debit Card,2865.49,74502.74,0,1,No,0,25-48 Months
+CUST1716,Female,23,20,Two Year,Fiber Optic,Bank Transfer,1861.9,37238.0,4,2,Yes,1,13-24 Months
+CUST1717,Female,63,64,Month-to-Month,DSL,Bank Transfer,1287.58,82405.12,0,1,No,0,49-72 Months
+CUST1718,Male,23,10,One Year,Fiber Optic,Debit Card,2863.93,28639.3,0,5,Yes,1,0-12 Months
+CUST1719,Female,51,67,Month-to-Month,Fiber Optic,Debit Card,1188.51,79630.17,1,5,No,0,49-72 Months
+CUST1720,Male,18,24,Month-to-Month,Fiber Optic,UPI,556.15,13347.6,5,3,Yes,1,13-24 Months
+CUST1721,Female,27,5,Month-to-Month,Fiber Optic,Debit Card,2991.49,14957.45,7,3,Yes,1,0-12 Months
+CUST1722,Male,38,67,Month-to-Month,DSL,Debit Card,1023.18,68553.06,4,0,Yes,1,49-72 Months
+CUST1723,Male,22,58,Month-to-Month,No Internet,UPI,2598.4,150707.2,0,5,Yes,1,49-72 Months
+CUST1724,Female,19,27,One Year,Fiber Optic,Debit Card,746.96,20167.92,7,2,Yes,1,25-48 Months
+CUST1725,Female,39,15,Two Year,Fiber Optic,Bank Transfer,2274.66,34119.9,7,1,No,0,13-24 Months
+CUST1726,Female,65,35,Month-to-Month,DSL,Debit Card,1716.01,60060.35,7,0,Yes,1,25-48 Months
+CUST1727,Female,19,53,Month-to-Month,Fiber Optic,Credit Card,2948.45,156267.85,2,4,No,0,49-72 Months
+CUST1728,Male,27,44,Month-to-Month,DSL,Bank Transfer,1792.64,78876.16,3,4,Yes,1,25-48 Months
+CUST1729,Female,51,26,Month-to-Month,Fiber Optic,UPI,367.54,9556.04,7,1,No,0,25-48 Months
+CUST1730,Female,33,47,Month-to-Month,No Internet,Bank Transfer,1930.47,90732.09,6,1,No,0,25-48 Months
+CUST1731,Female,65,34,Month-to-Month,Fiber Optic,UPI,692.35,23539.9,4,1,Yes,1,25-48 Months
+CUST1732,Male,68,50,Month-to-Month,Fiber Optic,Credit Card,2456.06,122803.0,1,3,No,0,49-72 Months
+CUST1733,Male,56,12,Month-to-Month,No Internet,Credit Card,2612.73,31352.76,4,1,Yes,1,0-12 Months
+CUST1734,Female,39,4,Month-to-Month,DSL,Bank Transfer,1601.65,6406.6,5,4,No,0,0-12 Months
+CUST1735,Male,29,48,Month-to-Month,DSL,Debit Card,2414.7,115905.6,1,1,No,0,25-48 Months
+CUST1736,Female,41,55,Month-to-Month,DSL,Bank Transfer,691.8,38049.0,3,5,Yes,1,49-72 Months
+CUST1737,Male,64,1,Month-to-Month,DSL,Bank Transfer,1628.61,1628.61,7,2,Yes,1,0-12 Months
+CUST1738,Male,57,66,Month-to-Month,Fiber Optic,Credit Card,1363.65,90000.9,2,4,Yes,1,49-72 Months
+CUST1739,Male,55,30,Month-to-Month,DSL,UPI,1950.56,58516.8,0,2,No,0,25-48 Months
+CUST1740,Male,27,3,Month-to-Month,Fiber Optic,Bank Transfer,420.09,1260.27,4,4,No,0,0-12 Months
+CUST1741,Female,52,21,Month-to-Month,DSL,Debit Card,2330.73,48945.33,1,0,No,0,13-24 Months
+CUST1742,Female,68,49,Month-to-Month,No Internet,Credit Card,513.65,25168.85,7,5,Yes,1,49-72 Months
+CUST1743,Female,66,62,Month-to-Month,Fiber Optic,Bank Transfer,2072.47,128493.14,3,4,Yes,1,49-72 Months
+CUST1744,Male,49,38,Month-to-Month,Fiber Optic,Bank Transfer,349.83,13293.54,0,5,Yes,1,25-48 Months
+CUST1745,Female,24,15,Month-to-Month,Fiber Optic,Debit Card,2546.1,38191.5,6,4,Yes,1,13-24 Months
+CUST1746,Female,38,52,One Year,Fiber Optic,Bank Transfer,771.69,40127.88,3,2,No,0,49-72 Months
+CUST1747,Female,37,46,Month-to-Month,No Internet,Bank Transfer,1691.84,77824.64,2,2,Yes,1,25-48 Months
+CUST1748,Male,43,25,Month-to-Month,Fiber Optic,Bank Transfer,1006.03,25150.75,0,4,No,0,25-48 Months
+CUST1749,Male,21,21,Two Year,Fiber Optic,Bank Transfer,2251.15,47274.15,0,4,No,0,13-24 Months
+CUST1750,Male,63,5,Month-to-Month,DSL,Debit Card,1167.65,5838.25,6,3,Yes,1,0-12 Months
+CUST1751,Female,69,70,Month-to-Month,No Internet,Bank Transfer,2256.44,157950.8,7,5,No,0,49-72 Months
+CUST1752,Female,39,47,Two Year,DSL,Bank Transfer,1069.15,50250.05,0,5,No,0,25-48 Months
+CUST1753,Female,32,68,Two Year,DSL,Bank Transfer,2331.68,158554.24,1,5,No,0,49-72 Months
+CUST1754,Male,57,18,Month-to-Month,DSL,Credit Card,382.63,6887.34,0,5,No,0,13-24 Months
+CUST1755,Male,38,21,Month-to-Month,No Internet,Debit Card,1064.94,22363.74,3,0,No,0,13-24 Months
+CUST1756,Female,32,23,Month-to-Month,DSL,Credit Card,1646.31,37865.13,1,0,No,0,13-24 Months
+CUST1757,Male,39,64,Month-to-Month,DSL,Credit Card,421.66,26986.24,0,1,No,0,49-72 Months
+CUST1758,Male,69,67,One Year,Fiber Optic,Debit Card,802.29,53753.43,3,4,No,0,49-72 Months
+CUST1759,Male,45,40,Month-to-Month,Fiber Optic,Credit Card,2823.25,112930.0,3,4,Yes,1,25-48 Months
+CUST1760,Male,31,10,Month-to-Month,DSL,Credit Card,2937.45,29374.5,4,4,Yes,1,0-12 Months
+CUST1761,Female,44,52,Two Year,No Internet,Credit Card,2297.32,119460.64,3,4,Yes,1,49-72 Months
+CUST1762,Male,58,72,Two Year,No Internet,Debit Card,980.94,70627.68,6,5,Yes,1,49-72 Months
+CUST1763,Male,57,61,Month-to-Month,No Internet,Bank Transfer,1003.4,61207.4,5,5,No,0,49-72 Months
+CUST1764,Male,45,64,One Year,DSL,UPI,2043.63,130792.32,2,0,No,0,49-72 Months
+CUST1765,Male,43,5,Month-to-Month,DSL,UPI,617.52,3087.6,0,2,No,0,0-12 Months
+CUST1766,Female,66,53,Two Year,DSL,Debit Card,2860.44,151603.32,6,3,Yes,1,49-72 Months
+CUST1767,Female,19,55,Month-to-Month,DSL,UPI,906.99,49884.45,0,5,No,0,49-72 Months
+CUST1768,Male,42,37,Month-to-Month,Fiber Optic,Debit Card,2999.02,110963.74,0,5,No,0,25-48 Months
+CUST1769,Male,20,56,Month-to-Month,Fiber Optic,Debit Card,1638.48,91754.88,3,5,Yes,1,49-72 Months
+CUST1770,Male,25,59,Month-to-Month,No Internet,UPI,2382.86,140588.74,3,2,No,0,49-72 Months
+CUST1771,Male,61,69,Month-to-Month,Fiber Optic,Credit Card,305.9,21107.1,0,2,No,0,49-72 Months
+CUST1772,Male,50,59,One Year,No Internet,Bank Transfer,2699.62,159277.58,5,0,No,0,49-72 Months
+CUST1773,Male,59,2,One Year,Fiber Optic,UPI,1029.01,2058.02,1,5,Yes,1,0-12 Months
+CUST1774,Female,69,65,Month-to-Month,DSL,UPI,2103.43,136722.95,1,3,Yes,1,49-72 Months
+CUST1775,Male,52,60,Month-to-Month,DSL,UPI,2477.16,148629.6,2,4,No,0,49-72 Months
+CUST1776,Female,23,51,Month-to-Month,DSL,UPI,743.2,37903.2,4,5,No,0,49-72 Months
+CUST1777,Female,56,30,Two Year,Fiber Optic,Debit Card,1494.78,44843.4,7,0,No,0,25-48 Months
+CUST1778,Male,69,11,Two Year,No Internet,Debit Card,1633.36,17966.96,6,0,Yes,1,0-12 Months
+CUST1779,Female,40,39,Two Year,DSL,Bank Transfer,1142.72,44566.08,2,3,No,0,25-48 Months
+CUST1780,Female,42,72,Two Year,Fiber Optic,Bank Transfer,1600.74,115253.28,7,1,No,0,49-72 Months
+CUST1781,Female,67,63,Month-to-Month,DSL,UPI,1157.37,72914.31,0,0,Yes,1,49-72 Months
+CUST1782,Female,60,64,Month-to-Month,Fiber Optic,UPI,1274.02,81537.28,6,2,No,0,49-72 Months
+CUST1783,Female,36,61,One Year,Fiber Optic,UPI,2107.19,128538.59,0,2,No,0,49-72 Months
+CUST1784,Female,22,54,Two Year,Fiber Optic,Bank Transfer,2008.0,108432.0,0,4,Yes,1,49-72 Months
+CUST1785,Male,68,58,Month-to-Month,No Internet,UPI,927.12,53772.96,4,0,Yes,1,49-72 Months
+CUST1786,Female,28,56,Month-to-Month,DSL,Credit Card,2723.2,152499.2,3,4,No,0,49-72 Months
+CUST1787,Female,29,34,Two Year,DSL,Bank Transfer,2629.53,89404.02,4,0,No,0,25-48 Months
+CUST1788,Female,27,31,Month-to-Month,Fiber Optic,Credit Card,1674.52,51910.12,2,3,No,0,25-48 Months
+CUST1789,Male,25,52,Month-to-Month,Fiber Optic,UPI,1469.78,76428.56,3,5,Yes,1,49-72 Months
+CUST1790,Female,41,1,One Year,No Internet,Debit Card,1317.51,1317.51,3,0,No,0,0-12 Months
+CUST1791,Male,45,55,Month-to-Month,DSL,Credit Card,2209.62,121529.1,2,1,No,0,49-72 Months
+CUST1792,Female,58,22,Month-to-Month,No Internet,Bank Transfer,2113.5,46497.0,3,2,No,0,13-24 Months
+CUST1793,Male,53,40,One Year,Fiber Optic,Credit Card,829.69,33187.6,6,3,Yes,1,25-48 Months
+CUST1794,Male,54,1,One Year,Fiber Optic,Bank Transfer,2112.94,2112.94,1,5,No,0,0-12 Months
+CUST1795,Female,38,65,Two Year,No Internet,UPI,981.56,63801.4,2,5,Yes,1,49-72 Months
+CUST1796,Female,25,63,Month-to-Month,DSL,Credit Card,350.11,22056.93,7,2,Yes,1,49-72 Months
+CUST1797,Male,26,54,Month-to-Month,Fiber Optic,Debit Card,2187.86,118144.44,2,5,Yes,1,49-72 Months
+CUST1798,Female,64,42,One Year,Fiber Optic,Credit Card,2040.94,85719.48,1,4,No,0,25-48 Months
+CUST1799,Male,32,21,Month-to-Month,DSL,Debit Card,1409.19,29592.99,4,3,No,0,13-24 Months
+CUST1800,Male,65,22,Month-to-Month,Fiber Optic,Bank Transfer,1719.35,37825.7,4,1,No,0,13-24 Months
+CUST1801,Male,63,38,One Year,DSL,UPI,2857.36,108579.68,4,2,No,0,25-48 Months
+CUST1802,Male,57,8,Month-to-Month,Fiber Optic,UPI,1907.04,15256.32,3,0,No,0,0-12 Months
+CUST1803,Male,35,62,Month-to-Month,Fiber Optic,Debit Card,2076.29,128729.98,1,0,No,0,49-72 Months
+CUST1804,Female,59,47,Month-to-Month,No Internet,Bank Transfer,472.56,22210.32,6,0,No,0,25-48 Months
+CUST1805,Male,37,17,Month-to-Month,Fiber Optic,UPI,748.19,12719.23,2,3,No,0,13-24 Months
+CUST1806,Male,23,17,Month-to-Month,DSL,Bank Transfer,1112.57,18913.69,2,1,No,0,13-24 Months
+CUST1807,Female,29,13,Month-to-Month,DSL,Debit Card,1756.32,22832.16,2,5,No,0,13-24 Months
+CUST1808,Male,19,17,One Year,Fiber Optic,Debit Card,2396.8,40745.6,3,1,No,0,13-24 Months
+CUST1809,Female,24,38,Two Year,Fiber Optic,Credit Card,1167.35,44359.3,3,1,No,0,25-48 Months
+CUST1810,Female,33,45,Month-to-Month,DSL,UPI,1262.23,56800.35,5,2,No,0,25-48 Months
+CUST1811,Female,20,6,Month-to-Month,Fiber Optic,UPI,991.61,5949.66,6,3,No,0,0-12 Months
+CUST1812,Male,62,35,Month-to-Month,Fiber Optic,Credit Card,987.45,34560.75,4,0,No,0,25-48 Months
+CUST1813,Male,20,14,Month-to-Month,Fiber Optic,Debit Card,2861.93,40067.02,7,2,Yes,1,13-24 Months
+CUST1814,Male,44,72,One Year,DSL,Debit Card,2015.73,145132.56,5,5,No,0,49-72 Months
+CUST1815,Female,67,61,One Year,DSL,Debit Card,720.93,43976.73,5,1,No,0,49-72 Months
+CUST1816,Male,60,15,One Year,DSL,Debit Card,2250.07,33751.05,3,0,No,0,13-24 Months
+CUST1817,Female,57,54,Month-to-Month,Fiber Optic,Bank Transfer,2249.46,121470.84,4,3,No,0,49-72 Months
+CUST1818,Male,55,27,Month-to-Month,DSL,UPI,2099.47,56685.69,4,4,Yes,1,25-48 Months
+CUST1819,Female,50,13,Month-to-Month,No Internet,UPI,663.75,8628.75,2,1,No,0,13-24 Months
+CUST1820,Male,45,31,Month-to-Month,DSL,Debit Card,1401.58,43448.98,3,1,No,0,25-48 Months
+CUST1821,Male,18,35,One Year,DSL,Debit Card,588.24,20588.4,4,1,No,0,25-48 Months
+CUST1822,Male,25,60,Two Year,DSL,Debit Card,2504.88,150292.8,7,1,No,0,49-72 Months
+CUST1823,Female,54,6,Month-to-Month,No Internet,UPI,2068.96,12413.76,5,0,Yes,1,0-12 Months
+CUST1824,Female,49,69,One Year,No Internet,UPI,1669.45,115192.05,1,3,No,0,49-72 Months
+CUST1825,Male,65,58,Month-to-Month,Fiber Optic,Debit Card,1226.14,71116.12,1,2,Yes,1,49-72 Months
+CUST1826,Male,60,49,Month-to-Month,Fiber Optic,Bank Transfer,797.47,39076.03,3,0,Yes,1,49-72 Months
+CUST1827,Female,54,23,One Year,Fiber Optic,Credit Card,587.41,13510.43,2,3,Yes,1,13-24 Months
+CUST1828,Female,21,34,Month-to-Month,Fiber Optic,Credit Card,2916.95,99176.3,2,2,No,0,25-48 Months
+CUST1829,Female,47,26,Month-to-Month,Fiber Optic,Credit Card,839.05,21815.3,4,1,No,0,25-48 Months
+CUST1830,Male,23,47,One Year,DSL,UPI,461.66,21698.02,7,3,Yes,1,25-48 Months
+CUST1831,Female,63,5,Two Year,Fiber Optic,UPI,2896.5,14482.5,6,1,Yes,1,0-12 Months
+CUST1832,Male,36,20,Month-to-Month,DSL,Credit Card,1782.17,35643.4,3,3,No,0,13-24 Months
+CUST1833,Female,49,6,Month-to-Month,DSL,Credit Card,2450.97,14705.82,6,5,Yes,1,0-12 Months
+CUST1834,Male,26,70,Two Year,Fiber Optic,Bank Transfer,418.17,29271.9,1,4,No,0,49-72 Months
+CUST1835,Female,29,59,Two Year,No Internet,UPI,1830.75,108014.25,5,1,No,0,49-72 Months
+CUST1836,Female,28,64,One Year,DSL,UPI,1375.17,88010.88,4,1,No,0,49-72 Months
+CUST1837,Female,63,18,Month-to-Month,Fiber Optic,Credit Card,2384.3,42917.4,5,1,Yes,1,13-24 Months
+CUST1838,Female,33,4,Two Year,Fiber Optic,Bank Transfer,403.75,1615.0,6,5,No,0,0-12 Months
+CUST1839,Female,18,17,Month-to-Month,Fiber Optic,Bank Transfer,1384.56,23537.52,4,0,Yes,1,13-24 Months
+CUST1840,Male,62,14,One Year,DSL,Credit Card,2457.5,34405.0,0,2,Yes,1,13-24 Months
+CUST1841,Female,38,13,Month-to-Month,Fiber Optic,Credit Card,1711.28,22246.64,5,1,Yes,1,13-24 Months
+CUST1842,Female,47,7,One Year,DSL,UPI,1785.1,12495.7,3,1,No,0,0-12 Months
+CUST1843,Female,30,44,Month-to-Month,DSL,Credit Card,562.34,24742.96,5,0,No,0,25-48 Months
+CUST1844,Male,51,15,Month-to-Month,Fiber Optic,Debit Card,657.29,9859.35,5,0,Yes,1,13-24 Months
+CUST1845,Female,21,19,Month-to-Month,No Internet,Bank Transfer,2127.9,40430.1,4,4,No,0,13-24 Months
+CUST1846,Male,45,63,Month-to-Month,Fiber Optic,Credit Card,2122.63,133725.69,1,3,No,0,49-72 Months
+CUST1847,Female,55,35,One Year,No Internet,Debit Card,2943.58,103025.3,6,1,No,0,25-48 Months
+CUST1848,Female,48,35,Two Year,Fiber Optic,Bank Transfer,2222.27,77779.45,0,3,Yes,1,25-48 Months
+CUST1849,Male,44,19,Two Year,DSL,Debit Card,1631.76,31003.44,5,0,No,0,13-24 Months
+CUST1850,Female,22,20,Month-to-Month,Fiber Optic,Debit Card,2614.79,52295.8,7,0,No,0,13-24 Months
+CUST1851,Male,42,35,One Year,DSL,Credit Card,582.08,20372.8,6,4,Yes,1,25-48 Months
+CUST1852,Male,20,32,One Year,DSL,Bank Transfer,1513.1,48419.2,7,2,No,0,25-48 Months
+CUST1853,Female,50,48,Month-to-Month,Fiber Optic,Debit Card,1075.19,51609.12,6,5,Yes,1,25-48 Months
+CUST1854,Male,21,44,Month-to-Month,DSL,UPI,582.52,25630.88,7,5,Yes,1,25-48 Months
+CUST1855,Female,42,24,One Year,Fiber Optic,Bank Transfer,2361.46,56675.04,1,5,No,0,13-24 Months
+CUST1856,Female,37,61,Two Year,DSL,UPI,1679.14,102427.54,2,0,No,0,49-72 Months
+CUST1857,Male,51,17,One Year,No Internet,Credit Card,1803.28,30655.76,0,1,No,0,13-24 Months
+CUST1858,Male,43,71,Month-to-Month,Fiber Optic,UPI,1410.39,100137.69,0,4,Yes,1,49-72 Months
+CUST1859,Male,22,50,Month-to-Month,Fiber Optic,Bank Transfer,1542.91,77145.5,7,2,No,0,49-72 Months
+CUST1860,Male,52,65,Month-to-Month,Fiber Optic,Debit Card,613.25,39861.25,7,5,No,0,49-72 Months
+CUST1861,Female,45,32,One Year,DSL,Debit Card,2116.88,67740.16,7,4,No,0,25-48 Months
+CUST1862,Female,46,36,One Year,Fiber Optic,Bank Transfer,1467.61,52833.96,6,0,No,0,25-48 Months
+CUST1863,Male,26,13,Month-to-Month,Fiber Optic,Debit Card,2505.27,32568.51,4,5,Yes,1,13-24 Months
+CUST1864,Female,69,70,Two Year,Fiber Optic,UPI,829.98,58098.6,5,2,No,0,49-72 Months
+CUST1865,Female,55,58,Month-to-Month,Fiber Optic,Debit Card,853.65,49511.7,2,3,No,0,49-72 Months
+CUST1866,Female,67,14,Two Year,No Internet,Debit Card,2043.55,28609.7,7,2,No,0,13-24 Months
+CUST1867,Female,23,37,Month-to-Month,Fiber Optic,UPI,2584.21,95615.77,4,1,No,0,25-48 Months
+CUST1868,Male,36,68,Month-to-Month,DSL,UPI,1574.93,107095.24,3,5,Yes,1,49-72 Months
+CUST1869,Male,61,40,Month-to-Month,DSL,UPI,2262.78,90511.2,1,5,Yes,1,25-48 Months
+CUST1870,Female,28,59,Month-to-Month,DSL,Credit Card,2998.19,176893.21,1,3,No,0,49-72 Months
+CUST1871,Male,19,16,Month-to-Month,Fiber Optic,UPI,2973.72,47579.52,4,3,Yes,1,13-24 Months
+CUST1872,Male,64,62,One Year,DSL,UPI,2309.71,143202.02,6,5,No,0,49-72 Months
+CUST1873,Male,61,4,One Year,No Internet,Credit Card,2296.88,9187.52,1,1,Yes,1,0-12 Months
+CUST1874,Female,61,45,One Year,Fiber Optic,Debit Card,968.57,43585.65,5,3,No,0,25-48 Months
+CUST1875,Female,26,28,Month-to-Month,Fiber Optic,UPI,2550.56,71415.68,1,0,No,0,25-48 Months
+CUST1876,Female,38,66,Month-to-Month,Fiber Optic,Bank Transfer,1393.78,91989.48,5,5,No,0,49-72 Months
+CUST1877,Male,41,31,Month-to-Month,Fiber Optic,UPI,2897.38,89818.78,3,2,Yes,1,25-48 Months
+CUST1878,Female,51,3,One Year,Fiber Optic,UPI,519.85,1559.55,7,2,Yes,1,0-12 Months
+CUST1879,Female,39,8,Month-to-Month,DSL,Credit Card,1476.77,11814.16,2,1,No,0,0-12 Months
+CUST1880,Male,20,24,Two Year,Fiber Optic,Bank Transfer,1800.77,43218.48,0,0,No,0,13-24 Months
+CUST1881,Female,29,15,One Year,DSL,Debit Card,1393.92,20908.8,4,3,No,0,13-24 Months
+CUST1882,Female,45,43,Month-to-Month,DSL,Debit Card,868.56,37348.08,4,5,No,0,25-48 Months
+CUST1883,Male,47,31,Month-to-Month,Fiber Optic,Bank Transfer,1901.07,58933.17,5,2,No,0,25-48 Months
+CUST1884,Male,43,45,Month-to-Month,DSL,UPI,2340.98,105344.1,3,2,Yes,1,25-48 Months
+CUST1885,Male,65,66,Month-to-Month,Fiber Optic,Credit Card,2041.06,134709.96,3,2,Yes,1,49-72 Months
+CUST1886,Female,38,8,Two Year,No Internet,Bank Transfer,933.01,7464.08,6,2,Yes,1,0-12 Months
+CUST1887,Female,45,71,Two Year,Fiber Optic,Bank Transfer,2275.34,161549.14,0,4,No,0,49-72 Months
+CUST1888,Female,43,57,Month-to-Month,DSL,Debit Card,993.62,56636.34,7,1,No,0,49-72 Months
+CUST1889,Male,50,30,One Year,DSL,Credit Card,773.05,23191.5,2,3,No,0,25-48 Months
+CUST1890,Male,38,18,One Year,Fiber Optic,Bank Transfer,2164.8,38966.4,4,5,Yes,1,13-24 Months
+CUST1891,Female,52,69,One Year,Fiber Optic,Credit Card,2575.53,177711.57,5,5,No,0,49-72 Months
+CUST1892,Female,69,39,Month-to-Month,DSL,UPI,1600.16,62406.24,3,5,No,0,25-48 Months
+CUST1893,Male,51,60,Month-to-Month,Fiber Optic,Debit Card,1734.76,104085.6,7,3,Yes,1,49-72 Months
+CUST1894,Male,58,43,Month-to-Month,No Internet,UPI,1117.42,48049.06,4,1,Yes,1,25-48 Months
+CUST1895,Male,68,45,Two Year,No Internet,Credit Card,1635.47,73596.15,5,0,No,0,25-48 Months
+CUST1896,Male,64,23,Month-to-Month,Fiber Optic,UPI,656.35,15096.05,1,1,No,0,13-24 Months
+CUST1897,Female,35,69,Month-to-Month,Fiber Optic,Debit Card,2880.74,198771.06,7,2,No,0,49-72 Months
+CUST1898,Male,28,6,Two Year,Fiber Optic,Credit Card,2460.97,14765.82,4,2,No,0,0-12 Months
+CUST1899,Female,40,56,One Year,Fiber Optic,Bank Transfer,2103.53,117797.68,2,1,Yes,1,49-72 Months
+CUST1900,Female,65,4,Two Year,DSL,UPI,1753.12,7012.48,7,1,No,0,0-12 Months
+CUST1901,Female,39,23,Month-to-Month,DSL,Debit Card,2438.86,56093.78,5,3,Yes,1,13-24 Months
+CUST1902,Male,34,6,Month-to-Month,Fiber Optic,Bank Transfer,1635.84,9815.04,2,3,Yes,1,0-12 Months
+CUST1903,Male,22,32,Two Year,Fiber Optic,Debit Card,1109.93,35517.76,4,4,No,0,25-48 Months
+CUST1904,Male,61,18,Month-to-Month,Fiber Optic,Credit Card,733.01,13194.18,1,5,Yes,1,13-24 Months
+CUST1905,Male,28,15,Month-to-Month,Fiber Optic,Credit Card,2048.48,30727.2,2,4,Yes,1,13-24 Months
+CUST1906,Female,47,40,Month-to-Month,DSL,UPI,2809.45,112378.0,3,5,No,0,25-48 Months
+CUST1907,Male,32,6,Month-to-Month,Fiber Optic,Debit Card,714.77,4288.62,5,2,Yes,1,0-12 Months
+CUST1908,Male,44,63,Month-to-Month,DSL,Debit Card,786.05,49521.15,4,4,No,0,49-72 Months
+CUST1909,Female,52,67,Two Year,DSL,Debit Card,1470.74,98539.58,1,4,No,0,49-72 Months
+CUST1910,Male,50,11,Two Year,DSL,Credit Card,2478.63,27264.93,3,0,Yes,1,0-12 Months
+CUST1911,Female,37,43,Two Year,Fiber Optic,UPI,1093.59,47024.37,4,1,No,0,25-48 Months
+CUST1912,Female,33,17,Month-to-Month,DSL,Debit Card,985.56,16754.52,7,3,Yes,1,13-24 Months
+CUST1913,Female,51,4,Month-to-Month,DSL,Debit Card,1973.91,7895.64,6,4,No,0,0-12 Months
+CUST1914,Female,19,63,Month-to-Month,DSL,Bank Transfer,1746.16,110008.08,1,3,No,0,49-72 Months
+CUST1915,Female,52,68,Two Year,Fiber Optic,Debit Card,462.59,31456.12,3,5,No,0,49-72 Months
+CUST1916,Female,57,41,Month-to-Month,Fiber Optic,UPI,520.02,21320.82,2,4,No,0,25-48 Months
+CUST1917,Female,45,5,One Year,DSL,Bank Transfer,2036.14,10180.7,4,5,Yes,1,0-12 Months
+CUST1918,Female,64,32,One Year,Fiber Optic,Bank Transfer,1555.83,49786.56,4,4,No,0,25-48 Months
+CUST1919,Male,56,70,Month-to-Month,Fiber Optic,Bank Transfer,2921.64,204514.8,2,2,No,0,49-72 Months
+CUST1920,Male,23,35,Month-to-Month,No Internet,Credit Card,2132.03,74621.05,6,0,No,0,25-48 Months
+CUST1921,Male,26,22,Two Year,Fiber Optic,Bank Transfer,327.2,7198.4,0,5,No,0,13-24 Months
+CUST1922,Male,37,65,Two Year,Fiber Optic,Debit Card,1598.75,103918.75,3,1,No,0,49-72 Months
+CUST1923,Female,18,22,Month-to-Month,Fiber Optic,Credit Card,1419.01,31218.22,2,1,No,0,13-24 Months
+CUST1924,Male,25,11,Month-to-Month,DSL,Credit Card,588.13,6469.43,7,2,No,0,0-12 Months
+CUST1925,Female,40,3,Two Year,Fiber Optic,Credit Card,2792.66,8377.98,4,2,Yes,1,0-12 Months
+CUST1926,Male,20,9,Month-to-Month,DSL,Credit Card,2473.53,22261.77,7,1,Yes,1,0-12 Months
+CUST1927,Male,21,60,Month-to-Month,Fiber Optic,Credit Card,921.23,55273.8,3,5,No,0,49-72 Months
+CUST1928,Male,42,14,Month-to-Month,Fiber Optic,Credit Card,991.15,13876.1,6,1,Yes,1,13-24 Months
+CUST1929,Female,64,18,Month-to-Month,DSL,Credit Card,386.45,6956.1,3,0,Yes,1,13-24 Months
+CUST1930,Male,55,23,Month-to-Month,Fiber Optic,Bank Transfer,1101.14,25326.22,7,4,Yes,1,13-24 Months
+CUST1931,Female,32,47,Month-to-Month,No Internet,UPI,1878.48,88288.56,7,0,No,0,25-48 Months
+CUST1932,Female,38,69,Month-to-Month,Fiber Optic,Debit Card,1436.28,99103.32,0,1,No,0,49-72 Months
+CUST1933,Male,52,47,Month-to-Month,Fiber Optic,Debit Card,2916.99,137098.53,4,4,No,0,25-48 Months
+CUST1934,Male,63,30,Two Year,Fiber Optic,Bank Transfer,451.42,13542.6,1,1,No,0,25-48 Months
+CUST1935,Male,69,25,Two Year,Fiber Optic,Bank Transfer,1896.86,47421.5,0,0,No,0,25-48 Months
+CUST1936,Female,31,28,Two Year,No Internet,Credit Card,2617.44,73288.32,0,0,No,0,25-48 Months
+CUST1937,Male,53,25,One Year,No Internet,UPI,1598.0,39950.0,1,5,No,0,25-48 Months
+CUST1938,Female,29,58,Month-to-Month,Fiber Optic,Credit Card,308.0,17864.0,1,5,Yes,1,49-72 Months
+CUST1939,Female,34,41,Month-to-Month,DSL,Bank Transfer,955.56,39177.96,6,0,No,0,25-48 Months
+CUST1940,Male,56,25,Two Year,DSL,Credit Card,1174.18,29354.5,6,4,No,0,25-48 Months
+CUST1941,Male,26,48,Month-to-Month,Fiber Optic,Debit Card,2908.19,139593.12,0,5,No,0,25-48 Months
+CUST1942,Female,52,10,Month-to-Month,Fiber Optic,Debit Card,2761.79,27617.9,3,5,No,0,0-12 Months
+CUST1943,Female,30,11,One Year,No Internet,Credit Card,2862.76,31490.36,2,3,No,0,0-12 Months
+CUST1944,Female,32,21,Month-to-Month,No Internet,UPI,2529.55,53120.55,2,3,No,0,13-24 Months
+CUST1945,Male,35,45,Month-to-Month,No Internet,Credit Card,1249.45,56225.25,0,5,No,0,25-48 Months
+CUST1946,Female,68,7,Two Year,DSL,Credit Card,2745.87,19221.09,3,1,No,0,0-12 Months
+CUST1947,Male,50,64,Two Year,DSL,UPI,2950.55,188835.2,1,4,No,0,49-72 Months
+CUST1948,Female,23,64,Month-to-Month,Fiber Optic,UPI,1245.19,79692.16,5,2,No,0,49-72 Months
+CUST1949,Female,44,2,Two Year,Fiber Optic,UPI,1003.5,2007.0,0,5,No,0,0-12 Months
+CUST1950,Male,40,42,One Year,Fiber Optic,Debit Card,1776.67,74620.14,4,3,No,0,25-48 Months
+CUST1951,Female,44,54,One Year,DSL,Credit Card,805.31,43486.74,3,4,No,0,49-72 Months
+CUST1952,Male,51,16,Month-to-Month,DSL,Bank Transfer,388.09,6209.44,4,4,No,0,13-24 Months
+CUST1953,Male,63,18,Month-to-Month,DSL,UPI,2853.74,51367.32,4,3,No,0,13-24 Months
+CUST1954,Female,55,59,One Year,No Internet,UPI,2799.5,165170.5,0,4,No,0,49-72 Months
+CUST1955,Male,31,16,Two Year,No Internet,Credit Card,739.17,11826.72,3,4,No,0,13-24 Months
+CUST1956,Male,53,6,One Year,No Internet,Bank Transfer,1400.9,8405.4,4,3,No,0,0-12 Months
+CUST1957,Female,25,57,Month-to-Month,Fiber Optic,Credit Card,2543.8,144996.6,6,0,Yes,1,49-72 Months
+CUST1958,Male,52,47,Month-to-Month,DSL,Credit Card,2084.7,97980.9,7,5,No,0,25-48 Months
+CUST1959,Male,36,48,Two Year,DSL,UPI,1365.93,65564.64,6,1,No,0,25-48 Months
+CUST1960,Male,47,42,Month-to-Month,Fiber Optic,UPI,2309.26,96988.92,3,2,No,0,25-48 Months
+CUST1961,Female,31,60,Month-to-Month,No Internet,Debit Card,2722.03,163321.8,2,1,No,0,49-72 Months
+CUST1962,Male,37,4,Month-to-Month,No Internet,Bank Transfer,2800.63,11202.52,7,0,Yes,1,0-12 Months
+CUST1963,Female,66,2,Month-to-Month,Fiber Optic,Bank Transfer,1322.89,2645.78,5,0,Yes,1,0-12 Months
+CUST1964,Female,42,59,One Year,Fiber Optic,UPI,768.61,45347.99,4,4,No,0,49-72 Months
+CUST1965,Male,57,27,One Year,DSL,UPI,2764.66,74645.82,4,1,Yes,1,25-48 Months
+CUST1966,Male,41,27,Month-to-Month,DSL,UPI,549.9,14847.3,3,0,No,0,25-48 Months
+CUST1967,Male,31,72,Month-to-Month,No Internet,Bank Transfer,2248.56,161896.32,6,1,No,0,49-72 Months
+CUST1968,Female,43,7,Two Year,Fiber Optic,Debit Card,679.34,4755.38,5,0,No,0,0-12 Months
+CUST1969,Male,55,63,Month-to-Month,Fiber Optic,Bank Transfer,1351.34,85134.42,2,2,Yes,1,49-72 Months
+CUST1970,Male,40,46,Month-to-Month,Fiber Optic,UPI,1411.2,64915.2,4,0,No,0,25-48 Months
+CUST1971,Male,39,63,Two Year,Fiber Optic,UPI,728.65,45904.95,0,1,No,0,49-72 Months
+CUST1972,Male,65,12,Month-to-Month,Fiber Optic,Debit Card,2791.24,33494.88,6,4,Yes,1,0-12 Months
+CUST1973,Male,36,13,Two Year,No Internet,Credit Card,307.2,3993.6,3,1,Yes,1,13-24 Months
+CUST1974,Female,63,43,Month-to-Month,Fiber Optic,Credit Card,2713.28,116671.04,3,3,Yes,1,25-48 Months
+CUST1975,Female,68,17,One Year,Fiber Optic,Bank Transfer,2686.34,45667.78,6,1,No,0,13-24 Months
+CUST1976,Male,20,63,Month-to-Month,Fiber Optic,Credit Card,1155.8,72815.4,4,2,Yes,1,49-72 Months
+CUST1977,Male,59,36,Two Year,Fiber Optic,Credit Card,2201.57,79256.52,2,5,Yes,1,25-48 Months
+CUST1978,Male,36,8,Month-to-Month,DSL,Bank Transfer,982.58,7860.64,4,2,No,0,0-12 Months
+CUST1979,Male,26,69,Month-to-Month,DSL,UPI,2348.69,162059.61,6,2,No,0,49-72 Months
+CUST1980,Female,45,36,Two Year,DSL,Credit Card,1815.02,65340.72,7,0,No,0,25-48 Months
+CUST1981,Male,37,28,Month-to-Month,Fiber Optic,UPI,1110.61,31097.08,1,2,No,0,25-48 Months
+CUST1982,Female,62,47,Month-to-Month,Fiber Optic,Bank Transfer,1380.63,64889.61,4,1,Yes,1,25-48 Months
+CUST1983,Female,24,30,Month-to-Month,Fiber Optic,UPI,2162.7,64881.0,5,5,No,0,25-48 Months
+CUST1984,Male,31,23,One Year,Fiber Optic,UPI,2746.46,63168.58,7,4,Yes,1,13-24 Months
+CUST1985,Female,26,16,Month-to-Month,DSL,Bank Transfer,652.96,10447.36,6,2,No,0,13-24 Months
+CUST1986,Female,36,14,Month-to-Month,Fiber Optic,UPI,1842.68,25797.52,7,1,No,0,13-24 Months
+CUST1987,Female,64,71,One Year,DSL,Credit Card,985.07,69939.97,5,0,Yes,1,49-72 Months
+CUST1988,Female,69,52,Month-to-Month,Fiber Optic,Credit Card,2463.71,128112.92,7,0,No,0,49-72 Months
+CUST1989,Male,31,37,Two Year,DSL,Credit Card,489.64,18116.68,7,4,No,0,25-48 Months
+CUST1990,Male,55,29,Two Year,No Internet,Credit Card,2160.18,62645.22,6,4,Yes,1,25-48 Months
+CUST1991,Female,53,67,One Year,DSL,UPI,772.35,51747.45,1,1,No,0,49-72 Months
+CUST1992,Male,57,15,Two Year,DSL,Credit Card,1910.24,28653.6,5,4,No,0,13-24 Months
+CUST1993,Male,34,47,One Year,No Internet,UPI,2556.37,120149.39,5,4,No,0,25-48 Months
+CUST1994,Male,47,46,Month-to-Month,DSL,Debit Card,2338.72,107581.12,0,0,No,0,25-48 Months
+CUST1995,Male,26,52,One Year,Fiber Optic,UPI,2332.95,121313.4,3,1,No,0,49-72 Months
+CUST1996,Male,50,19,Month-to-Month,Fiber Optic,Credit Card,1698.18,32265.42,5,5,Yes,1,13-24 Months
+CUST1997,Female,69,21,Month-to-Month,DSL,Debit Card,2705.01,56805.21,3,4,Yes,1,13-24 Months
+CUST1998,Male,42,64,Two Year,DSL,Bank Transfer,1887.88,120824.32,6,1,No,0,49-72 Months
+CUST1999,Male,31,37,Month-to-Month,Fiber Optic,UPI,2777.3,102760.1,2,2,Yes,1,25-48 Months
+CUST2000,Male,28,27,Two Year,Fiber Optic,Credit Card,1775.61,47941.47,4,0,No,0,25-48 Months
